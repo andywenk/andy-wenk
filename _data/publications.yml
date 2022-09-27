@@ -1,0 +1,167 @@
+- title: Developer After-Work-Meeting
+  abstract: Bereits zum zweiten Mal findet am 08. Juli das Developer After-Work-Meeting bei sum.cumo Sapiens statt. Los geht ́s um 17:00 Uhr. Das monatlich stattfindende Event wurde vom Team der Development Division ins Leben gerufen und geplant. Ziel war es, neben dem Arbeitsalltag eine Möglichkeit zu bieten, sich in entspannter, lockerer Atmosphäre über spannende Themen aus dem Development Bereich auszutauschen und zu diskutieren. Das Rahmenprogramm bietet verschiedene Talks von Developer:innen aus der Crew oder externer Referent:innen, die spannende Themen vorbereitet haben.
+  publication: www.sumcumo.com
+  author: Andreas Wenk
+  year: 2021
+  publisher: sum.cumo
+  pdf: 2021-07-06-Developer_After-Work-Meeting-www.sumcumo.com.pdf
+
+- title: Digitalisierung als Chance in der Coronakrise
+  abstract: Das Jahr 2020 steht im Zeichen der weltweiten Corona-Krise. Die deutsche Wirtschaft und auch der Arbeitsmarkt sind massiv von Einschränkungen betroffen. Die weitere Entwicklung ist nur grob abzusehen und große Schritte hin zur Besserung wird es wohl erst geben können, wenn ein Impfstoff zur Verfügung steht. Vergessen werden sollte bei aller Dramatik allerdings nicht, dass jede Krise auch neue Entwicklungen und letztlich Verbesserungen mit sich bringen kann. Eine dieser Entwicklungen ist unumstritten der Schub für weitere Digitalisierung und neue Formen der Arbeitsgestaltung.
+  publication: www.sumcumo.com
+  author: Andreas Wenk
+  year: 2020
+  publisher: sum.cumo
+  pdf: 2020-12-03-Digitalisierung_als_Chance_in_der_Coronakrise-www.sumcumo.com.pdf  
+
+- title: Backend bei sum.cumo
+  abstract: "Nerds in eingestaubten Computer-Räumen, desozialisiert und völlig abgeschnitten von der Außenwelt? Dieses Klischee ist schon lange passé. Die Rede ist von Backend-Entwickler:innen. Auch die Themen sehen heute anders aus: Im Backend beginnt die Magie. Das Backend ist das Herz mit dem Puls für jede Anwendung."
+  publication: www.sumcumo.com
+  author: Andreas Wenk
+  year: 2020
+  publisher: sum.cumo
+  pdf: 2020-10-25-Backend_bei_sum.cumo-www.sumcumo.com.pdf
+
+- title: Der Wandel der Versicherungswirtschaft
+  abstract: Versicherer müssen technologisch umdenken - wie kann SCIP helfen, die digitale Zukunft zu ermöglichen?
+  publication: www.sumcumo.com
+  author: Andreas Wenk 
+  year: 2019
+  publisher: sum.cumo
+  pdf: 2019-09-17-Neudenken-SCIP_als_konsequente_Lösung_für_digitale_Versicherung-www.sumcumo.com.pdf
+
+- title: Ein Nachbericht zu hub.berlin und Big-Data.AI Summit 2019
+  abstract: "Peter Altmaier: „Wir brauchen mehr starke und große digitale Unternehmen in Europa, um mit Apple, Google und Microsoft konkurrieren zu können.“"
+  publication: www.sumcumo.com
+  author: Andreas Wenk
+  year: 2019
+  publisher: sum.cumo
+  pdf: 2019-05-19-Ein_Nachbericht_zu_hub.berlin_und_Big-Data.AI_Summit_2019-www.sumcumo.com.pdf
+
+- title: Tools for Workers. Webentwicklung mit den Chrome Developer Tools
+  abstract: Seit September 2008 bereichert der von Google entwickelte Webbrowser Chrome die Browserlandschaft. Seit Februar 2013 ist es der am meisten genutzte Browser weltweit [1]. Wieder mal eine Erfolgsgeschichte aus „sunny California“ - und das zu Recht. Denn nicht nur ist er einer der schnellsten Browser, er bietet dem Entwickler mit den Chrome Developer Tools auch einen hervorragend ausgestatteten Werkzeugkasten, der kaum Wünsche offen lässt. Einen Teil der Werkzeuge werde ich in diesem Artikel vorstellen. Also Blaumann anziehen und Helm auf.
+  publication: PHPMagazin
+  author: Andreas Wenk
+  year: 2013
+  publisher: S&S Media Group
+  pdf: PM5_13_Googles_Werkzegkasten-Die_Chrome_Developer_Tools.pdf
+
+- title: App auf die Couch mit erica
+  abstract: Der Wunsch, eine Webapplikation, die nur ein Backend benötigt, auf einfachste Art und Weise zu entwickeln, wird mit CouchDB und CouchApp erfüllt. Denn CouchDB ist Datenbank, Webserver und Applikationsserver in einem. Das aus dieser Kombination entstehende Stück Software ist auch bekannt als CouchApp.
+  publication: Entwickler Magazin
+  author: Andreas Wenk
+  year: 2012
+  publisher: S&S Media Group
+  pdf: EM1_12_Wenk_CouchApp-erica.pdf
+
+- title: CouchDB - map/reduce
+  abstract: Relax! CouchDB ist ein prominenter Vertreter im Reigen der dokumentbasierten Datenbanken. Vor wenigen Monaten hat die Version 1.0.0 das Licht der Open-Source-Welt erblickt und aktuell liegt die Datenbank in Version 1.0.1 vor. In diesem Artikel geht es darum, die prinzipielle Technik vorzustellen, die es ermöglicht, Daten aus einer CouchDB zu lesen.
+  publication: Entwickler Magazin
+  author: Andreas Wenk
+  year: 2011
+  publisher: S&S Media Group
+  pdf: EM1_11_Wenk-Map_Reduce.pdf
+
+- title: CouchDB - Show- und List-Funktionen
+  abstract: "Relax again! CouchDB liegt in der Version 1.0.2 vor. Aus CouchIO wurde CouchOne und jetzt CouchBase, nachdem eine Fusion bzw. Symbiose mit der Firma Membase stattgefunden hat. Der eine steigt nicht mehr durch das, was alles geschieht, den anderen interessiert es am Ende gar nicht. Denn eines bleibt gleich: CouchDB ist ein exzellenter Vertreter unter den NoSQL-Datenbanken und bleibt als Apache-Projekt Open Source. In diesem Artikel lesen Sie, was Show- und List-Funktionen sind."
+  publication: Entwickler Magazin
+  author: Andreas Wenk
+  year: 2011
+  publisher: S&S Media Group
+  pdf: EM3_11_Wenk-Show_List.pdf
+
+- title: "Aller Anfang ist leicht. Teil 1: Einen PostgreSQL-Cluster installieren und konfigurieren."
+  abstract: Es ist ein Mythos, dass der Einsatz der PostgreSQL-Datenbank nur Advanced Users vorbehalten ist. Die Installation und Konfiguration eines PostgreSQL-Clusters ist kein Buch mit sieben Siegeln. Überzeugen Sie sich selbst von dieser Tatsache. In Teil 1 dieser Artikelserie werden die Installation und grundlegende Konfiguration behandelt.
+  publication: PHPMagazin
+  author: Andreas Wenk, Thomas Pfeiffer
+  year: 2010
+  publisher: S&S Media Group
+  pdf: PM2.10_PostgreSQL_Cluster_1.pdf
+
+- title: Kunde - Entwickler, Entwickler - Kunde
+  abstract: Wenn Kunden als „Nicht-Techies“ mit Softwareentwicklern zusammentreffen und ein Projekt bewältigen wollen, ist das zentrale und wichtigste Thema für einen erfolgreichen Abschluss die Kommunikation zwischen den Beteiligten. Dass dieses Thema allerdings auch das vielleicht Komplizierteste während eines Projekts ist, stellt sich immer wieder heraus. Welches könnten die Wege sein, um einen reibungslosen Projektablauf zu gewährleisten?
+  publication: PHPMagazin
+  author: Andreas Wenk
+  year: 2010
+  publisher: S&S Media Group
+  pdf: PM3.10_Kunde-Entwickler-Entwickler-Kunde.pdf
+
+- title: "PostgreSQL-Fine-Tuning. Teil 2: Einen PostgreSQL-Cluster tunen"
+  abstract: Die PostgreSQL-Datenbank hat für die Konfiguration einige Rädchen, an denen man drehen kann. Um die beste Performance zu erreichen, müssen Sie wissen, in welche Richtung die Rädchen gedreht werden wollen. Darüber hinaus sollten Sie wissen, wie Sie eine PostgreSQL-Abfrage analysieren können.
+  publication: PHPMagazin
+  author: Andreas Wenk
+  year: 2010
+  publisher: S&S Media Group
+  pdf: PM3.10_PostgreSQLFine-Tuning.pdf
+
+- title: "Sicher ist sicher - Teil 3: Backup und Recovery - die Daten der PostgreSQL sichern"
+  abstract: Unsere Daten sind unser Kapital. Deshalb ist es essenziell wichtig, dafür zu sorgen, dass sie nicht verloren gehen. Die PostgreSQL bietet von Haus aus gute Möglichkeiten, um einem Datenverlust entgegenzutreten. Lernen Sie hier die Grundlagen, um für Ihre Anforderungen eine passende Backupstrategie zu entwickeln.
+  publication: PHPMagazin
+  author: Andreas Wenk
+  year: 2010
+  publisher: S&S Media Group
+  pdf: PM4.10_Sicher_ist_sicher.pdf
+
+- title: Entspannt auf der Couch lümmeln - Ein PHP-Wrapper für die CouchDB
+  abstract: "Dokumentbasierte Datenbanken sind nicht nur ein Hype, sondern eine sehr ernst zu nehmende Alternative für Webapplikationen. CouchDB ist mit Sicherheit eine der am weitesten verbreitete und am besten skalierenden Varianten unter den Projekten. Dass es kein Hexenwerk ist, mit PHP auf eine „Couch“ zuzugreifen, werden Sie in diesem Artikel sehen und beim Bauen eines einfachen Wrappers selbst feststellen. Getreu dem Motto: Relax!"
+  publication: PHPMagazin
+  author: Andreas Wenk
+  year: 2010
+  publisher: S&S Media Group
+  pdf: PM5.10_Ein-PHP-Wrapper-fuer-die-CouchDB.pdf
+
+- title: Interview mit Bastian Allgeier - dem Macher von Zootool
+  abstract: „Die Frage, was wir machen würden, wenn Google kommt, ist zum Glück relativ hypothetisch.“
+  publication: PHPMagazin
+  author: Andreas Wenk
+  year: 2010
+  publisher: S&S Media Group
+  pdf: PM5.10_Interview-Bastian-Allgeier.pdf
+
+- title: Out now! PostgreSQL 8.4
+  abstract: Nach einem Jahr Entwicklungszeit war es am 01.07.2009 soweit. Die „most advanced“ Open Source Datenbank PostgreSQL wurde in der Version 8.4 released. Was gibt es Neues? Was wurde verbessert? Der Artikel bietet Ihnen einen ersten Überblick und soll Ihnen Appetit auf mehr PostgreSQL verschaffen.
+  publication: PHPMagazin
+  author: Andreas Wenk
+  year: 2009
+  publisher: S&S Media Group
+  pdf: PM6.09-out-now-postgresql-8.4.pdf
+
+- title: PostgreSQL 8.4 - Das Praxisbuch
+  abstract: Wenn Sie PostgreSQL kennenlernen oder von MySQL umsteigen wollen, dann ist unser Buch genau das richtige für Sie. Der Inhalt ist in drei übersichtliche Bereiche mit ansteigendem Schwierigkeitsgrad unterteilt. Sie erhalten sowohl eine Einführung in die Grundlagen als auch fundiertes Praxiswissen zu professionellen Themen wie Reguläre Ausdrücke, Subselects, Typecasting, Transaktionen, User Defined Functions und Performance.
+  publication: Buch
+  author: Andreas Wenk
+  year: 2009
+  publisher: Galileo Computing
+  pdf: 2009-11-28-galileocomputing_postgresql.pdf
+
+- title: Zugriffsmonopol - Mit PHP gegen ein LDAP-Verzeichnis authentifizieren
+  abstract: Wenn jede Software im Unternehmen seine eigene Authentifizierung implementiert, werden die Sysadmins bald Ihren Job kündigen. Deshalb ist es eine gute Idee, unserer PHP-Applikation beizubringen, mit LDAP gegen eine zentrale Benutzerdatenbank zu authentifizieren.
+  publication: PHPMagazin
+  author: Andreas Wenk, Thomas Pfeiffer
+  year: 2009
+  publisher: S&S Media Group
+  pdf: PM2.09-zugriffsmonopol.pdf
+
+- title: Eine Business Applikation mit dem Zend-Framework
+  abstract: Die Entwicklung von Business Applikationen kann schnell beängstigende Größen annehmen. Das Zend-Framework als Basis erlaubt die Konzentration auf das Wesentliche und beschleunigt die Entwicklung. Wir wollen hier am Beispiel einer Mini-Applikation und auf Grund unserer eigenen Erfahrungen mit dem Zend-Framework den Einstieg erleichtern.
+  publication: 
+  author: Andreas Wenk, Thomas Pfeiffer
+  year: 2008 
+  publisher: phpsolutions
+  pdf: php-solutions-2-2008-wenk-pfeiffer-business_app_Zend_Framework.pdf
+
+- title: Ich bin dann mal ...! Umstieg von MySQL auf PostgreSQL - die ersten Schritte.
+  abstract: Die MySQL-Datenbank ist wohl die verbreitetste Datenbank unter den PHP- und Webapplikations-Entwicklern. Gerade durch ihre einfache Integration in PHP ist dies sehr gut nachvollziehbar. Viele Entwickler wissen allerdings noch nicht, dass die PostgreSQL-Datenbank nicht nur eine sehr gute Alternative darstellt, sondern einen weitaus größeren Funktionsumfang aufweist und näher als MySQL am SQL-Standard arbeitet. Wir führen in diesem Artikel den Beweis zu dieser These und zeigen Ihnen, dass der Umstieg nicht schwer ist.
+  publication: PHPMagazin
+  author: Andreas Wenk, Thomas Pfeiffer
+  year: 2008
+  publisher: S&S Media Group
+  pdf: PM4.08-mysql-zu-postgresql.pdf
+
+- title: Schnüffler - Volltextsuche mit tsearch2 in der PostgreSQL-Datenbank
+  abstract: In unserem Artikel „Umstieg von MySQL auf PostgreSQL - die ersten Schritte“ in der letzten Ausgabe des PHP Magazins haben wir Ihnen ja bereits versprochen, das Thema PostgreSQL weiter zu vertiefen. Here we go! Wir zeigen Ihnen, wie Sie mit der PostgreSQL und der Erweiterung tsearch2 eine Suchmaschine über volltextindizierte Inhalte bauen.
+  publication: PHPMagazin
+  author: Andreas Wenk, Thomas Pfeiffer
+  year: 2008
+  publisher: S&S Media Group
+  pdf: PM5.08_schnueffler.pdf
