@@ -21,7 +21,7 @@ title: Projects
         <div class="card-body">
           <h5 class="card-title">sum.cumo</h5>
           <p class="card-text">sum.cumo - where I worked from January 2014 till May 2022 as the head of development.</p>
-          <a href="https://www.fanblast.com" target="_blank" class="btn btn-primary">Go to Fanblast</a>
+          <a href="https://www.sumcumo.com" target="_blank" class="btn btn-primary">Go to sum.cumo</a>
         </div>
       </div>
     </div>
