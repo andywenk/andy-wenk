@@ -9,9 +9,11 @@
     <title>{{ site.title }}{% if page.title and page.title != "" %} &mdash; {{ page.title }}{% endif %}</title>
 
     {% if site.description %}<meta name="description" content="{{ site.description }}">{% endif %}  
-
+    
+    <link rel="stylesheet" href="{{ '/assets/css/bootstrap-grid.min.css' | absolute_url }}?{{ site.time | date: '%s%N' }}">
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | absolute_url }}?{{ site.time | date: '%s%N' }}">
 
+    <link rel="shortcut icon" type="image/x-icon" href="{{ site.icon }}">
     <link rel="apple-touch-icon" href="{{ site.icon }}">
 
     {%- if jekyll.environment == 'production' and site.google_analytics -%}
