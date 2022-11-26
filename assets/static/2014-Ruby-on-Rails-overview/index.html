@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Ruby on Rails - short introduction and technical overview</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Andy Wenk">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+		<div class="reveal">
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>RUBY ON RAILS</h1>
+					<h3>introduction and technical overview</h3>
+					<p>
+						<small>Andy Wenk</small>
+					</p>
+				</section>
+
+				<section>
+					<h2>Overview</h2>
+					<ul>
+					    <li>PHILOSOPHY</li>
+					    <li>ARCHITECTURE</li>
+					    <li>KEY FEATURES</li>
+					    <li>ROUTES</li>
+					    <li>MVC</li>
+					    <li>ENVIRONMENTS</li>
+					    <li>ASSET PIPELINE</li>
+					    <li>PRODUCTION SERVER</li>
+					    <li>DEPLOYMENT</li>
+					    <li>TESTING</li>
+					    <li>EXTEND IT WITH RUBYGEMS</li>
+					    <li>LINKS</li>
+					</ul>
+				</section>
+
+				<!-- Example of nested vertical slides -->
+				<section>
+					<section>
+						<h2>PHILOSOPHY</h2>
+						<ul>
+						    <li>Convention over Configuration</li>
+						    <li>Don't Repeat Yourself</li>
+						    <li>Fat models, skinny controllers</li>
+						    <li>Rails is opinionated</li>
+						    <li>Perl is not opinionated</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Convention over Configuration</h2>
+						<p>... means you’ll be productive. You won’t spend 
+						time setting up configuration files. You’ll spend less time thinking about 
+						where things go and what names to assign. And, because other developers 
+						have learned the same conventions, it is easier to collaborate.
+						</p>
+					</section>
+					<section>
+						<h2>Don't Repeat Yourself</h2>
+						<p>... means that information is located in a single, unambiguous place. 
+						For example, using the ActiveRecord module of Rails, the developer does not 
+						need to specify database column names in class definitions. Instead, Ruby on Rails 
+						can retrieve this information from the database based on the class name.</p>
+					</section>
+					<section>
+						<h2>Fat models, skinny controllers</h2>
+						<p>... means that most of the application logic should be placed within the 
+						model while leaving the controller as light as possible.</p>
+					</section>
+					<section>
+					    <h2>Rails is opinionated</h2>
+					    <p></p>There is a "Rails way" for many of the problems that must be solved by a web 
+					    application developer. If you follow the Rails conventions, you'll have fewer 
+					    decisions to make and you'll find more of what you need is already built. The 
+					    benefit is faster development, improved collaboration, and easier maintenance.</p>
+					</section>
+					<section>
+					    <h2>Perl is not opinionated</h2>
+					    <p>Perl is a prime example of "non-opinionated" software; there's no "right way" 
+					    or "best way" to solve programming problems in Perl. Famously, Perl's documentation 
+					    states, "In general, [Perl's built-in functions] do what you want, unless you want 
+					    consistency."</p>
+					</section>
+				</section>
+
+				<section>
+					<h3>ARCHITECTURE</h3>
+					<img src="img/rails-request-lifecycle.png" alt="Rails request lifecycle">
+				</section>
+                
+                <section>
+                    <h2>KEY FEATURES</h2>
+                    <ul>
+                        <li>MVC</li>
+                        <li>RESTful</li>
+                        <li>support for many databases</li>
+                        <li>development server</li>
+                        <li>asset pipeline</li>
+                        <li>mailer</li>
+                        <li>HAML, ERB</li>
+                        <li>CSS, SCSS, SASS</li>
+                        <li>many, many helpers</li>
+                        <li>Rack middleware</li>
+                    </ul>
+                </section>
+                
+            	<section>
+            	    <section>
+					    <h3>ROUTES</h3>
+					    <pre>
+					        <code data-trim contenteditable style="font-size: 20px;">
+Sumo::Application.routes.draw do
+  root to: redirect('/start')
+
+  match '/start', to: 'pages#home', as: 'home'
+  match '/impressum', to: 'pages#imprint', as: 'imprint'
+  
+  post 'bestellung/bestellen', controller: 'checkout', action: 'place_order', as: 'checkout_place_order'
+  get 'bestellung/bestaetigung', controller: 'checkout', action: 'confirm', as: 'checkout_confirm'
+
+  resources :registration, path: 'registrierung'
+  
+  resources :cart, path: 'warenkorb' do
+    member do
+      get 'delete'
+    end
+  end
+end
+					        </code>
+					    </pre>
+			        </section>
+			        
+			        <section>
+			            <h3>RESTful routes</h3>
+			            <img src="img/routes.png" alt="Rails restful routes">
+			        </section>
+				</section>
+                
+                <section>
+                    <h3>MVC</h3>
+                    <img src="img/rails.png" alt="Rails basic structure">
+                </section>
+				
+				<section>
+				    <h3>ENVIRONMENTS</h3>
+				    <img src="img/rails-env.png" alt="Rails environments">
+				</section>
+				 
+				<section>
+				    <section>
+				        <h3>ASSET PIPELINE</h3>
+				        <img src="img/rails-asset-pipeline.png" alt="Rails asset pipeline">
+				    </section>
+				    <section>
+				        <h3>Development Head</h3>
+				        <img src="img/rails-assets-head-development.png" alt="Rails development head">
+				    </section>
+				    <section>
+				        <h3>Development Foot</h3>
+				        <img src="img/rails-assets-foot-development.png" alt="Rails development foot">
+				    </section>
+				    <section>
+				        <h3>Production Head</h3>
+				        <img src="img/rails-assets-head-production.png" alt="Rails production head">
+				    </section>
+				    <section>
+				        <h3>Production Foot</h3>
+				        <img src="img/rails-assets-foot-production.png" alt="Rails production foot">
+				    </section>
+				</section>
+				
+				<section>
+				    <h2>PRODUCTION SERVER</h2>
+				    <ul>
+				        <li>Nginx with Passenger</li>
+				        <li>Apache 2 with Passenger (aka mod_ruby)</li>
+				        <li>Puma (best with jruby -> real multithreaded)</li>
+				        <li>Unicorn (best with jruby -> real multithreaded)</li>
+				        <li>Tomcat with jruby (war archive generated with warbler)</li>
+				        <li>erm ... forget the previous option :)</li>
+				    </ul>
+				</section>
+				
+				<section>
+				    <section>
+				        <h3>DEPLOYMENT with Capistrano</h3>
+				        <img src="img/capistrano.png" alt="Rails deployment with Capistrano">
+				    </section>
+				    <section>
+				        <h3>Capistrano commands</h3>
+				        <img src="img/capistrano-cap.png" alt="Rails deployment with Capistrano">
+				    </section>
+				</section>
+				
+				<section>
+				    <section>
+				        <h2>TESTING</h2>
+				        <h3>Oh yes we want to!</h3>
+				    </section>
+				    <section>
+				        <h3>Capybara</h3>
+				        <img src="img/capybara.png" alt="Capybara">
+				    </section>
+				    <section>
+				        <h3>Cucumber - Features</h3>
+				        <img src="img/cucumber-feature.png" alt="Cucumber Features">
+				    </section>
+				    <section>
+				        <h3>Cucumber - Steps</h3>
+				        <img src="img/cucumber-steps.png" alt="Cucumber Steps">
+				    </section>
+				    <section>
+				        <h3>Rspec</h3>
+				        <img src="img/rspec.png" alt="Rspec">
+				    </section>
+				</section>
+				
+				<section>
+				    <section>
+				        <h2>Extend it with Rubygems</h2>
+				    </section>
+				    <section>
+				        <h3>Gemfile</h3>
+				        <img src="img/gemfile.png" alt="Gemfile">
+				    </section>
+				    <section>
+				        <h3>Active Admin</h3>
+				        <img src="img/active-admin.png" alt="Active Admin">
+				    </section>
+				    <section>
+				        <h3>Refinery CMS</h3>
+				        <img src="img/refinery-cms.png" alt="Refinery CMS">
+				    </section>
+				    <section>
+				        <h3>No more pain in the ass with savon</h3>
+				        <img src="img/savon.png" alt="Savon">
+				    </section>
+				</section>
+				
+				<section>
+				    <h2>LINKS</h2>
+				    <a href="http://guides.rubyonrails.org/">Ruby on Rails Guides</a><br>
+				    <a href="http://railsapps.github.io/what-is-ruby-rails.html">What is Ruby on Rails?</a><br>
+				    <a href="http://adrianmejia.com/blog/2011/08/11/ruby-on-rails-architectural-design/">Ruby on Rails Architectural Design</a><br>
+				    <a href="http://guides.rubyonrails.org/rails_on_rack.html">Rails Rack</a><br>
+				    <a href="http://railscasts.com/">Railscasts</a><br>
+				    <a href="http://railscasts.com/episodes/150-rails-metal-revised?view=asciicast">Railscast: Rails Metal (write Rack middleware)</a>
+				    <a href="http://railscasts.com/episodes/319-rails-middleware-walkthrough">Railscast: Rails Middleware Walkthrough</a>
+				</section>
+				
+				<section>
+				    <h1>Let's RockIt!</h1>
+				    <h4>Thanx</h4>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+		</script>
+	</body>
+</html>

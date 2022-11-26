@@ -38,6 +38,95 @@
   publisher: sum.cumo
   pdf: 2019-05-19-Ein_Nachbericht_zu_hub.berlin_und_Big-Data.AI_Summit_2019-www.sumcumo.com.pdf
 
+- title: Hamburg On Ruby - hostetd at sum.cumo
+  abstract: Bei sum.cumo haben wir die Ruby Usergroup Hamb urg des öfteren gehiostet. Hier ein Talk von mir über Refinements in Ruby.
+  publication: www.sumcumo.com
+  author: Andreas Wenk
+  year: 2016
+  publisher: sum.cumo
+  pdf: 2016-02-10-Refinements-we-no-need-Monkeys.pdf
+
+- title: History of the Web
+  abstract: Ein Rückblick zum WWW. 
+  publication: www.sumcumo.com
+  author: Andreas Wenk
+  year: 2016
+  publisher: sum.cumo
+  pdf: 2016-03-08-History-of-the-Web.pdf
+
+- title: JSConfEU Recap
+  abstract: JSConfEU war eine großartige JavaScript Konferenz. Kuratoren waren Jan Lehnardt, Holger Blank und Malte Ubl.
+  publication: www.sumcumo.com
+  author: Andreas Wenk
+  year: 2015
+  publisher: sum.cumo
+  pdf: 2015-JSConfEU-recap.pdf
+
+- title: Sicherheit im Internet
+  abstract: Im Kindergarten meiner beiden Töchter gabe es einen Zwischenfall. Deshalb habe ich versucht die Eltern etwas aufzuklären.
+  publication: Andy Wenk
+  author: Andreas Wenk
+  year: 2015
+  publisher: Andreas Wenk
+  pdf: 2015-01-19-Sicherheit-im-Internet.pdf
+
+- title: Rails Workshop VII at sum.cumo
+  abstract: Caching
+  publication: www.sumcumo.com
+  author: Moritz Kröger
+  year: 2015
+  publisher: sum.cumo
+  pdf: 2015-Rails-Workshop-7.pdf
+
+- title: Rails Workshop VI at sum.cumo
+  abstract: Build a Rubygem
+  publication: www.sumcumo.com
+  author: Andreas Wenk
+  year: 2014
+  publisher: sum.cumo
+  pdf: 2014-Rails-Workshop-6.pdf
+
+- title: Rails Workshop V at sum.cumo
+  abstract: Testing
+  publication: www.sumcumo.com
+  author: Andreas Wenk
+  year: 2014
+  publisher: sum.cumo
+  pdf: 2014-Rails-Workshop-5.pdf
+
+- title: Rails Workshop IV at sum.cumo
+  abstract: Rails Modularisierung
+  publication: www.sumcumo.com
+  author: Andreas Wenk
+  year: 2014
+  publisher: sum.cumo
+  pdf: 2014-Rails-Workshop-4.pdf
+
+- title: Rails Workshop II at sum.cumo
+  abstract: Rails Routing
+  publication: www.sumcumo.com
+  author: Andreas Wenk
+  year: 2014
+  publisher: sum.cumo
+  pdf: 2014-Rails-Workshop-2.pdf
+
+- title: Rails Workshop I at sum.cumo
+  abstract: First Rails workshop at sum.cumo with another overview
+  publication: www.sumcumo.com
+  author: Andreas Wenk
+  year: 2014
+  publisher: sum.cumo
+  pdf: 2014-Rails-Workshop-1.pdf
+
+- title: Ruby on Rails Overview 
+  abstract: During my time at sum.cumo I implemented Ruby and also Ruby on Rails as a further programming language. It is still the main language there. To get the crew on bord I created various talks and introductions.
+  publication: Talk by Andy Wenk
+  author: Andreas Wenk
+  year: 2014
+  publisher: Andy Wenk
+  url: https://andy-wenk.de/assets/static/2014-Ruby-on-Rails-overview
+  pdf: false
+
 - title: Tools for Workers. Webentwicklung mit den Chrome Developer Tools
   abstract: Seit September 2008 bereichert der von Google entwickelte Webbrowser Chrome die Browserlandschaft. Seit Februar 2013 ist es der am meisten genutzte Browser weltweit [1]. Wieder mal eine Erfolgsgeschichte aus „sunny California“ - und das zu Recht. Denn nicht nur ist er einer der schnellsten Browser, er bietet dem Entwickler mit den Chrome Developer Tools auch einen hervorragend ausgestatteten Werkzeugkasten, der kaum Wünsche offen lässt. Einen Teil der Werkzeuge werde ich in diesem Artikel vorstellen. Also Blaumann anziehen und Helm auf.
   publication: PHPMagazin
