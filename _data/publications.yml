@@ -54,13 +54,22 @@
   publisher: S&S Media Group
   pdf: EM1_12_Wenk_CouchApp-erica.pdf
 
-- title: CouchDB Talk - JUG-OSTFALEN 
-  abstract: Zwei Teile - Couchdb Introduction und Kanso 
+- title: CouchDB Introduction - JUG-OSTFALEN 
+  abstract: Couchdb Introduction
   publication: Talk by Andy Wenk
   author: Andreas Wenk
   year: 2012
   publisher: Andy Wenk
   url: https://andy-wenk.de/assets/static/2012-couchdb-kanso-talk
+  pdf: false
+
+- title: CouchDB Kanso - JUG-OSTFALEN 
+  abstract: How to use Couchdb Kanso
+  publication: Talk by Andy Wenk
+  author: Andreas Wenk
+  year: 2012
+  publisher: Andy Wenk
+  url: https://andy-wenk.de/assets/static/2012-couchdb-kanso-talk/kanso
   pdf: false
 
 - title: CouchDB - map/reduce
