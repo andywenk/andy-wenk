@@ -19,7 +19,12 @@ title: Publications
           <span>&nbsp;</span>
           <span>Verleger:</span> {{item.publisher}}
           <span>&nbsp;</span>
-          <span><a href="/assets/pdf/{{item.pdf}}" target="_blank">PDF</a></span>
+          {%- if item.pdf != false %}
+            <span><a href="/assets/pdf/{{item.pdf}}" target="_blank">PDF</a></span>
+          {% endif %}
+          {%- if item.url %}
+            <span><a href="/assets/pdf/{{item.url}}" target="_blank">URL</a></span>
+          {% endif %}
         </p>
       </div>
       

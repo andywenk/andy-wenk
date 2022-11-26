@@ -54,6 +54,15 @@
   publisher: S&S Media Group
   pdf: EM1_12_Wenk_CouchApp-erica.pdf
 
+- title: CouchDB Talk - JUG-OSTFALEN 
+  abstract: Zwei Teile - Couchdb Introduction und Kanso 
+  publication: Talk by Andy Wenk
+  author: Andreas Wenk
+  year: 2012
+  publisher: Andy Wenk
+  url: https://andy-wenk.de/assets/static/2012-couchdb-kanso-talk
+  pdf: false
+
 - title: CouchDB - map/reduce
   abstract: Relax! CouchDB ist ein prominenter Vertreter im Reigen der dokumentbasierten Datenbanken. Vor wenigen Monaten hat die Version 1.0.0 das Licht der Open-Source-Welt erblickt und aktuell liegt die Datenbank in Version 1.0.1 vor. In diesem Artikel geht es darum, die prinzipielle Technik vorzustellen, die es ermöglicht, Daten aus einer CouchDB zu lesen.
   publication: Entwickler Magazin
