@@ -23,7 +23,7 @@ title: Publications
             <span><a href="/assets/pdf/{{item.pdf}}" target="_blank">PDF</a></span>
           {% endif %}
           {%- if item.url %}
-            <span><a href="/assets/pdf/{{item.url}}" target="_blank">URL</a></span>
+            <span><a href="{{item.url}}" target="_blank">URL</a></span>
           {% endif %}
         </p>
       </div>
