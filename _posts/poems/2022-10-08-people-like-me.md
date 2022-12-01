@@ -23,9 +23,9 @@ Filled with rubish you suck every day.
 <p>&nbsp;</p>
 Repeating what others say is stupid.
 Using it as of your own making is ridiculous.
-Spreading it as the true words is ruthless sabotage.
+Spreading it as the truthe is ruthless sabotage.
 <p>&nbsp;</p>
-People like need to fought against.
+People like you need to be fought against.
 With words as our arms.
 And you are the target.
 <p>&nbsp;</p>
