@@ -9,7 +9,7 @@ tags: life psychology
 
 Red wine is not only for ladies. It is a valuable drink to get rid of some headspinning. Mind collapsing. Hard thinking. Mental whirlwind. Directing thoughts into a specific direction.
 
-Sometimes I am not sure where all my thoughts emerge from. Sometimes I think think I think too much. And there are so many different thoughts I think. Proudness. Fear. Relaxing. Drang und Sturm. Sex. Drinks. Business improvements. World changing. What the fuck! So much! At the end it's all kind of madness. Huh? Or not?
+Sometimes I am not sure where all my thoughts emerge from. Sometimes I think I think too much. And there are so many different thoughts I think. Proudness. Fear. Relaxing. Drang und Sturm. Sex. Drinks. Business improvements. World changing. What the fuck! So much! At the end it's all kind of madness. Huh? Or not?
 
 I am in a phase where I often think about rest and changing something. But on the other hand the fun I have with Fanblast is incredibly cool. Crazy people in a crazy world. I love them. They are my new family. I strongly believe in what we do. We only need to hit the goal. And that's a thing.
 
@@ -33,7 +33,7 @@ Over the last years I was lucky to experience many different situations in busin
 
 In our culture and in our 1st world the thing that counts is: money. But money does not make you happy! As my beloved dad always said: "Money is shit - but it gives you a soothing feeling." Exactly! But nothing more. It fuckin' does not make you happy! It's a necessary evil. Nothing more. 
 
-So when elaborating on this in this post, I have to retrhing my claim about fear. Why is there fear at all? (Cool - listening to Seether: "Fuck me like you hate me!"). The fear stems solely from the fact that I could "loose something". But what could I loose? Money? Fuck it! Because as I said before - money is a necessary evil. So I am loosing a necessary evil? Ha ha - that's simply ridiculous! So that means: even when Fanblast does not work and I can't work there anymore, and even when I would not be able to find another job in my salary range and even when I would not be able to find a job AT FUCKING ALL - it would not make me unhappy! Q.E.D!
+So when elaborating on this in this post, I have to rethink my claim about fear. Why is there fear at all? (Cool - listening to Seether: "Fuck me like you hate me!"). The fear stems solely from the fact that I could "loose something". But what could I loose? Money? Fuck it! Because as I said before - money is a necessary evil. So I am loosing a necessary evil? Ha ha - that's simply ridiculous! So that means: even when Fanblast does not work and I can't work there anymore, and even when I would not be able to find another job in my salary range and even when I would not be able to find a job AT FUCKING ALL - it would not make me unhappy! Q.E.D!
 
 That means I rise my glas of red wine and am happy - because there is no need to fear anything at all! 
 
