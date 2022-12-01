@@ -36,7 +36,9 @@ layout: default
     
     <ul class="post-list">
       {% for post in paginator.posts %}
-        {% include post-list-item.html %}
+        {% if post.category != 'poem' %}
+          {% include post-list-item.html %}
+        {% endif %}
       {% endfor %}
     </ul>
 
@@ -61,8 +63,10 @@ layout: default
   {% else %}
 
     <ul class="post-list">
-      {% for post in site.posts %}
-        {% include post-list-item.html %}
+      {% for post in paginator.posts %}
+        {% if post.category != 'poem' %}
+          {% include post-list-item.html %}
+        {% endif %}
       {% endfor %}
     </ul>
   
