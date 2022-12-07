@@ -1,0 +1,44 @@
+.mailchimp {
+  width: 380px;
+  margin-left: auto;
+  margin-right: auto;
+
+  img {
+    margin:0;
+  }
+
+  
+}
+
+#mc_embed_signup {
+  .helper_text {
+    background-color: $brand-color !important;
+  }
+
+  .button {
+    background-color: #fff !important;
+    color: #000 !important;
+  }
+
+  .button:hover {
+    background-color: #777 !important;
+    color: #fff !important;
+  }
+
+  .mc-field-group, .foot {
+    width: 100% !important;
+  }
+
+  input {
+    border-radius: 6px !important;
+  }
+
+  img {
+    width: 144px !important;
+    max-width: 171% !important;
+    position: absolute;
+    right: 0px;
+    bottom: 12px;
+  }
+}
+
