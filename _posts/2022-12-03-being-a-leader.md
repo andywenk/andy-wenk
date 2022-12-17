@@ -19,5 +19,4 @@ It's a Saturday afternoon. Just went out with Verena to get another Covid booste
 
 Col. Robert Iversion to Maj. Rebecca Childs in _The Core_, 2003
 
-
 Even though this quote stems from a Hollywood movie it has a lot of wisdom. As a leader you will not always be lucky and everything is working out. You need to be able to make descisions and take the responsibility that your descision may be wrong. As long as you do this based on facts, knowledge and your best intentions no one will condemn you for a bad descision. Assuming there is a good _error culture_ you will be able to learn from bad descisions and become better and better over time. 
