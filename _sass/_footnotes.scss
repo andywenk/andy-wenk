@@ -3,11 +3,12 @@
   border-radius: 1em;
   color: $text-color;
   display: inline;
-  font-size: .75em;
+  font-size: .55em;
   font-weight: 700;
   padding: 0 .75em;
   text-decoration: none;
   margin: 0 .25em;
+  vertical-align: super;
   &:hover,
   &:focus {
     background: $brand-color;
@@ -27,9 +28,10 @@
 
 .footnotes li {
   margin-bottom: 1em;
+  font-size: 0.8em;
 }
 
 .reversefootnote {
-  font-size: .75em;
+  font-size: .55em;
   opacity: .75;
 }
