@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The LastPass Disaster
-date: 2022-12-28 10:00:00
+date: 2022-12-29 10:00:00
 description: 
 categories: security
 tags: privacy security
@@ -28,13 +28,4 @@ Please always follow these simple rules for your data privacy:
 
 When doing so you can avoid 90% of the disaster that happened with LastPass.
 
-
-
-
-
-
-
-
-
 <span style="font-size: 0.7em">Screenshot taken at: [https://www.lastpass.com/](https://www.lastpass.com/)</span>
-
