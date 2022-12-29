@@ -36,14 +36,11 @@ layout: default
     
     <ul class="post-list">
       {% for post in paginator.posts %}
-        {% if post.category != 'poem' %}
-          {% include post-list-item.html %}
-        {% endif %}
+        {% include post-list-item.html %}
       {% endfor %}
     </ul>
 
     {% if paginator.total_pages > 1 %}
-
       <div class="post-pagination">
         {% if paginator.next_page %}
           <a href="{{ paginator.next_page_path | prepend: site.baseurl  }}" class="pagination-next btn">&lang;&nbsp;Older</a>

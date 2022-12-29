@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The spinning mind
-date:   2022-12-01 17:00:00
+date: 2022-12-01 17:00:00
 description: Sometimes I need a rest and drink a glas of wine
 categories: life
 tags: life psychology 

@@ -3,6 +3,7 @@ layout: post
 title:  "Bukowski on communication"
 date:   2022-10-12 
 category: poem
+hidden: true
 ---
 <p>&nbsp;</p>
 It is natural talent … Shit like newspapers, television and communication …

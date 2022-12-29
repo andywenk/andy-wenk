@@ -3,6 +3,7 @@ layout: post
 title:  "Strengthen my Mind"
 date:   2021-10-14 
 category: poem
+hidden: true
 ---
 <p>&nbsp;</p>
 It’s not a crime to strengthen my mind<br />

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My wife is the best manager I know
-date:   2022-10-25 17:00:00
+date: 2022-10-25 17:00:00
 description: When you think about the best manager you know, start in your family.
 categories: family
 tags: family management

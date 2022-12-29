@@ -3,6 +3,7 @@ layout: post
 title:  "Cocain World"
 date:   2021-09-13 
 category: poem
+hidden: true
 ---
 <p>&nbsp;</p>
 You’re lost in the Cocain World<br />

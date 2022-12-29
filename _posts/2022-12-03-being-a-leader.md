@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Being a leader
-date:   2022-12-03 17:00:00
+date: 2022-12-03 17:00:00
 description: What does it mean to be a leader
 categories: work
 tags: leadership business 

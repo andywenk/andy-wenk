@@ -3,6 +3,7 @@ layout: post
 title:  "Ich bin deine Therapie"
 date:   2020-06-23 
 category: poem
+hidden: true
 ---
 <p>&nbsp;</p>
 Ich bin Deine Therapie<br />

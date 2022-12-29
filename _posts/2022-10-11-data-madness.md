@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Data Madness
-date:   2022-10-11 17:30:00
+date: 2022-10-11 17:30:00
 description: Creating data is easy. Saving them securly and reliable is hard. Avoid duplicated data is almost impossible  
 categories: IT
 tags: data cloud

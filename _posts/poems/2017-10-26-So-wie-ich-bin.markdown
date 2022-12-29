@@ -2,7 +2,8 @@
 layout: post
 title: "So wie ich bin"
 date: 2017-10-26 
-category: poem
+categories: poem
+hidden: true
 ---
 
 Ich bin so wie ich bin und wie ich bin bin ich gut!<br />

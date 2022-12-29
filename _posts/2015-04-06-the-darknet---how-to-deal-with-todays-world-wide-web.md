@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "The Darknet - how to deal with todays world wide web"
+title: The Darknet - how to deal with todays world wide web
+date: 2015-04-06 10:00:00
 description: "Thoughts about the world wide web after reading Jamie Bartlett's book The Dark Net"
-category: 
-tags: [reading, internet, www]
+categories: bookreview 
+tags: reading, internet, www
 ---
 
 I recently finished reading the book [_The Dark Net_](//www.amazon.de/dp/0434023175/ref=cm_sw_r_tw_dp_pIUivb03J4ERV) by Jamie Bartlett. And now I am a bit confused. Read why ...

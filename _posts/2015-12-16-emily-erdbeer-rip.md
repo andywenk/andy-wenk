@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Emily Erdbeer R.I.P"
-description: ""
-category:
-tags: []
+title: Emily Erdbeer R.I.P
+date: 2015-12-16 16:00:00
+description: Emily Erdbeer R.I.P
+categories: pets
+tags: 
 ---
 
 _So little and cute_

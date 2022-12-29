@@ -3,6 +3,7 @@ layout: post
 title:  "People like me"
 date:   2022-10-08 
 category: poem
+hidden: true
 ---
 <p>&nbsp;</p>
 People like me are not people like you.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: JavaScript variables
-date:   2022-12-16 10:00:00
+date: 2022-12-16 10:00:00
 description: The difference between the declaration types of variables in JavaScript
 categories: work
 tags: development 

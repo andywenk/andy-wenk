@@ -3,6 +3,7 @@ layout: post
 title:  "Sachsenhausen"
 date:   2018-09-14 
 category: poem
+hidden: true
 ---
 
 <p>&nbsp;</p>

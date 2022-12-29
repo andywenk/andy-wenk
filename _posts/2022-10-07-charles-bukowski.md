@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Charles Bukowski <br> "The Bell talls for No One"
-date:   2022-10-07 19:20:00
-description: Reading books and short stories from Charels Bukowski is simply relaxing
-categories: Reading
+title: Charles Bukowski <br> The Bell talls for No One
+date: 2022-10-07 19:20:00
+description: Reading books and short stories from Charles Bukowski is simply relaxing
+categories: reading
 tags: bukowski reading
 ---
 
-The first book I read from an American author was ["Tropic of Cancer" by Henry Miller](https://en.wikipedia.org/wiki/Tropic_of_Cancer_(novel)) where he freely writes about his bohemian lifestyle during his stay in Paris, France between 1930 and 1934. I was 16 years old and needed to stay in the hospital because of a broken upper thigh. I was so stupid to ski like a rowdy and crashed into a floodlight pole in an exact ancle of 90° what made it easy for the pole to break my thigh. Pyhsics you know. The book was given to me by a friend who was some years older and loved literature like this. 
+The first book I read from an American author was ["Tropic of Cancer" by Henry Miller](https://en.wikipedia.org/wiki/Tropic_of_Cancer_(novel)) where he freely writes about his bohemian lifestyle during his stay in Paris, France between 1930 and 1934. I was 16 years old and needed to stay in the hospital because of a broken upper thigh. I was so stupid to ski like a rowdy and crashed into a floodlight pole in an exact angle of 90° what made it easy for the pole to break my thigh. Physics you know. The book was given to me by a friend who was some years older and loved literature like this. 
 
 I started to be fascinated by authors like Miller. And for sure I did not wait to read Bukowski. Some people call him a sexist and a vulgar drunk head. And this is exactly what he was. And the people who read his books are exactly these people who criticise him. The other people who like to read his stuff are people like me. Having had a dream to become a Rock Star, his life style was simply a template for living for me and my friends in the late 90's and early 2000's. But on the other hand, Bukowski or Klaus Kinski are people who went through shit - for which they were responsible themselves - and found a way to stay like they are and make the shit to something valuable. I like that. I like controversial people like them. 
 

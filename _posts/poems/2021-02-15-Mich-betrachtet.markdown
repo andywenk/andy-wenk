@@ -3,6 +3,7 @@ layout: post
 title:  "Mich betrachtet"
 date:   2021-02-15 
 category: poem
+hidden: true
 ---
 
 > Ich investiere in mich statt in mein Ego.

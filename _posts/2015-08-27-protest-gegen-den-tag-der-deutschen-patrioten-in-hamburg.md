@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "Protest: gegen den Tag der deutschen Patrioten in Hamburg"
+date: 2015-08-27 16:00:00
 description: "Aufruf gegen den Tag der deutschen Patrioten am 12.09.2015 in Hamburg"
-category:
-tags: [politic, hamburg]
+categories: politics
+tags: hamburg
 ---
 
 (German only this time ... sry)

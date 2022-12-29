@@ -1,7 +1,7 @@
 ---
 layout: post
 title: It's the litte things that make you think and fail
-date:   2022-11-27 17:00:00
+date: 2022-11-27 17:00:00
 description: When small gestures make you think 
 categories: life
 tags: climatechange people environment

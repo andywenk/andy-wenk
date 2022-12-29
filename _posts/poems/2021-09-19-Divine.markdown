@@ -3,6 +3,7 @@ layout: post
 title:  "Divine"
 date:   2021-09-19 
 category: poem
+hidden: true
 ---
 Shall I live or shall I die?<br />
 Shall I die or shall I live?<br />

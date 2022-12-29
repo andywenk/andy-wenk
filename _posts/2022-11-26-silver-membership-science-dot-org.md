@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Silver membership at science.org
-date:   2022-11-26 17:00:00
+date: 2022-11-26 17:00:00
 description: I decided to create a silver membership at Science.org
 categories: reading
 tags: nature science climatechange

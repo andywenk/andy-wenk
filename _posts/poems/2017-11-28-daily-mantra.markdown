@@ -3,6 +3,7 @@ layout: post
 title:  "Daily Mantra"
 date:   2017-11-28 
 category: poem
+hidden: true
 ---
 
 Ich bin stark<br />

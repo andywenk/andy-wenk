@@ -3,6 +3,7 @@ layout: post
 title:  "Last Night of Summer"
 date:   2021-09-14 
 category: poem
+hidden: true
 ---
 <p>&nbsp;</p>
 Having a peaceful Night<br />

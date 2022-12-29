@@ -3,6 +3,7 @@ layout: post
 title:  "I Care"
 date:   2021-11-18 
 category: poem
+hidden: true
 ---
 <p>&nbsp;</p>
 I don’t care if I get fired<br />

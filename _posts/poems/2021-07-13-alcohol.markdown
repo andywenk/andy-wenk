@@ -3,6 +3,7 @@ layout: post
 title:  "Alcohol"
 date:   2021-07-13 
 category: poem
+hidden: true
 ---
 
 <p>&nbsp;</p>

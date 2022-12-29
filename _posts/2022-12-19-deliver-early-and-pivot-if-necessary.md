@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Deliver early and pivot if necessary
-date:   2022-12-19 10:00:00
+date: 2022-12-19 10:00:00
 description: "We are stuck in a jungle of tools that obscures our view of the actual goal: business value"
 categories: work
 tags: development 
