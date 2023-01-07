@@ -7,9 +7,17 @@ title: About Andy Wenk
 
 Hey there - finally, you found me here. This is my little space in the world wide web where I post stuff about various things that interest or concern me. My main interests are Computer Science and Software Development, Climate Change and IT Security.  
 
-### Hire Me!
+### Hire Me! I am open for challenges!
 
-With being in the area of web-development for over 20 years, creating products, help building companies, create and lead teams and lucky to collect a lot of experience I am thrilled to help other people, communities, projects and companies to make them successful. Please find the links to my resume below in the section "work" to get to know me a bit better. You have a project you need support for? You need to evaluate your hypothesis or plan? You need to create a team or you want to know how to make your teams and it's members more successful? [Get in touch with me](mailto:post@andy-wenk.de){:target="_blank"} and let's talk! If it is not me who fits for the job - maybe I know someone who is.
+With being in the area of web-development for over 20 years, creating products, help building companies, create and lead teams and lucky to collect a lot of experience I am thrilled to help other people, communities, projects and companies to make them successful. Please find the links to my resume below in the section _"Work"_ to get to know me a bit better. 
+
+~    
+_You have a project you need support for?  
+You need to evaluate your hypothesis or plan?   
+You need to create a team or you want to know how to make your teams and it's members more successful?_   
+~  
+
+[Get in touch with me](mailto:post@andy-wenk.de){:target="_blank"} and let's talk! If it is not me who fits for the job - maybe I know someone who is.
 
 ### Work
 
