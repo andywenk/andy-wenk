@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The evil of tactical programming
-date: 2022-12-29 10:00:00
+date: 2023-01-07 18:00:00
 description: Why tactical programming is evil. John Ousterhout's new book A philosphy of software design is helping to understand why good software design solves problems.
 categories: work
 tags: software-design development 
