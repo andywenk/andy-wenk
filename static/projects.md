@@ -53,4 +53,53 @@ title: Projects
       </div>
     </div>
   </div>
+  <br />
+  <div class="row">
+    <div class="col-sm">
+      <div class="card book">
+        <img class="card-img-top" src="/assets/images/couch-buch.jpg" alt="CouchDB Buch">
+        <div class="card-body">
+          <h5 class="card-title">CouchDB</h5>
+          <p class="card-text">
+            Das Praxisbuch für Entwickler und Adminis- tratoren.<br>
+            I wrote the book together with Till Klampäckel in 2011. 
+          </p>
+          <br>
+          <a href="http://www.couchdb-buch.de/" target="_blank" class="btn btn-primary">Website</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card book">
+        <img class="card-img-top pg" src="/assets/images/pg-buch.jpg" alt="PostgreSQL Buch">
+        <div class="card-body">
+          <h5 class="card-title">PostgreSQL 8.4</h5>
+          <p class="card-text">
+            Installation, Grundlagen Praxis und alles über die Administration.<br>
+            I wrote the book together with Thomas Pfeiffer in 2009.
+          </p>
+          <br>
+          <a href="http://krx.pw/postgresql" target="_blank" class="btn btn-primary">Excerpt</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br />
+  <div class="row">
+    <div class="col-sm">
+      <div class="card book">
+        <img class="card-img-top" src="/assets/images/andy-music.jpg" alt="Andy Wenk Musician">
+        <div class="card-body">
+          <h5 class="card-title">Andy the Musican</h5>
+          <p class="card-text">
+            I play guitar since I am 12. I love music and do it for my whole life because it is a part of myself. During 1994 to 2004 I was in the music buisness with my band <a href="http://www.skeletor.de" target="_blank">Skeletor</a>. 
+          </p>
+          <br>
+          <a href="https://soundcloud.com/andreas-wenk-1" target="_blank" class="btn btn-primary">Listen to my music</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm">
+    </div>
+  </div>
 </div>

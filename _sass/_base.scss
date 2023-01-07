@@ -196,3 +196,14 @@ div.about-images {
     height :17px;
   }
 }
+
+.col-sm .book {
+  height: 500px;
+  img {
+    width: 166px;
+    margin: 3px auto 0 auto !important;
+    &.pg {
+      width:128px;
+    }
+  }
+}
