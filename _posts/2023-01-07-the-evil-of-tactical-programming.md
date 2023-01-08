@@ -13,9 +13,9 @@ I started to read the book _A Philosophy of Software Design_ by Paul Ousterhout.
 
 ## WHAT?
 
-I love to read code and I love to code - even when there are nowadays "kids" that code much more regularly than me. But what I saw in the last half year is alarming. And this is exactly what Ousterhout is writing in chapter 3 _Working Code Isn't Enough_. He is giving the thing a name in chapter 3.1: _Tactical programming_. Yes! Exactly a problem I am dealing with for a long time now. The opposite of tactical programming is _Strategic programming_ as defined by Ousterhout. 
+I love to read code and I love to code - even when there are nowadays "kids" that code much more regularly than me. But what I often saw in the last years is alarming. And this is exactly what Ousterhout is writing in chapter 3 _Working Code Isn't Enough_. He is giving the thing a name in chapter 3.1: _Tactical programming_. Yes! Exactly a problem I am dealing with for a long time now. The opposite of tactical programming is _Strategic programming_ as defined by Ousterhout. 
 
-Now you wonder why I say it's alarming what I saw the last half year. The problem with tactical programming is the lack of **foresight**. Because tactical programming is **short-sighted**. Let me explain it in a scenario you most probably already know:
+Now you wonder why I say it's alarming. The problem with tactical programming is the lack of **foresight**. Because tactical programming is **short-sighted**. Let me explain it in a scenario you most probably already know:
 
 * a developer is creating code that just works
 * without properly thinking about the code design the code will eventually be complex
