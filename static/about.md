@@ -10,12 +10,10 @@ Hey there - finally, you found me here. This is my little space in the world wid
 ### Hire Me! I am open for challenges!
 
 With being in the area of web-development for over 20 years, creating products, help building companies, create and lead teams and lucky to collect a lot of experience I am thrilled to help other people, communities, projects and companies to make them successful. Please find the links to my resume below in the section _"Work"_ to get to know me a bit better. 
-
-~    
+        
 _You have a project you need support for?  
 You need to evaluate your hypothesis or plan?   
 You need to create a team or you want to know how to make your teams and it's members more successful?_   
-~  
 
 [Get in touch with me](mailto:post@andy-wenk.de){:target="_blank"} and let's talk! If it is not me who fits for the job - maybe I know someone who is.
 
@@ -30,6 +28,28 @@ I was born in July 1970 and did a lot of things in my life. As a landscaper, as 
 </div>
 
 I am actually working as the CTO at [Digital Blast GmbH](https://www.digitalblast.com){:target="_blank"} creating our product [Fanblast](https://www.fanblast.com){:target="_blank"} after having worked for 9 years at [sum.cumo](https://www.sumcumo.com){:target="_blank"} in the Management as the Director of the Development division. Due to the financial situation the startup is facing, I am open for new challenges up from February 1st 2023. If you want to get a first impression of me please have a look at my German [Resume](https://rxresu.me/andywenk/andreas-wenk-cto-de){:target="_blank"} or English [Resume](https://rxresu.me/andywenk/andreas-wenk-cto-en){:target="_blank"}.
+
+### About me
+
+#### Leader
+
+I go ahead and open ways to reach the strategic goals by taking the team with me and removing obstacles.
+
+#### Farsightedness
+
+We create a vision, define the mission and with the teams, we tackle and implement.
+
+#### Communication
+
+I make sure everyone is fully and transparently informed and make teams and stakeholders talk **to each other** - not **about each other**.
+
+#### Mentor
+
+As a mentor I make sure to get the best from the people and teams by sharing my experiences.
+
+#### Empathetic
+
+I listen to the people and enable them to be successful.
 
 ### Contact
 
