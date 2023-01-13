@@ -27,7 +27,7 @@ I was born in July 1970 and did a lot of things in my life. As a landscaper, as 
   <img src="/assets/images/sumcumo-logo-black.png" class="sc">&nbsp;
 </div>
 
-I am actually working as the CTO at [Digital Blast GmbH](https://www.digitalblast.com){:target="_blank"} creating our product [Fanblast](https://www.fanblast.com){:target="_blank"} after having worked for 9 years at [sum.cumo](https://www.sumcumo.com){:target="_blank"} in the Management as the Director of the Development division. Due to the financial situation the startup is facing, I am open for new challenges up from February 1st 2023. If you want to get a first impression of me please have a look at my German [Resume](https://rxresu.me/andywenk/andreas-wenk-cto-de){:target="_blank"} or English [Resume](https://rxresu.me/andywenk/andreas-wenk-cto-en){:target="_blank"}.
+I am actually working as the CTO at [Digital Blast GmbH](https://www.digitalblast.com){:target="_blank"} creating our product [Fanblast](https://www.fanblast.com){:target="_blank"} after having worked for 9 years at [sum.cumo](https://www.sumcumo.com){:target="_blank"} in the Management as the Director of the Development division. Due to the financial situation the startup is facing, I am open for new challenges up from February 1st 2023. If you want to get a first impression of me please have a look at my German [Resume](https://rxresu.me/andywenk/andreas-wenk-cto-de){:target="_blank"}.
 
 ### About me
 
