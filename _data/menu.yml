@@ -1,6 +1,9 @@
 - title: About
   url: /static/about.html
 
+- title: Consulting
+  url: /static/consulting.html
+
 - title: Projects
   url: /static/projects.html
 
