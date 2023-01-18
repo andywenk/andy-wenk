@@ -8,19 +8,28 @@
           Home
         </a>
       </li>
-    {% for item in site.data.menu %}
+      {% for item in site.data.menu %}
       <li {% if page.url == item.url %}class="active"{% endif %}>
         {% if item.url contains 'http' %}
           <a href="{{ item.url }}">
-            {{ item.title }}
+            {% t item.title %}
           </a>
         {% else %}
           <a href="{{ item.url | prepend: site.baseurl }}">
-            {{ item.title }}
+            {% t item.title %}
           </a>
         {% endif %}
       </li>
-    {% endfor %}
+      {% endfor %}
+      <li>
+        {% if site.lang == "de" %}
+          {% capture german %}{{ site.baseurl_root }}/en{{ page.url}}{% endcapture %}
+          <a href="{{ german }}" >{% t global.english %}</a>
+        {% elsif site.lang == "en" %}
+          {% capture english %}{{ site.baseurl_root }}{{ page.url }}{% endcapture %}
+          <a href="{{ english }}" >{% t global.german %}</a>
+        {% endif %}
+      </li>
     </ul>
   </nav>
 {% endif %}

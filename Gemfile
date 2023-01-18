@@ -6,3 +6,4 @@ gemspec
 # for demo site
 gem "jekyll-paginate"
 gem "webrick"
+gem 'jekyll-multiple-languages-plugin'

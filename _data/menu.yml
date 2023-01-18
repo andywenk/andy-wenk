@@ -1,10 +1,10 @@
-- title: About
+- title: about
   url: /static/about.html
 
-- title: Projects
+- title: projects
   url: /static/projects.html
 
-- title: Publications
+- title: publications
   url: /static/publications.html
 
 # - title: Poems
