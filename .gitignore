@@ -8,4 +8,4 @@ _site
 .obsidian
 Gemfile.lock
 vendor
-
+.vscode/*
