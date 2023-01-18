@@ -45,7 +45,7 @@ paginate: 7
 paginate_path: "/page/:num/"
 hide_search: true
 languages: ["de", "en"]
-exclude_from_localizations: ["assets"]
+exclude_from_localizations: ["assets", "CNAME"]
 defaultLang: de
 languageNames:
   de: Deutsch
