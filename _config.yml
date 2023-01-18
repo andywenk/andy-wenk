@@ -39,7 +39,14 @@ markdown: kramdown
 
 plugins:
   - jekyll-paginate
+  - jekyll-multiple-languages-plugin
 
 paginate: 7
 paginate_path: "/page/:num/"
 hide_search: true
+languages: ["de", "en"]
+exclude_from_localizations: ["assets"]
+defaultLang: de
+languageNames:
+  de: Deutsch
+  en: English
