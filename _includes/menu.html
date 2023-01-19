@@ -22,13 +22,23 @@
       </li>
       {% endfor %}
       <li>
-        {% if site.lang == "de" %}
-          {% capture german %}{{ site.baseurl_root }}/en{{ page.url}}{% endcapture %}
-          <a href="{{ german }}" >{% t global.english %}</a>
-        {% elsif site.lang == "en" %}
-          {% capture english %}{{ site.baseurl_root }}{{ page.url }}{% endcapture %}
-          <a href="{{ english }}" >{% t global.german %}</a>
-        {% endif %}
+        {% if site.defaultLang == "de" %}
+          {% if site.lang == "de" %}
+            {% capture english %}{{ site.baseurl_root }}/en{{ page.url}}{% endcapture %}
+            <a href="{{ english }}" >{% t global.english %}</a>
+          {% elsif site.lang == "en" %}
+            {% capture german %}{{ site.baseurl_root }}{{ page.url }}{% endcapture %}
+            <a href="{{ german }}" >{% t global.german %}</a>
+          {% endif %}
+        {% elsif site.defaultLang == "en" %}
+          {% if site.lang == "de" %}
+            {% capture english %}{{ site.baseurl_root }}{{ page.url}}{% endcapture %}
+            <a href="{{ english }}" >{% t global.english %}</a>
+          {% elsif site.lang == "en" %}
+            {% capture german %}{{ site.baseurl_root }}/de{{ page.url }}{% endcapture %}
+            <a href="{{ german }}" >{% t global.german %}</a>
+          {% endif %}
+        {% endif %}  
       </li>
     </ul>
   </nav>
