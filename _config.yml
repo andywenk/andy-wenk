@@ -44,9 +44,9 @@ plugins:
 paginate: 7
 paginate_path: "/page/:num/"
 hide_search: true
-languages: ["de", "en"]
+languages: ["en", "de"]
 exclude_from_localizations: ["assets", "CNAME"]
-defaultLang: de
+defaultLang: en
 languageNames:
   de: Deutsch
   en: English
