@@ -16,7 +16,7 @@
 title: Andy Wenk
 email: post@andy-wenk.de
 description: >- # this means to ignore newlines until "baseurl:"
-  I write about stuff I do ...
+  Welcome to my home in the World Wide Web
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://andy-wenk.de" # the base hostname & protocol for your site, e.g. http://example.com
 icon: /assets/images/favicon.ico 

@@ -1,9 +1,11 @@
 ---
 layout: post
-title: Publications
 ---
 
+<h1 class="post-title divided p-name" itemprop="name headline">{% t titles.publications %}</h1>
+
 <div class="publications">
+  <img src="/assets/images/publications-2.jpg">
   {% for item in site.data.publications %}
     <h3>{{item.title}}</h3>
     <div>

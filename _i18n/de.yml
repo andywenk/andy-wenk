@@ -1,7 +1,18 @@
 global:
   german: Deutsch
   english: English
+  imprint: Impressum
+  description: WWW-IT-Consulting
+  page: Seite
+  older: Älter
+  newer: Neuer
 about: Über Mich
 projects: Projekte
 publications: Publikationen
+consulting: Consulting
 newsletter_registration: Newsletter Registrierung
+titles:
+  project: Projekte
+  about: Andy Wenk
+  consulting: Consulting
+  publications: Publikationen
