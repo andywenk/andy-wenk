@@ -15,7 +15,7 @@ Nachdem ich den [Zeit Artikel "CO2-Zertifikate: Grün getarnt" von Tin Fischer u
 
 Zum einen ist der Zeit Artikel sehr lesenswert (leider nur im Abo lesbar. Tipp: Probeabo erstellen) und zugleich erschreckend. Greenwashing ist ein massives Problem und wird von großen Konzernen genutzt, um sich "klimaneutral" darzustellen. Im Artikel erfährt der Leser, warum das alles gefälscht und erlogen ist.
 
-Zum anderen ist das Video von Elias sehr gut um zu verstehen, warum Bäume und Wälder so extrem wichtig sind um CO2 zu halten. Ich habe den Text extrahiert und ins deutsche übersetzt, weil ich ihn auch menschen zugänglich machen möchte, die nicht so sicher in English sind.
+Zum anderen ist das Video von Elias sehr gut um zu verstehen, warum Bäume und Wälder so extrem wichtig sind um CO2 zu halten. Ich habe den Text extrahiert und ins Deutsche übersetzt, weil ich ihn auch Menschen zugänglich machen möchte, die nicht so sicher in English sind.
 
 ## Video Forest carbon basics (Transkription)
 
