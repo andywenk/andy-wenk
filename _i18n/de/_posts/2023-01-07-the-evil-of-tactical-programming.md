@@ -1,58 +1,56 @@
 ---
 layout: post
-title: The evil of tactical programming
+title: Das Übel der taktischen Programmierung
 date: 2023-01-07 18:00:00
-description: Warum taktische Programmierung schlecht ist. John Ousterhouts neues Buch A philosphy of software design hilft zu verstehen, warum gutes Softwaredesign Probleme löst.
+description: John Ousterhouts neues Buch A philosphy of software design hilft zu verstehen, wie gutes Softwaredesign Probleme löst.
 categories: work
 tags: software-design development 
 ---
 
 <img src="/assets/images/ousterhout.jpg" />
 
-I started to read the book _A Philosophy of Software Design_ by Paul Ousterhout. The first chapters and the introduction are very promising for a issue I am interested in for many years. [Ousterhout is a professor in the Department of Computer Science](https://web.stanford.edu/~ouster/cgi-bin/home.php){:target="_blank"} at Stanford University. He complains, that there has never been a class teaching _Software Design_. So he decided to start one at Standford what is well received. 
+Ich habe begonnen das Buch _A Philosophy of Software Design_ von Paul Ousterhout zu lesen. Die ersten Kapitel und die Einleitung sind sehr vielversprechend für ein Thema, das mich seit vielen Jahren interessiert. [Ousterhout ist Professor an der Fakultät für Informatik (https://web.stanford.edu/~ouster/cgi-bin/home.php){:target="_blank"} an der Stanford University. Er beklagt sich, dass es noch nie einen Kurs für _Software Design_ gegeben hat. Also beschloss er in Standford einen zu gründen und es hat sich herausgestellt, dass dieser gut angenommen wird. 
 
-## WHAT?
+## _# WHAT?
 
-I love to read code and I love to code - even when there are nowadays "kids" that code much more regularly than me. But what I often saw in the last years is alarming. And this is exactly what Ousterhout is writing in chapter 3 _Working Code Isn't Enough_. He is giving the thing a name in chapter 3.1: _Tactical programming_. Yes! Exactly a problem I am dealing with for a long time now. The opposite of tactical programming is _Strategic programming_ as defined by Ousterhout. 
+Ich liebe es, Code zu lesen, und ich liebe es, zu programmieren - auch wenn es heutzutage "Kids" gibt, die viel regelmäßiger programmieren als ich. Was ich in den letzten Jahren oft gesehen habe ist alarmierend. Es ist genau das, über was Ousterhout in Kapitel 3 _Working Code Isn't Enough_ schreibt. In Kapitel 3.1 gibt er der Sache einen Namen: _Taktische Programmierung_. Ja! Genau ein Problem, mit dem ich mich seit langem beschäftige. Das Gegenteil von taktischer Programmierung ist _Strategische Programmierung_, wie sie von Ousterhout definiert wird. 
 
-Now you wonder why I say it's alarming. The problem with tactical programming is the lack of **foresight**. Because tactical programming is **short-sighted**. Let me explain it in a scenario you most probably already know:
+Jetzt fragst du dich warum ich das als alarmierend empfinde. Das Problem der taktischen Programmierung ist der Mangel an **Voraussicht**. Denn taktische Programmierung ist **kurzsichtig**. Lass es mich anhand eines Szenarios erklären, das du wahrscheinlich schon kennst:
 
-* a developer is creating code that just works
-* without properly thinking about the code design the code will eventually be complex
-* adding new code or features instead of refactoring will result in even more complicated code
-* new developers are asked to add new features to the code but they will have a hard time to understand the code
-* this will lead to even more complicated code and will have more bugs as a result
-* fixing the code will take very long or is even not possible
-* this leads to a dramatic business problem because the costs are too high or even exploding
-* because there is no or not enough money to tackle the problem, the code will be left in a mess
+* ein Entwickler erstellt Code der funktioniert
+* ohne richtig über das Code-Design nachzudenken, wird der Code irgendwann komplex
+* das Hinzufügen von neuem Code oder neuen Funktionen anstelle von Refactoring führt zu noch komplizierterem Code
+* neue Entwickler werden gebeten Funktionen zum Code hinzuzufügen aber es fällt ihnen schwer fallen den Code zu verstehen
+* dies führt zu noch komplizierterem Code und damit zu mehr Fehlern
+* die Korrektur des Codes dauert sehr lange oder ist gar nicht möglich
+* dies wiederum führt zu einem dramatischen Business-Impact, weil die Kosten zu hoch sind oder sogar explodieren
+* weil kein oder nicht genug Geld vorhanden ist um das Problem anzugehen, wird der Code in einem Chaos hinterlassen
 
-When I started to be a team lead I spoke a lot about this problem. Especially inexperienced developers are often not taking enough time to think about a proper design. And this emerges into many problem:
+Als ich anfing ein Team zu leiten, habe ich viel über dieses Problem gesprochen. Vor allem unerfahrene Entwickler nehmen sich oft nicht genug Zeit über ein angemessenes Design nachzudenken. Und daraus ergeben sich viele Probleme:
 
-* the software is too heavy and not stable or robust
-* the customers or the stakeholders are dissatisfied
-* the team is also dissatisfied and the mood in the team is getting worse
-* the costs are too high
-* the risk to loose a customer, a project or a product is extremely high
+* die Software ist zu komplex und nicht stabil oder robust
+* die Kunden oder die Stakeholder sind unzufrieden
+* das Team ist ebenfalls unzufrieden und die Stimmung im Team wird schlechter
+* die Kosten sind zu hoch
+* das Risiko einen Kunden, ein Projekt oder ein Produkt zu verlieren ist extrem hoch
 
-## WHY?
+## WARUM?
 
-But what are the main reasons for that? In my opinion one of the biggest problems is time pressure. It does not matter if you have customers for whom your team is writing software or you create a product for your company. There will always be stakeholders without a proper technical knowledge who demand form your team to be quicker. This is natural and at the end of the day their job. 
+Was sind die Hauptgründe dafür? Meiner Meinung nach ist eines der größten Probleme der Zeitdruck. Es spielt keine Rolle ob man Kunden hat für die das Team Software schreibt, oder ob man selbst ein Produkt für das Unternehmen entwickelt. Es wird immer Stakeholder geben, die kein richtiges technisches Wissen haben und vom Team verlangen, dass es schneller arbeitet. Das ist ganz natürlich und letztendlich ihre Aufgabe. 
 
-If there is no one dealing with this, the pressure will definitely lead to the previously mentioned problems. The software will be too complex. After developing the software for a while the team will come to a point, where they realize this and start to think how to fix this. The time span to reach this point can be many years. 
+Wenn es niemanden gibt, der sich damit befasst, wird der Druck definitiv zu den oben genannten Problemen führen. Die Software wird zu komplex. Nach einer gewissen Zeit der Entwicklung der Software kommt das Team an einen Punkt, an dem es sich dessen bewusst wird und überlegt, wie es das Problem lösen kann. Die Zeitspanne um diesen Punkt zu erreichen, kann dabei viele Jahre betragen. 
 
-It is always my goal and job to make that clear and work as a mediator or as the one who is demanding enough time to get the software design right. Especially a proper estimation ([please read this very good article by DHH about why your estimations suck](https://world.hey.com/dhh/your-estimates-suck-2b9f8445){:target="_blank"}) with **refactoring included (!)** is crucial. 
+Es ist immer mein Ziel und meine Aufgabe, dies zu verdeutlichen und als Vermittler oder als derjenige zu arbeiten, der genügend Zeit einfordert, um das Softwaredesign richtig zu wählen. Insbesondere eine ordentliche Schätzung ([siehe diesen sehr guten Artikel von DHH darüber, warum unsere Schätzungen Mist sind](https://world.hey.com/dhh/your-estimates-suck-2b9f8445){:target="_blank"}) mit **refactoring included (!)** ist entscheidend. 
 
-When dealing with an existing codebase it is more challenging but not impossible in general. There are various technics (e.g. the [Strangler Pattern](https://martinfowler.com/bliki/StranglerFigApplication.html){:target="_blank"}) to refactor also legacy code or too complex code. 
+Bei einer bestehenden Codebasis ist es schwieriger aber nicht unmöglich. Es gibt verschiedene Techniken (z.B. das [Strangler Pattern](https://martinfowler.com/bliki/StranglerFigApplication.html){:target="_blank"}), um auch Legacy-Code oder zu komplexen Code zu refactorn. 
 
-For sure there are also other reasons that need to be mentioned:
+Sicherlich gibt es auch andere Gründe für das Problem die nicht unerwähnt bleiben dürfen:
 
-* a team with too inexperienced developers
-* missing clarity about what the software should do
-* it is a prototype or a proof of concept (POC) but the code will not be rewritten for the final project
-* the team changes and new developers have problems to deal with the codebase
+* ein Team mit zu unerfahrenen Entwicklern
+* fehlende Klarheit darüber, was die Software leisten soll
+* es handelt sich um einen Prototyp oder ein Proof of Concept (POC), aber der Code wird für das endgültige Projekt nicht umgeschrieben sondern einfach genutzt
+* das Team wechselt und neue Entwickler haben Probleme mit der Codebasis umzugehen
 
 ## FIX!
 
-I am super eager to read about the solutions Ousterhout is delivering in the book. What I can say out of my experience is this: keep it as simple as possible and take the time to understand the goal exactly. Try to use the tools you know best and don't start with the infrastructure. You need to focus on the bare minimum lines of code that will do the job. And grow the project iteratively with enough time to refactor. And don't forget to write tests!
-
-<span style="font-size: 0.7em">Photo form the book by myself. The book is available at [Amazon](https://www.amazon.de/Philosophy-Software-Design-John-Ousterhout/dp/1732102201/ref=sr_1_3?ie=UTF8&qid=1524677319&sr=8-3&keywords=john+ousterhout){:target="_blank"}</span>
+Ich bin sehr gespannt auf die Lösungen, die Ousterhout in seinem Buch vorstellt. Was ich aus meiner Erfahrung heraus sagen kann ist folgendes: Halte es so einfach wie möglich und nehme dir genug Zeit, das Ziel genau zu verstehen. Versuche die Tools zu verwenden, die du am besten kennst und fange nicht mit der Infrastruktur an. Konzentriere dich auf das absolute Minimum an Codezeilen die die Aufgabe erfüllen. Entwickle das Projekt iterativ und nehme dir genügend Zeit für Refactoring. Und vergiss nicht‚ Tests zu schreiben!
