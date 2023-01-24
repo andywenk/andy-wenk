@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The LastPass Disaster
+title: Das LastPass Disaster
 date: 2022-12-29 10:00:00
 description: 
 categories: security

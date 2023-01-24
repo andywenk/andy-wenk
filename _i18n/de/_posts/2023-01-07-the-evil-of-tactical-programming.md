@@ -54,3 +54,5 @@ Sicherlich gibt es auch andere Gründe für das Problem die nicht unerwähnt ble
 ## FIX!
 
 Ich bin sehr gespannt auf die Lösungen, die Ousterhout in seinem Buch vorstellt. Was ich aus meiner Erfahrung heraus sagen kann ist folgendes: Halte es so einfach wie möglich und nehme dir genug Zeit, das Ziel genau zu verstehen. Versuche die Tools zu verwenden, die du am besten kennst und fange nicht mit der Infrastruktur an. Konzentriere dich auf das absolute Minimum an Codezeilen die die Aufgabe erfüllen. Entwickle das Projekt iterativ und nehme dir genügend Zeit für Refactoring. Und vergiss nicht‚ Tests zu schreiben!
+
+<span style="font-size: 0.7em">Foto des Buches von mir. Das Buch ist hier erhältlich bei [Amazon](https://www.amazon.de/Philosophy-Software-Design-John-Ousterhout/dp/1732102201/ref=sr_1_3?ie=UTF8&qid=1524677319&sr=8-3&keywords=john+ousterhout){:target="_blank"}</span>
