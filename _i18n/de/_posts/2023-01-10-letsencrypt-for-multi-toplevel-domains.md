@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Letsencrypt for Multi Toplevel Domains on the same server
+title: Letsencrypt für Multi-Toplevel-Domains auf demselben Server 
 date: 2023-01-10 10:00:00
 description: Die Verwendung von letsencrypt für SSL-zertifizierte Domains ist der richtige Weg. Du kannst es auch für mehrere Toplevel-Domains auf demselben Server verwenden.
 categories: work
