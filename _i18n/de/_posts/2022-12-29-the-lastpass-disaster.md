@@ -2,7 +2,7 @@
 layout: post
 title: Das LastPass Disaster
 date: 2022-12-29 10:00:00
-description: 
+description: Das LastPass Disaster und wie man sich schützen sollte
 categories: security
 tags: privacy security
 ---
