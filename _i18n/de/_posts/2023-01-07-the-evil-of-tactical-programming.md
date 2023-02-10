@@ -9,7 +9,7 @@ tags: software-design development
 
 <img src="/assets/images/ousterhout.jpg" />
 
-Ich habe begonnen das Buch _A Philosophy of Software Design_ von Paul Ousterhout zu lesen. Die ersten Kapitel und die Einleitung sind sehr vielversprechend für ein Thema, das mich seit vielen Jahren interessiert. [Ousterhout ist Professor an der Fakultät für Informatik (https://web.stanford.edu/~ouster/cgi-bin/home.php){:target="_blank"} an der Stanford University. Er beklagt sich, dass es noch nie einen Kurs für _Software Design_ gegeben hat. Also beschloss er in Standford einen zu gründen und es hat sich herausgestellt, dass dieser gut angenommen wird. 
+Ich habe begonnen das Buch _A Philosophy of Software Design_ von Paul Ousterhout zu lesen. Die ersten Kapitel und die Einleitung sind sehr vielversprechend für ein Thema, das mich seit vielen Jahren interessiert. [Ousterhout ist Professor an der Fakultät für Informatik](https://web.stanford.edu/~ouster/cgi-bin/home.php){:target="_blank"} an der Stanford University. Er beklagt sich, dass es noch nie einen Kurs für _Software Design_ gegeben hat. Also beschloss er in Standford einen zu gründen und es hat sich herausgestellt, dass dieser gut angenommen wird. 
 
 ## _# WHAT?
 
