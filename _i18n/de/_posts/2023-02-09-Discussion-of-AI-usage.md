@@ -11,11 +11,13 @@ tags: AI
 
 ## ML, AI, KI - wir werden überflutet
 
-Kaum ein anderes Thema als Artificial Intelligence bzw. Künstliche Intelligenz wird momentan so häufig auf diversen Social Media Plattformen besprochen. Auch mich interessiert das extrem und natürlich "spiele" ich mit den Tools herum. Es gibt nicht nur [ChatGPT](https://chat.openai.com){:target="_blank"} (zugegebener Maßen ist das allerdings das bekannteste) für die Generierung von Text, sondern z.B. auch [DreamStudio](https://beta.dreamstudio.ai){:target="_blank"} für die Generierung von Bildern auf der Grundlage von einer Texteingabe. Das Bild oben z.B. habe ich mit folgender Anweisung in Dreamstudio _erträumen lassen_:
+Kaum ein anderes Thema als Artificial Intelligence bzw. Künstliche Intelligenz wird momentan so häufig auf diversen Social-Media-Plattformen besprochen. Auch mich interessiert das extrem und natürlich "spiele" ich mit den Tools herum. Es gibt nicht nur [ChatGPT](https://chat.openai.com){:target="\_blank"} (wobei es das bekannteste ist) für die Generierung von Text, sondern z.B. auch [DreamStudio](https://beta.dreamstudio.ai){:target="\_blank"} für die Generierung von Bildern auf der Grundlage einer Beschreibung in Textform. Das Bild oben habe ich beispielsweise mit folgender Anweisung in Dreamstudio _"erträumen lassen"_:
 
 ![Dreamstudio Dali AI](/assets/images/dreamstudio-dali-ai.png)
 
-Zugegeben, das ist schon nicht schlecht und das Herumspielen macht Spaß. Alle weiteren Bilder (ausser die AI Grafik) in diesem Post stammen auch aus Dreamstudio. Gleichzeitig habe ich ChatGPT folgende Anweisung gegeben, um einen Text für diesen Artikel zu erstellen:
+Zugegeben, das ist schon nicht schlecht und das Herumspielen macht Spaß. Alle weiteren Bilder in diesem Post (außer die AI Grafik) stammen ebenfalls aus Dreamstudio. 
+
+Gleichzeitig habe ich ChatGPT folgende Anweisung gegeben, um einen Text für diesen Artikel zu erstellen:
 
 ![ChatGPT Artikel Text](/assets/images/chatgpt-artikel-text.png)
 
@@ -43,7 +45,7 @@ Es herrscht oft Unklarheit darüber, was AI und ML eigentlich ist. Im folgenden 
 
 Aus der Grafik kann gelesen werden:
 
-**AI** ist der Oberbegriff für alles, was mit Artificial Intelligence (Künstlicher Intelligenz) zu tun hat. Einer der größten Teilbereiche ist **Machine Learning** wobei es hier zwei Unterbereiche für das _Lernen_ gibt: Das **überwachte** (supervised) und das **unüberwachte** (unsupervised) **Lernen**. Im Bereich des überwachten Lernens sind die Bereiche **Neuronale Netze** und das **Deeplearning** beheimatet.
+**AI** ist der Oberbegriff für alles, was mit Artificial Intelligence (Künstlicher Intelligenz) zu tun hat. Einer der größten Teilbereiche ist **Machine Learning**, wobei es hier zwei Unterbereiche für das _Lernen_ gibt: Das **überwachte** (supervised) und das **unüberwachte** (unsupervised) **Lernen**. Im Bereich des überwachten Lernens sind die Bereiche **Neuronale Netze** und das **Deeplearning** beheimatet.
 
 Nachfolgend sollen die Begriffe näher definiert werden.
 
@@ -75,33 +77,33 @@ _Maschinelles Lernen ist ein Weg zur künstlichen Intelligenz. Diese Unterkatego
 
 #### Definition überwachtes Lernen
 
-_Überwachtes Lernen, auch bekannt als überwachtes maschinelles Lernen, ist eine Unterkategorie des maschinellen Lernens und der künstlichen Intelligenz. Es zeichnet sich dadurch aus, dass gelabelte Datensätze verwendet werden, um Algorithmen zu trainieren, die Daten klassifizieren oder Ergebnisse genau vorhersagen können._
+_Überwachtes Lernen, auch bekannt als überwachtes maschinelles Lernen, ist eine Unterkategorie des maschinellen Lernens und der künstlichen Intelligenz. Es zeichnet sich dadurch aus, dass Datensätze, die mit einem Label (Markierung) versehen sind, verwendet werden, um Algorithmen zu trainieren, die Daten klassifizieren oder Ergebnisse genau vorhersagen können._
 
 <span style="font-size: 0.7em">[What is supervised learning? IBM](https://www.ibm.com/topics/supervised-learning){:target="_blank"}</span>
 
 #### Definition unüberwachtes Lernen
 
-_Beim unüberwachten Lernen, auch bekannt als unüberwachtes maschinelles Lernen, werden Algorithmen des maschinellen Lernens verwendet, um nicht gelabelte Datensätze zu analysieren und zu gruppieren. Diese Algorithmen entdecken versteckte Muster oder Datengruppierungen, ohne dass es eines menschlichen Eingriffs bedarf. Die Fähigkeit, Ähnlichkeiten und Unterschiede in Informationen zu erkennen, macht es zur idealen Lösung für die explorative Datenanalyse, Cross-Selling-Strategien, Kundensegmentierung und Bilderkennung._
+_Beim unüberwachten Lernen, auch bekannt als unüberwachtes maschinelles Lernen, werden Algorithmen des maschinellen Lernens verwendet, um Datensätze, denen kein Label (Markierung) zugeordnet wurde, zu analysieren und zu gruppieren. Diese Algorithmen entdecken versteckte Muster oder Datengruppierungen, ohne dass es eines menschlichen Eingriffs bedarf. Die Fähigkeit, Ähnlichkeiten und Unterschiede in Informationen zu erkennen, macht es zur idealen Lösung für die explorative Datenanalyse, Cross-Selling-Strategien, Kundensegmentierung und Bilderkennung._
 
 <span style="font-size: 0.7em">[What is unsupervised learning? IBM](https://www.ibm.com/topics/unsupervised-learning){:target="_blank"}</span>
 
 #### Unterschiede
 
-Der Unterschied zwischen überwachtem- und unüberwachtem Lernen ist die Datengrundlage, die für das Lernen herangezogen werden. Beim überwachten Lernen werden dem Algorithmus bzw. dem Modell "gelabelte" Daten zum Lernen als Grundlage gegeben. Der Input ist entsprechend bekannt und der richtige Output ebenso. Über die Zeit hinweg lernt die Maschine mit ihrem Programm, was richtig und falsch ist.
+Der Unterschied zwischen überwachtem und unüberwachtem Lernen ist die Datengrundlage, die für das Lernen herangezogen werden. Beim überwachten Lernen werden dem Algorithmus bzw. dem Modell "gelabelte" Daten zum Lernen als Grundlage gegeben. Der Input ist entsprechend bekannt und der richtige Output ebenso. Über die Zeit hinweg lernt die Maschine mit ihrem Programm, was richtig und falsch ist.
 
-Beim unüberwachten Lernen ist der Input und Output nicht bekannt. Die Methode wird für drei Bereiche herangezogen: 
+Beim unüberwachten Lernen ist der Input und Output nicht bekannt. Die Methode wird für drei Bereiche herangezogen:
 
-**Clustering**
+##### Clustering
 
-Es werden ungelabelte Daten auf Grund ihrer Ähnlöichkeiten und Unterschiede geclustert.
+Es werden ungelabelte Daten auf Grund ihrer Ähnlichkeiten und Unterschiede geclustert.
 
-**Association Rules (Assoziationsregeln)**
+##### Association Rules (Assoziationsregeln)
 
-Eine auf Regeln basierte Methode um Beziehungen zwischen Daten in einer vorgegebenen Datenmenge zu finden.
+Eine auf Regeln basierte Methode, um Beziehungen zwischen Daten in einer vorgegebenen Datenmenge zu finden.
 
-**Dimensionality reduction (Reduzierung der Dimensionalität)**
+##### Dimensionality reduction (Reduzierung der Dimensionalität)
 
-Diese methode wird genutzt um die Datenmenge zu reduzieren, wenn eine Menge an Daten zu viele unterschiedliche Eigenschaften hat oder die Dimensionen der Daten zu hoch ist. Es wird oft im Pre-Processing der Daten innerhalb des Machine learning genutzt um die Effizienz zu steigern.
+Diese Methode wird genutzt, um die Datenmenge zu reduzieren, wenn die in ihr vorhandenen Daten zu viele unterschiedliche Eigenschaften haben oder die Dimensionen der Daten zu weit sind. Es wird oft im Pre-Processing der Daten innerhalb des Machine Learning genutzt, um die Effizienz zu steigern.
 
 ### Definition Neuronale Netze
 
@@ -125,42 +127,43 @@ _Deep Learning ist ein Teilbereich des maschinellen Lernens, bei dem es sich im 
 
 ## Wo stehen wir?
 
-Die obigen Begriffserklärungen sind ziemlich akademisch und unemotional. Das ist auch wichtig und bewusst so geschrieben. Denn was ist Arificial Intelligence nicht? AI oder KI hat noch lange nichts mit Intelligenz im Sinne der Intelligenz eines Menschen zu tun. Natürlich dient die Funktionalität unseres Gehirns als Blaupause oder Vorlage für das Ersatellen von "intelligenten Algorithemn". Beim überwachten und unüberwachten Lernen wird sogar von der Fähigkeit des Lernens gesprochen und gesagt, dass die Prinzipien dem menschlichen Lernen ähneln. Trotzdem fehlen der Maschine noch wesentliche Merkmale eines Menschen.
+Die obigen Begriffserklärungen sind ziemlich akademisch und nicht emotional. Das ist auch wichtig und bewusst so geschrieben. Denn was ist Arificial Intelligence nicht? AI oder KI hat noch lange nichts mit Intelligenz im Sinne der Intelligenz eines Menschen zu tun. Natürlich dient die Funktionalität unseres Gehirns als Blaupause oder Vorlage für das Erstellen von "intelligenten Algorithmen". Beim überwachten und unüberwachten Lernen wird sogar von der Fähigkeit des Lernens gesprochen und gesagt, dass die Prinzipien dem menschlichen Lernen ähneln. Trotzdem fehlen der Maschine noch wesentliche Merkmale eines Menschen.
 
-Eines ist Intuition oder das Bauchgefühl. Wir sind in der Lage zu fühlen, ob ewtas sein kann oder nicht. Wir sind in der Lage komplexe Zusammenhänge zu druchdenken und dann eine Schlussforlgerung zu treffen, ob etwas richtig oder falsch ist. Das kann (heute) eine Maschine oder ein Programm, welches einen Machine Learning Algorithmus nutzt schlichtweg nicht.
+Eines ist Intuition oder das Bauchgefühl. Wir sind in der Lage zu fühlen, ob etwas sein kann oder nicht. Wir sind in der Lage komplexe Zusammenhänge zu durchdenken und dann eine Schlussfolgerung zu treffen, ob etwas richtig oder falsch ist. Das kann (heute) eine Maschine oder ein Programm, welches einen Machine Learning Algorithmus nutzt, schlichtweg nicht.
 
-Das erste Aufkommen des Begriffs "Künstliche Intelligenz" wird in der Fachliteratur John McCarthy zugeschrieben, der 1955 gesagt hat, dass es darum gehe "Maschinen zu entwicklen, die sich *verhalten*, als *verfügten* sie über *menschliche Intelligenz*" (Kaplan). Aussserdem wurde in den 1950igrern das Konzept der "Artifical Neurons" diskutiert. Mitte 1980 wurde dann vorgeschlagen mehrere Artifical Neurons zu verlinken um komplexe Probleme zu lösen (Finlay). Daraus entstanden schließlich die Konzepte der Neuronalen Netze und Deeplearning.
+Das erste Aufkommen des Begriffs "Künstliche Intelligenz" wird in der Fachliteratur John McCarthy zugeschrieben, der 1955 gesagt hat, dass es darum gehe "Maschinen zu entwickeln, die sich _verhalten_, als _verfügten_ sie über _menschliche Intelligenz_" (Kaplan). Außerdem wurde in den 1950 Jahren das Konzept der "Artifical Neurons" diskutiert. Mitte 1980 wurde dann vorgeschlagen, mehrere Artifical Neurons zu verlinken, um komplexe Probleme zu lösen (Finlay). Daraus entstanden schließlich die Konzepte der Neuronalen Netze und Deeplearning.
 
-Ich denke es wird auf Grund dieser Erläuterungen klar, dass wir nicht von Intelligenz im Sinne der menschlichen Intelligenz sprechen können, sondern einer Simulation deren. Wir brauchen also erstmal keine ANgst haben, dass die Maschinen uns unterjochen werden.
+Ich denke, es wird aufgrund dieser Erläuterungen klar, dass wir nicht von Intelligenz im Sinne der menschlichen Intelligenz sprechen können, sondern einer Simulation deren. Wir brauchen also erst mal keine Angst haben, dass die Maschinen uns unterjochen werden.
+## Was bedeutet das für die Nutzung von Künstlicher Intelligenz?
 
-## Was bedeutet das für die Nutzung von Künstlicher Intelligenz
+### Von einem AI-Tool hergestellte Medien
 
-Ich habe vor kurzem einen hervoragenden Episode aus dem [Podcast Lernlust](https://lernlust-podcast.podigee.io/41-ki_und_wir){:target="_blank"} gehört. Der Titel *Die KI und wir...* war vielversprechend und der Inhalt hat nicht enttäuscht. Susanne Dube, Johannes Starke und Axel Lindhorst haben darüber gesprochen, was KI und im besonderen ChatGPT mit uns macht. 
+Ich habe vor kurzem eine hervorragende Episode aus dem [Podcast Lernlust](https://lernlust-podcast.podigee.io/41-ki_und_wir){:target="\_blank"} gehört. Der Titel _Die KI und wir..._ war vielversprechend und der Inhalt hat nicht enttäuscht. [Susanne Dube](https://www.linkedin.com/in/susanne-dube/){:target="_blank"}, [Johannes Starke](https://www.linkedin.com/in/johannes-starke/){:target="_blank"} und [Axel Lindhorst](https://www.linkedin.com/in/axel-lindhorst/){:target="_blank"} haben darüber gesprochen, was KI und im Besonderen ChatGPT mit uns macht. Aus dem Podcast gehen im ersten Teil drei Perspektiven hervor:
 
+* ChatGPT und andere Tools sind spannend und wir müssen und sollten uns damit beschäftigen. Wir wissen allerdings noch sehr wenig.
+* Wir müssen die Tools und den sinnvollen Einsatz derer ergründen und entsprechend einsetzen
+* Es muss ersichtlich sein, ob ein Text, ein Bild, eine Audio-Datei oder andere digitale Medien mit einem AI-Tool erstellt wurden
 
+Ich folge allen drei Punkten ausnahmslos. Gerade der letzte Punkt ist aus meiner Sicht notwendig, um einen Indikator und die Aufforderung für eine sehr genaue Prüfung der Medien zu erhalten. Johannes Starke geht in diesem Punkt so weit, dass er von einem Tool wie ChatGPT geschriebene Text erst gar nicht lesen möchte.
 
+Was wir allerdings auch nicht tun sollten, ist das komplette Ablehnen dieser Tools und Möglichkeiten. Wie ich oben geschrieben habe, ist "Artificial Intelligence" schon seit den 1950 Jahren ein Thema im Bereiche der Computer Science. Der Wunsch, eine Maschine selbstständig Dinge machen zu lassen, in dem es sich der komplexen Strukturen unseres Gehirns als Vorlage bedient, ist spannend und kann uns in unterschiedlichsten Bereichen extrem helfen. Dabei denke ich an Gebiete wie die medizinische Forschung (z.B. Krebsforschung), geologischen und Klima-Modelle, Astronomie und viele andere Bereiche. Wir machen uns _die Maschine_ zu nutzen, um bessere Ergebnisse zu erhalten oder um Ergebnisse und Analysen überhaupt erst möglich zu machen.
 
+Auf einer ganz persönlichen Basis habe ich selbst ChatGPT bereits als Ideengeber genutzt. Z.B. um Namen oder Claims für meine Consulting-Firma zu "brain stormen" (die Nähe zu Deeplearning ... ;-) ). Oder um Code-Schnipsel erstellen zu lassen.
 
-
-
-
-
-
-
-
-
-<span style="font-size: 0.7em">[]()</span>
-
+Schlussendlich gilt es sich unter größter Sorgfalt, die neuen Technologien zunutze zu machen. Die Sorgfalt bezieht sich hier immer darauf, nicht ungeprüft Informationen oder _Output_ eines AI-Tools ungeprüft zu übernehmen.
 
 
+## Übernehmen die Maschinen die Herrschaft?
 
-<span style="font-size: 0.7em">[]()</span>
+![Isaac Asimov I Robot](/assets/images/i-robot.png)
 
+Nein! Solange wir entsprechende Prüf-Mechanismen etablieren, nicht. [OpenAI](https://openai.com/){:target="_blank"}, die Erfinder von [ChatGPT](https://chat.openai.com/chat){:target="_blank"} und anderen AI-Tools haben [Ende Januar 2023 bekannt gegeben](https://openai.com/blog/new-ai-classifier-for-indicating-ai-written-text/){:target="_blank"}, dass sie an solchen Prüfmechanismen arbeiten und entsprechende Tools zur Verfügung stellen werden.
 
+Außerdem möchte ich noch einmal deutlich machen, dass es noch keine intelligente Maschine oder Programm gibt, dass ansatzweise der menschlichen Intelligenz entspricht. Das Ziel eine echte künstliche Intelligenz herstellen zu können, wird durch die Etablierung von Quantencomputer-Technologien zwar näher rücken, ist aber auch damit noch in weiter Zukunft - wenn überhaupt erreichbar.
 
+Und vergessen wir nicht, dass [Isaac Asimov](https://de.wikipedia.org/wiki/Isaac_Asimov){:target="_blank"} bereits 1942 die [Robotergesetze](https://de.wikipedia.org/wiki/Robotergesetze){:target="_blank"} niedergeschrieben hat. Solange wir uns daran halten, kann uns nichts geschehen ;-):
 
-<span style="font-size: 0.7em">[]()</span>
-
-
-
-<span style="font-size: 0.7em">[]()</span>
+0. Ein Roboter darf die Menschheit nicht verletzen oder durch Passivität zulassen, dass die Menschheit zu Schaden kommt.
+1. Ein Roboter darf keinen Menschen verletzen oder durch Untätigkeit zu Schaden kommen lassen, außer er verstieße damit gegen das nullte Gesetz.
+2. Ein Roboter muss den Befehlen der Menschen gehorchen – es sei denn, solche Befehle stehen im Widerspruch zum nullten oder ersten Gesetz.
+3. Ein Roboter muss seine eigene Existenz schützen, solange sein Handeln nicht dem nullten, ersten oder zweiten Gesetz widerspricht.
