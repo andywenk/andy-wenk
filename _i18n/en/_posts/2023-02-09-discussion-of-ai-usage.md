@@ -19,7 +19,7 @@ Granted, this isn't bad already and playing around is fun. All other images in t
 
 At the same time, I gave ChatGPT the following instruction to create a text for this article:
 
-![ChatGPT Article Text](/assets/images/chatgpt-article-text.png).
+![ChatGPT Article Text](/assets/images/chatgpt-artikel-text.png).
 
 The result was this:
 
