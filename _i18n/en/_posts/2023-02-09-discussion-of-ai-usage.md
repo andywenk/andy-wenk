@@ -19,7 +19,7 @@ Granted, this isn't bad already and playing around is fun. All other images in t
 
 At the same time, I gave ChatGPT the following instruction to create a text for this article:
 
-![ChatGPT Article Text](/assets/images/chatgpt-artikel-text.png).
+![ChatGPT Article Text](/assets/images/chatgpt-artikel-text.png)
 
 The result was this:
 
@@ -135,7 +135,6 @@ The first emergence of the term "artificial intelligence" in the literature is a
 
 I think it is clear from these explanations that we cannot speak of intelligence in the sense of human intelligence, but a simulation of it. So for the time being, we don't need to be afraid that the machines will subjugate us.
 ## What does this mean for the use of artificial intelligence?
-
 ### Media produced by an AI tool.
 
 I recently listened to an excellent episode from the [Podcast Lernlust](https://lernlust-podcast.podigee.io/41-ki_und_wir){:target="\_blank"} listened to. The title _The AI and Us..._ was promising and the content did not disappoint. [Susanne Dube](https://www.linkedin.com/in/susanne-dube/){:target="_blank"}, [Johannes Starke](https://www.linkedin.com/in/johannes-starke/){:target="_blank"} and [Axel Lindhorst](https://www.linkedin.com/in/axel-lindhorst/){:target="_blank"} talked about what AI, and in particular ChatGPT, is doing to us. Three perspectives emerge from the podcast in the first part:
@@ -151,7 +150,6 @@ However, what we should also not do is completely dismiss these tools and option
 On a very personal basis, I myself have already used ChatGPT as an idea generator. E.g. to "brain storm" names or claims for my consulting company (the proximity to Deeplearning ... ;-) ). Or to have code snippets created.
 
 In the end, it is necessary to make use of the new technologies with the utmost care. Care here always refers to not taking information or _output_ of an AI tool unchecked.
-
 
 ## Are the machines taking over?
 
