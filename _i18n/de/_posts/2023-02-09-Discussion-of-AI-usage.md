@@ -152,12 +152,11 @@ Auf einer ganz persönlichen Basis habe ich selbst ChatGPT bereits als Ideengebe
 
 Schlussendlich gilt es sich unter größter Sorgfalt, die neuen Technologien zunutze zu machen. Die Sorgfalt bezieht sich hier immer darauf, nicht ungeprüft Informationen oder _Output_ eines AI-Tools ungeprüft zu übernehmen.
 
-
 ## Übernehmen die Maschinen die Herrschaft?
 
 ![Isaac Asimov I Robot](/assets/images/i-robot.png)
 
-Nein! Solange wir entsprechende Prüf-Mechanismen etablieren, nicht. [OpenAI](https://openai.com/){:target="_blank"}, die Erfinder von [ChatGPT](https://chat.openai.com/chat){:target="_blank"} und anderen AI-Tools haben [Ende Januar 2023 bekannt gegeben](https://openai.com/blog/new-ai-classifier-for-indicating-ai-written-text/){:target="_blank"}, dass sie an solchen Prüfmechanismen arbeiten und entsprechende Tools zur Verfügung stellen werden.
+Nein! Solange wir entsprechende Prüf-Mechanismen etablieren, nicht. [OpenAI](https://openai.com/){:target="_blank"}, die Erfinder von [ChatGPT](https://chat.openai.com/chat){:target="_blank"} und anderen AI-Tools haben [Ende Januar 2023 bekannt gegeben](https://openai.com/blog/new-ai-classifier-for-indicating-ai-written-text/){:target="_blank"}, dass sie an solchen Prüfmechanismen arbeiten und entsprechende Tools zur Verfügung stellen werden. Ein weiterer Artikel zu diesem Thema ist [A watermark for chatbots can expose text written by an AI](https://www.technologyreview.com/2023/01/27/1067338/a-watermark-for-chatbots-can-spot-text-written-by-an-ai/){:target="_blank"}.
 
 Außerdem möchte ich noch einmal deutlich machen, dass es noch keine intelligente Maschine oder Programm gibt, dass ansatzweise der menschlichen Intelligenz entspricht. Das Ziel eine echte künstliche Intelligenz herstellen zu können, wird durch die Etablierung von Quantencomputer-Technologien zwar näher rücken, ist aber auch damit noch in weiter Zukunft - wenn überhaupt erreichbar.
 
@@ -167,3 +166,13 @@ Und vergessen wir nicht, dass [Isaac Asimov](https://de.wikipedia.org/wiki/Isaac
 1. Ein Roboter darf keinen Menschen verletzen oder durch Untätigkeit zu Schaden kommen lassen, außer er verstieße damit gegen das nullte Gesetz.
 2. Ein Roboter muss den Befehlen der Menschen gehorchen – es sei denn, solche Befehle stehen im Widerspruch zum nullten oder ersten Gesetz.
 3. Ein Roboter muss seine eigene Existenz schützen, solange sein Handeln nicht dem nullten, ersten oder zweiten Gesetz widerspricht.
+
+## Zum Weiterlesen
+
+Es gibt mittlerweile sehr viele Artikel, Posts und Beiträge im Netz. Ich spare mir hier eine Liste von Ressourcen zu erstellen, die wahrscheinlich an anderer Stelle bereits verlinkt wurden. Allerdings möchte ich auf eine kleine Anzahl von, aus meiner Sicht guten, Ressourcen verweisen.
+
+[ChatGPT is fun, but not an author - Science.org (EN)](https://www.science.org/doi/10.1126/science.adg7879){:target="_blank"}. Guter und knapper Artikel, was ChatGPT NICHT ist.
+
+[Neural Networks and Deep Learning - online book (EN)](http://neuralnetworksanddeeplearning.com/){:target="_blank"}. Ein wissenschaftliches Fachbuch um die grundlegenden Prinzipien  von Neuralen Netzen und Deep Learning zu verstehen.
+
+[AI for everyone von Andrew NG](https://www.coursera.org/learn/ai-for-everyon){:target="_blank"}. Ein sehr guter und kostenloser Online-Kurs als Einstieg zum Thema AI von einer der berühmtesten Personen in der wissenschaftlichen Studie zu AI.

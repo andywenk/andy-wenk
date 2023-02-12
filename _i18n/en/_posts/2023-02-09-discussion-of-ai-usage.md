@@ -157,7 +157,7 @@ In the end, it is necessary to make use of the new technologies with the utmost 
 
 ![Isaac Asimov I Robot](/assets/images/i-robot.png)
 
-No! As long as we establish appropriate testing mechanisms, they won't. [OpenAI](https://openai.com/){:target="_blank"}, the inventors of [ChatGPT](https://chat.openai.com/chat){:target="_blank"} and other AI tools have announced [end of January 2023](https://openai.com/blog/new-ai-classifier-for-indicating-ai-written-text/){:target="_blank"} that they are working on such checking mechanisms and will make appropriate tools available.
+No! As long as we establish appropriate testing mechanisms, they won't. [OpenAI](https://openai.com/){:target="_blank"}, the inventors of [ChatGPT](https://chat.openai.com/chat){:target="_blank"} and other AI tools have announced [end of January 2023](https://openai.com/blog/new-ai-classifier-for-indicating-ai-written-text/){:target="_blank"} that they are working on such checking mechanisms and will make appropriate tools available. Another article on this topic is [A watermark for chatbots can expose text written by an AI](https://www.technologyreview.com/2023/01/27/1067338/a-watermark-for-chatbots-can-spot-text-written-by-an-ai/){:target="_blank"}.
 
 In addition, I would like to make it clear once again that there is not yet an intelligent machine or program that is anything like human intelligence. The goal of being able to produce a true artificial intelligence will come closer through the establishment of quantum computer technologies, but even with this it is still in the distant future - if achievable at all.
 
@@ -167,3 +167,13 @@ And let's not forget that [Isaac Asimov](https://de.wikipedia.org/wiki/Isaac_Asi
 1. a robot may not injure humanity or allow humanity to come to harm through inactivity, unless it thereby violates the zeroth law.
 2. a robot must obey the orders of humans - unless such orders are in conflict with the zeroth or first law.
 3. a robot must protect its own existence as long as its actions do not contradict the zeroth, first or second law.
+
+## Further reading
+
+There are now a great many articles, posts and contributions on the web. I'm saving myself from making a list of resources here that have probably already been linked elsewhere. However, I would like to point out a small number of what I consider to be good resources.
+
+[ChatGPT is fun, but not an author - Science.org (EN)](https://www.science.org/doi/10.1126/science.adg7879){:target="_blank"}. Good and concise article on what ChatGPT is NOT.
+
+[Neural Networks and Deep Learning - online book (EN)](http://neuralnetworksanddeeplearning.com/){:target="_blank"}. A scientific textbook to understand the basic principles of neural networks and deep learning.
+
+[AI for everyone by Andrew NG](https://www.coursera.org/learn/ai-for-everyon){:target="_blank"}. A very good and free online course as an introduction to AI by one of the most famous people in the scientific study of AI.
