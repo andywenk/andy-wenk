@@ -37,6 +37,10 @@ Heraus kam das hier:
 
 Hier wird es problematisch. Denn ich bin Laie in Bezug auf Corporate Learning und habe keine Ahnung, ob die Aussagen in diesem Artikel korrekt sind. Ich habe dieses Beispiel mit Hinblick auf Corporate Learning ganz bewusst gewählt. Dazu komme ich später. Vorab möchte ich aber erklärende Information zu den Begriffen Machine Learning (ML), Artificial Intelligence (AI) und Deeplearning geben.
 
+**Update:** [Johannes Starke](https://mastodon.world/@JohannesStarke@norden.social){:target="_blank"} (siehe unten) hat sich den Text, dankenswerterweise, angesehen und ist zu folgendem, vernichtendem Urteil gelangt:
+
+> Der von ChatGPT erzeugte Absatz ist wie erwartet völlig banal. Die "Vorteile" sind so generisch, dass sie auf fast jedes Lernformat/Technologie angewendet werden. Und die Aussage, dass personalisierte Lernressourcen BEREITGESTELLT werden können, zweifle ich an.
+
 ## Begriffserklärungen
 
 Es herrscht oft Unklarheit darüber, was AI und ML eigentlich ist. Im folgenden Schaubild zeige ich die einzelnen Bereiche und deren Zusammenhänge:
