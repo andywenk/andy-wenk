@@ -8,5 +8,7 @@ gem "jekyll-paginate"
 gem "webrick"
 
 group :jekyll_plugins do
-  gem 'jekyll-multiple-languages-plugin'
+  gem "jekyll-multiple-languages-plugin"
 end
+
+gem "standard", group: [:development, :test]
