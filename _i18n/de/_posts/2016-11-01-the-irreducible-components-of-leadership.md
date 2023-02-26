@@ -3,7 +3,7 @@ layout: post
 title: The Irreducible Components of Leadership
 date: 2016-11-01 16:40:16
 description: From a talk Paul O'Neill held
-categories: WorkLife
+categories: work
 tags: leadership company-culture
 ---
 
