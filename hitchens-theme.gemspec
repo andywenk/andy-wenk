@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require "open3"
+
 Gem::Specification.new do |spec|
   spec.name = "hitchens-theme"
   spec.version = "0.8.0"
@@ -10,7 +12,15 @@ Gem::Specification.new do |spec|
   spec.homepage = "https://github.com/patdryburgh/hitchens"
   spec.license = "MIT"
 
-  ls_files = exec("git ls-files -z")
+  # tzhe following makes problems with conda. So I rewrote it.
+  # spec.files = `git ls-files -z`.split("\x0").select { |f| f.match(%r{^(assets|_layouts|_includes|_sass|LICENSE|README)}i) }
+
+  ls_files = ""
+
+  Open3.popen3("git ls-files -z") do |stdin, stdout, stderr, thread|
+    ls_files = stdout.read.chomp
+  end
+
   spec.files = ls_files.split("\x0").select { |f|
     f.match(%r{^(assets|_layouts|_includes|_sass|LICENSE|README)}i)
   }
