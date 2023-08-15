@@ -47,7 +47,7 @@ After you have done your work, simply close the vault in the Cryptomator softwar
 
 ## Storing the Cryptomator vault in the cloud
 
-Now that the data are encrypted, the last step is to upload the data to the service of your choice. Because the data are completely encrypted, you can use any service you like - even Dropbox. I propose you choose the most inexpensive service you can find. I personally use [Backblaze B2 Cloud Storage](https://www.backblaze.com/b2/cloud-storage.html) and am very satisfied with it.
+Now that the data are encrypted, the last step is to upload the data to the service of your choice. Because the data are completely encrypted, you can use any service you like - even Dropbox. I propose you choose the most inexpensive service you can find. I personally use [Backblaze B2 Cloud Storage](https://www.backblaze.com/cloud-storage) and am very satisfied with it.
 
 ## Conclusion
 
