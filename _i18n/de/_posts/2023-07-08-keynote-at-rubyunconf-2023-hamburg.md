@@ -13,7 +13,7 @@ tags: rubyunconf
 
 ## Einladung zur RubyUnconf 2023
 
-Mein guter ehemaliger Kollege Kartsen Senz, der Mitglied des Organisations-Teams der Rubyunconf Hamburg ist, hat mich eingeladen die Keynote für die diesjahrige RubyUnconf 2023 zu halten. Darübert habe ich mich immens gefreut und habe gerne angenommen. 
+Mein guter ehemaliger Kollege Karsten Senz, der Mitglied des Organisations-Teams der Rubyunconf Hamburg ist, hat mich eingeladen die Keynote für die diesjahrige RubyUnconf 2023 zu halten. Darübert habe ich mich immens gefreut und habe gerne angenommen. 
 
 ![RubyUnconf 2023 - Keynote Andy Wenk](/assets/images/ruby-unconf-1.jpg)
 
