@@ -1,7 +1,7 @@
 <h1 class="post-title divided p-name" itemprop="name headline">{% t titles.about %}</h1>
 
 <figure>
-  <img alt="Andy Wenk" src="/assets/images/andy.jpg" />
+  <img alt="Andy Wenk" src="/assets/images/andy-3.png" />
 </figure>
 
 ### Abstract
