@@ -10,5 +10,17 @@
     "LANGUAGE": "en_US.UTF-8",
     "JEKYLL_ENV": "production",
     "RUBYOPT": "-Eutf-8:utf-8"
-  }
+  },
+  "rewrites": [
+    {
+      "source": "/:path*",
+      "destination": "/cryptomarbel/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "cryptomarbel.andy-wenk.de"
+        }
+      ]
+    }
+  ]
 }
