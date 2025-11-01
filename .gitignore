@@ -6,6 +6,5 @@ _site
 .DS_store
 .tweet-cache
 .obsidian
-Gemfile.lock
 vendor
 .vscode/*

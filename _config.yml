@@ -24,6 +24,11 @@ github_username: andywenk
 
 # Build settings
 markdown: kramdown
+kramdown:
+  input: GFM
+
+liquid:
+  error_mode: warn   # auf 'strict' stellen, wenn du harte Abbrüche willst
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -40,6 +45,9 @@ markdown: kramdown
 plugins:
   - jekyll-paginate
   - jekyll-multiple-languages-plugin
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
 
 paginate: 7
 paginate_path: "/page/:num/"
