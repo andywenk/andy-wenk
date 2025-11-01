@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     hitchens-theme (0.8.0)
-      jekyll (~> 4.0)
+      jekyll (~> 4.4)
 
 GEM
   remote: https://rubygems.org/
@@ -152,7 +152,7 @@ DEPENDENCIES
   webrick
 
 RUBY VERSION
-   ruby 3.2.2p53
+   ruby 3.3.0p0
 
 BUNDLED WITH
    2.7.2
