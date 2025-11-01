@@ -1,25 +1,451 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CryptoMarbel</title>
+    <meta name="description" content="CryptMarbel - A modern, secure macOS application for encrypting files and directories using public-key cryptography.">
+    <title>CryptMarbel - Secure File Encryption for macOS</title>
+    <link rel="icon" type="image/png" href="assets/icon.png">
     <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-            max-width: 800px;
-            margin: 50px auto;
-            padding: 20px;
-            line-height: 1.6;
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
+
+        :root {
+            --primary-dark: #1a4d5c;
+            --primary-light: #5eb3b3;
+            --accent: #4a9999;
+            --bg-light: #f5f7f8;
+            --text-dark: #2c3e50;
+            --text-light: #ffffff;
+            --shadow: rgba(26, 77, 92, 0.15);
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+            background: linear-gradient(135deg, var(--bg-light) 0%, #e8f0f2 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(135deg, var(--primary-dark) 0%, var(--accent) 100%);
+            color: var(--text-light);
+            padding: 80px 0;
+            text-align: center;
+            box-shadow: 0 4px 20px var(--shadow);
+        }
+
+        .logo {
+            width: 150px;
+            height: 150px;
+            margin: 0 auto 30px;
+            border-radius: 30px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+
+        .logo:hover {
+            transform: scale(1.05);
+        }
+
         h1 {
-            color: #333;
+            font-size: 3.5em;
+            font-weight: 700;
+            margin-bottom: 15px;
+            letter-spacing: -1px;
+        }
+
+        .tagline {
+            font-size: 1.4em;
+            opacity: 0.95;
+            font-weight: 300;
+        }
+
+        /* Main Content */
+        main {
+            padding: 60px 0;
+        }
+
+        section {
+            background: white;
+            border-radius: 20px;
+            padding: 50px;
+            margin-bottom: 40px;
+            box-shadow: 0 4px 20px var(--shadow);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        section:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 30px var(--shadow);
+        }
+
+        h2 {
+            color: var(--primary-dark);
+            font-size: 2.2em;
+            margin-bottom: 25px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        h2::before {
+            content: '';
+            width: 5px;
+            height: 40px;
+            background: linear-gradient(180deg, var(--primary-light) 0%, var(--accent) 100%);
+            border-radius: 3px;
+        }
+
+        h3 {
+            color: var(--accent);
+            font-size: 1.5em;
+            margin: 30px 0 15px;
+        }
+
+        p {
+            margin-bottom: 20px;
+            font-size: 1.1em;
+            line-height: 1.8;
+        }
+
+        /* Features Grid */
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            margin: 30px 0;
+        }
+
+        .feature-card {
+            background: var(--bg-light);
+            padding: 30px;
+            border-radius: 15px;
+            border-left: 4px solid var(--primary-light);
+            transition: all 0.3s ease;
+        }
+
+        .feature-card:hover {
+            background: white;
+            border-left-color: var(--accent);
+            transform: translateX(5px);
+        }
+
+        .feature-card h4 {
+            color: var(--primary-dark);
+            font-size: 1.3em;
+            margin-bottom: 10px;
+        }
+
+        .feature-card p {
+            margin: 0;
+            font-size: 1em;
+            color: var(--text-dark);
+        }
+
+        /* Buttons */
+        .btn {
+            display: inline-block;
+            padding: 15px 35px;
+            background: linear-gradient(135deg, var(--primary-light) 0%, var(--accent) 100%);
+            color: var(--text-light);
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 1.1em;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(94, 179, 179, 0.3);
+            margin: 10px;
+        }
+
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 25px rgba(94, 179, 179, 0.4);
+        }
+
+        .btn-secondary {
+            background: var(--primary-dark);
+            box-shadow: 0 4px 15px rgba(26, 77, 92, 0.3);
+        }
+
+        .btn-secondary:hover {
+            box-shadow: 0 6px 25px rgba(26, 77, 92, 0.4);
+        }
+
+        .cta-buttons {
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        /* Privacy Policy */
+        .privacy-content {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .privacy-content ul, .privacy-content ol {
+            margin: 15px 0 15px 30px;
+        }
+
+        .privacy-content li {
+            margin-bottom: 10px;
+            line-height: 1.8;
+        }
+
+        /* Footer */
+        footer {
+            background: var(--primary-dark);
+            color: var(--text-light);
+            text-align: center;
+            padding: 40px 0;
+            margin-top: 60px;
+        }
+
+        footer p {
+            margin: 10px 0;
+            opacity: 0.9;
+        }
+
+        footer a {
+            color: var(--primary-light);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        footer a:hover {
+            color: white;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5em;
+            }
+
+            .tagline {
+                font-size: 1.1em;
+            }
+
+            section {
+                padding: 30px 20px;
+            }
+
+            h2 {
+                font-size: 1.8em;
+            }
+
+            .features {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Smooth Scroll */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Accent Elements */
+        .highlight {
+            color: var(--accent);
+            font-weight: 600;
+        }
+
+        code {
+            background: var(--bg-light);
+            padding: 3px 8px;
+            border-radius: 5px;
+            font-family: 'Monaco', 'Courier New', monospace;
+            color: var(--primary-dark);
         }
     </style>
 </head>
 <body>
-    <h1>CryptoMarbel</h1>
-    <p>Willkommen auf der CryptoMarbel Seite.</p>
+    <header>
+        <div class="container">
+            <img src="assets/icon.png" alt="CryptMarbel Logo" class="logo">
+            <h1>CryptMarbel</h1>
+            <p class="tagline">Secure File Encryption for macOS</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- About Section -->
+        <section id="about">
+            <h2>About CryptMarbel</h2>
+            <p>
+                <strong>CryptMarbel</strong> is a modern, secure, and user-friendly macOS application designed to protect your sensitive files and directories using state-of-the-art public-key cryptography. Built with native Apple technologies, CryptMarbel provides military-grade encryption with an intuitive interface that anyone can use.
+            </p>
+            <p>
+                Whether you need to securely share confidential documents, protect personal files, or ensure your data remains private, CryptMarbel makes encryption accessible without compromising on security. Your private keys are safely stored in the macOS Keychain, ensuring maximum protection.
+            </p>
+
+            <div class="features">
+                <div class="feature-card">
+                    <h4>🔐 Modern Encryption</h4>
+                    <p>Hybrid encryption combining AES-256-GCM and Curve25519 for maximum security</p>
+                </div>
+                <div class="feature-card">
+                    <h4>🔑 Public-Key Cryptography</h4>
+                    <p>Secure key distribution - share your public key, keep your private key safe</p>
+                </div>
+                <div class="feature-card">
+                    <h4>📁 Files & Folders</h4>
+                    <p>Encrypt individual files or entire directories with ease</p>
+                </div>
+                <div class="feature-card">
+                    <h4>🛡️ Keychain Integration</h4>
+                    <p>Private keys securely stored in macOS Keychain with hardware protection</p>
+                </div>
+                <div class="feature-card">
+                    <h4>✨ Modern UI</h4>
+                    <p>Beautiful, minimalist SwiftUI interface designed for macOS</p>
+                </div>
+                <div class="feature-card">
+                    <h4>⚡ Native Performance</h4>
+                    <p>Built with Apple CryptoKit for hardware-accelerated encryption</p>
+                </div>
+            </div>
+
+            <h3>How It Works</h3>
+            <p>
+                CryptMarbel uses a hybrid encryption approach that combines the best of both worlds:
+            </p>
+            <ol>
+                <li><strong>Key Generation:</strong> On first launch, a secure Curve25519 key pair is generated and stored in your Keychain</li>
+                <li><strong>Encryption:</strong> Files are encrypted with AES-256-GCM, and the encryption key is protected using the recipient's public key</li>
+                <li><strong>Secure Sharing:</strong> Share your public key freely - only your private key can decrypt files sent to you</li>
+                <li><strong>Decryption:</strong> Use your private key to decrypt files, restoring them to their original state</li>
+            </ol>
+
+            <h3>System Requirements</h3>
+            <p>
+                • macOS 14.0 (Sonoma) or newer<br>
+                • Apple Silicon or Intel processor<br>
+                • 50 MB free disk space
+            </p>
+
+            <div class="cta-buttons">
+                <a href="https://github.com/andreaswenk/cryptmarbel" class="btn" target="_blank" rel="noopener noreferrer">
+                    View on GitHub
+                </a>
+                <a href="#privacy" class="btn btn-secondary">Privacy Policy</a>
+            </div>
+        </section>
+
+        <!-- Privacy Policy Section -->
+        <section id="privacy">
+            <div class="privacy-content">
+                <h2>Privacy Policy</h2>
+                <p><em>Last updated: November 1, 2025</em></p>
+
+                <h3>1. Introduction</h3>
+                <p>
+                    CryptMarbel ("we", "our", or "the app") is committed to protecting your privacy. This Privacy Policy explains how CryptMarbel handles your data and ensures your security.
+                </p>
+
+                <h3>2. Data Collection</h3>
+                <p>
+                    <strong>CryptMarbel does NOT collect, transmit, or store any personal data on external servers.</strong> The app operates entirely locally on your device.
+                </p>
+
+                <h3>3. Data Storage</h3>
+                <p>The following data is stored locally on your device:</p>
+                <ul>
+                    <li><strong>Private Keys:</strong> Securely stored in the macOS Keychain with hardware-level encryption</li>
+                    <li><strong>Public Keys:</strong> Stored in app preferences for easy access and sharing</li>
+                    <li><strong>Encrypted Files:</strong> Saved to locations you choose on your local filesystem</li>
+                    <li><strong>Metadata:</strong> Encryption metadata (nonces, tags, file names) stored alongside encrypted files</li>
+                </ul>
+                <p>
+                    All data remains on your device and under your control. We have no access to your keys, files, or any other information.
+                </p>
+
+                <h3>4. Data Security</h3>
+                <p>CryptMarbel implements industry-standard security measures:</p>
+                <ul>
+                    <li><strong>AES-256-GCM:</strong> Military-grade symmetric encryption for file contents</li>
+                    <li><strong>Curve25519:</strong> Modern elliptic curve cryptography for key exchange</li>
+                    <li><strong>macOS Keychain:</strong> Hardware-backed secure storage for private keys</li>
+                    <li><strong>No Network Access:</strong> The app does not connect to the internet or transmit any data</li>
+                </ul>
+
+                <h3>5. Third-Party Services</h3>
+                <p>
+                    CryptMarbel does not use any third-party services, analytics, or tracking tools. The app is completely self-contained and operates offline.
+                </p>
+
+                <h3>6. User Responsibilities</h3>
+                <p>As a user of CryptMarbel, you are responsible for:</p>
+                <ul>
+                    <li>Keeping your private key secure (stored in Keychain)</li>
+                    <li>Backing up important unencrypted files</li>
+                    <li>Safely sharing your public key with intended recipients</li>
+                    <li>Never sharing your private key with anyone</li>
+                    <li>Keeping metadata files (<code>.metadata.json</code>) alongside encrypted files</li>
+                </ul>
+
+                <h3>7. Data Loss</h3>
+                <p>
+                    <strong>Important:</strong> If you lose your private key (e.g., by resetting your Keychain or reinstalling macOS without backup), you will permanently lose access to files encrypted for you. We cannot recover lost keys or decrypt files without the private key.
+                </p>
+
+                <h3>8. Open Source</h3>
+                <p>
+                    CryptMarbel is open source software. You can review the complete source code on <a href="https://github.com/andreaswenk/cryptmarbel" target="_blank" rel="noopener noreferrer">GitHub</a> to verify our privacy and security claims.
+                </p>
+
+                <h3>9. Children's Privacy</h3>
+                <p>
+                    CryptMarbel does not collect any personal information from anyone, including children under 13. The app can be used by anyone who can operate macOS.
+                </p>
+
+                <h3>10. Changes to This Policy</h3>
+                <p>
+                    We may update this Privacy Policy from time to time. Any changes will be reflected in the app and on this website with an updated "Last updated" date.
+                </p>
+
+                <h3>11. Contact</h3>
+                <p>
+                    If you have questions about this Privacy Policy or CryptMarbel's privacy practices, please open an issue on our <a href="https://github.com/andreaswenk/cryptmarbel" target="_blank" rel="noopener noreferrer">GitHub repository</a>.
+                </p>
+
+                <h3>12. Your Rights</h3>
+                <p>
+                    Since CryptMarbel does not collect or transmit any personal data, there is no data for us to access, modify, or delete. You have complete control over all data generated by the app, as it resides entirely on your device.
+                </p>
+
+                <h3>13. Disclaimer</h3>
+                <p>
+                    CryptMarbel is provided "as is" without warranty of any kind. While we strive to provide secure encryption, users should implement additional security measures for critical data and maintain proper backups.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p><strong>CryptMarbel</strong> - Secure File Encryption for macOS</p>
+            <p>Copyright © 2025 CryptMarbel. All rights reserved.</p>
+            <p>
+                <a href="https://github.com/andreaswenk/cryptmarbel" target="_blank" rel="noopener noreferrer">GitHub</a> | 
+                <a href="#privacy">Privacy Policy</a>
+            </p>
+            <p style="margin-top: 20px; font-size: 0.9em; opacity: 0.8;">
+                Built with ❤️ using Swift and Apple CryptoKit
+            </p>
+        </div>
+    </footer>
 </body>
 </html>
 
