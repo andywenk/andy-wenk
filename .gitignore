@@ -8,3 +8,4 @@ _site
 .obsidian
 vendor
 .vscode/*
+*.gemspec.bak
