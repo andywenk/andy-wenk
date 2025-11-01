@@ -54,7 +54,7 @@ paginate: 7
 paginate_path: "/page/:num/"
 hide_search: true
 languages: ["en", "de"]
-exclude_from_localizations: ["assets", "CNAME", "cryptomarbel"]
+exclude_from_localizations: ["assets", "CNAME", "cryptmarbel"]
 defaultLang: en
 languageNames:
   de: Deutsch

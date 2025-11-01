@@ -14,11 +14,11 @@
   "redirects": [
     {
       "source": "/:path*",
-      "destination": "https://andy-wenk.de/cryptomarbel/:path*",
+      "destination": "https://andy-wenk.de/cryptmarbel/:path*",
       "has": [
         {
           "type": "host",
-          "value": "cryptomarbel.andy-wenk.de"
+          "value": "cryptmarbel.andy-wenk.de"
         }
       ],
       "permanent": false
