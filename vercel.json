@@ -11,16 +11,17 @@
     "JEKYLL_ENV": "production",
     "RUBYOPT": "-Eutf-8:utf-8"
   },
-  "rewrites": [
+  "redirects": [
     {
       "source": "/:path*",
-      "destination": "/cryptomarbel/:path*",
+      "destination": "https://andy-wenk.de/cryptomarbel/:path*",
       "has": [
         {
           "type": "host",
           "value": "cryptomarbel.andy-wenk.de"
         }
-      ]
+      ],
+      "permanent": false
     }
   ]
 }
