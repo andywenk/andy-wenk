@@ -13,7 +13,7 @@ tags: process
 
 ## Du musst deine Prozesse im Griff haben
 
-Dieser Satz liegt mir noch im Ohr. Sie stammt aus der Zeit, als ich bei sum.cumo gearbeitet habe. 2014 habe ich das erste Mal etwas über BPMN (Business Process Model Notation) gehört. Letztlich dachte ich, dass es ein andere Art ist, Flowdiagramme zu erstellen. Mir hat sich nicht sofort offenbart, dass das ein mächtiges Tool ist - sofern man es richtig einsetzt und nutzt.
+Dieser Satz liegt mir noch immer im Ohr. Sie stammt aus der Zeit, als ich bei sum.cumo gearbeitet habe. 2014 habe ich das erste Mal etwas über BPMN (Business Process Model Notation) gehört. Letztlich dachte ich, dass es ein andere Art ist, Flowdiagramme zu erstellen. Mir hat sich nicht sofort offenbart, dass das ein mächtiges Tool ist - sofern man es richtig einsetzt und nutzt.
 
 Wie mit vielen anderen Methoden oder Vorgangsmodellen auch, muss man BPMN leben und nutzen. Wenn das Management die Modellierung der Prozesse nicht selbst mit BPMN forciert, wird die Umsetzung scheitern. Deshalb funktioniert z.B. OKR oft nicht.
 
