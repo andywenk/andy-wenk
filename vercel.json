@@ -1,7 +1,8 @@
 {
-  "buildCommand": "bundle config set path 'vendor/bundle' && bundle install && bundle exec jekyll build -d _site --trace --profile",
+  "framework": "other",
+  "installCommand": "bundle config set path vendor/bundle && bundle install",
+  "buildCommand": "bundle exec jekyll build -d _site --trace --profile",
   "outputDirectory": "_site",
-  "framework": "@vercel/static-build",
   "env": {
     "LANG": "C.UTF-8",
     "LC_ALL": "C.UTF-8",
