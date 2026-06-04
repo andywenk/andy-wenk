@@ -7,7 +7,7 @@ categories: tech
 tags: backup
 ---
 
-![Backblaze Sync with rclone](/assets/images/backblaze-sync-with-rclone.png)
+![Backblaze Sync with rclone](/assets/images/backblaze-sync-with-rclone.webp)
 
 Besides a lot of music, various projects and above all the world of [Cleo & You](https://www.cleos.de){:target="_blank"}, I occasionally find the time to write a bit of code. It's fun – and honestly, with the support of Claude Code or other tools like Codex, it keeps getting easier. But at the end of the day, whoever instructs Claude (or, as the saying goes, writes a prompt) still has to know exactly what they want to achieve and how clean software actually works.
 
