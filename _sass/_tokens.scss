@@ -1,0 +1,66 @@
+// ---------------------------------------------------------------------------
+// Design tokens — runtime theming via CSS custom properties.
+// Light is the default; dark is applied via [data-theme="dark"] (toggle) or
+// prefers-color-scheme when no explicit choice has been made.
+// ---------------------------------------------------------------------------
+
+:root {
+  // Brand
+  --accent:          #0e7d92;   // teal, darkened for AA contrast on light
+  --accent-strong:   #0a606f;
+  --accent-contrast: #ffffff;
+
+  // Surfaces & text (light / editorial paper)
+  --bg:              #f7f4ee;
+  --bg-elevated:     #fffdf9;
+  --surface:         #ffffff;
+  --text:            #1d1b18;
+  --text-muted:      #6b655c;
+  --text-faint:      #938c80;
+
+  // Lines & effects
+  --border:          rgba(29, 27, 24, 0.10);
+  --border-strong:   rgba(29, 27, 24, 0.18);
+  --selection:       rgba(14, 125, 146, 0.18);
+  --code-bg:         #f1ede4;
+  --shadow:          0 1px 2px rgba(29, 27, 24, 0.04),
+                     0 8px 28px rgba(29, 27, 24, 0.06);
+  --shadow-hover:    0 2px 6px rgba(29, 27, 24, 0.06),
+                     0 14px 40px rgba(29, 27, 24, 0.10);
+
+  // Layout
+  --measure:         38rem;   // comfortable reading width
+  --measure-wide:    52rem;
+  color-scheme: light;
+}
+
+@mixin dark-theme {
+  --accent:          #45c4d8;
+  --accent-strong:   #7ad8e6;
+  --accent-contrast: #0c1417;
+
+  --bg:              #121517;
+  --bg-elevated:     #181c1f;
+  --surface:         #1b2024;
+  --text:            #e9e6df;
+  --text-muted:      #a4a39c;
+  --text-faint:      #76746d;
+
+  --border:          rgba(233, 230, 223, 0.12);
+  --border-strong:   rgba(233, 230, 223, 0.22);
+  --selection:       rgba(69, 196, 216, 0.22);
+  --code-bg:         #11181c;
+  --shadow:          0 1px 2px rgba(0, 0, 0, 0.4),
+                     0 10px 30px rgba(0, 0, 0, 0.4);
+  --shadow-hover:    0 2px 8px rgba(0, 0, 0, 0.5),
+                     0 16px 44px rgba(0, 0, 0, 0.55);
+  color-scheme: dark;
+}
+
+// Manual toggle wins.
+[data-theme="dark"] { @include dark-theme; }
+
+// Follow the OS only when the visitor has not chosen explicitly.
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { @include dark-theme; }
+}

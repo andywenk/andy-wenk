@@ -1,8 +1,11 @@
+// Decorative flourish — recoloured via mask so it adapts to light/dark.
 @mixin divider {
   border: 0;
   display: block;
-  width: 152px;
+  width: 148px;
   height: 12px;
-  margin: .5em auto 0;
-  background: url(#{$asset_url}/images/divider.svg) no-repeat top center;
+  margin: 1.25em auto 0;
+  background-color: var(--text-faint);
+  -webkit-mask: url(#{$asset_url}/images/divider.svg) no-repeat top center;
+  mask: url(#{$asset_url}/images/divider.svg) no-repeat top center;
 }

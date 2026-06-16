@@ -1,38 +1,83 @@
+// ---------------------------------------------------------------------------
+// Site navigation — a clean, centred sans-serif bar with a theme toggle.
+// ---------------------------------------------------------------------------
 .site-navigation {
-  margin-top: 2rem;
-  padding: 0 1rem;
-  &:hover,
-  &:focus-within {
-    a {
-      opacity: .7;
+  max-width: 52rem;
+  margin: 0 auto;
+  padding: 1.1rem 1rem;
+
+  ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: .15rem .35rem;
+  }
+
+  li {
+    list-style: none;
+    margin: 0;
+    font-family: $font-sans;
+    font-size: .82rem;
+    font-weight: 500;
+    letter-spacing: .02em;
+  }
+
+  a {
+    display: block;
+    padding: .4em .7em;
+    border-radius: 999px;
+    color: var(--text-muted);
+    text-decoration: none;
+    transition: color .15s ease, background-color .15s ease;
+
+    &:hover,
+    &:focus-visible {
+      color: var(--text);
+      background: color-mix(in srgb, var(--accent) 12%, transparent);
+      outline: none;
     }
   }
+
+  li.active a {
+    color: var(--accent);
+    background: color-mix(in srgb, var(--accent) 12%, transparent);
+  }
 }
 
-.site-navigation ul {
-  margin: 0;
-  display: flex;
-  flex-wrap: wrap;
+// Theme toggle button -------------------------------------------------------
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
   justify-content: center;
-}
+  width: 2.1rem;
+  height: 2.1rem;
+  margin-left: .25rem;
+  padding: 0;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: color .15s ease, border-color .15s ease, background-color .15s ease;
 
-.site-navigation li {
-  list-style: none;
-  font-size: .875em;
-  font-variant: small-caps;
-  margin: 0;
-  &.active a {
-    text-decoration: underline;
-  }
-}
-
-.site-navigation a {
-  display: block;
-  padding: .25em .5em;
-  text-decoration: none;
-  transition: opacity .125s ease-in-out;
   &:hover,
-  &:focus {
-    opacity: 1;
+  &:focus-visible {
+    color: var(--accent);
+    border-color: var(--accent);
+    background: color-mix(in srgb, var(--accent) 10%, transparent);
+    outline: none;
   }
+
+  svg { width: 1.05rem; height: 1.05rem; display: block; }
+
+  .icon-sun  { display: none; }
+  .icon-moon { display: block; }
+}
+
+[data-theme="dark"] .theme-toggle {
+  .icon-sun  { display: block; }
+  .icon-moon { display: none; }
 }

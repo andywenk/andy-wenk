@@ -1,81 +1,91 @@
+// ---------------------------------------------------------------------------
+// Blog index — a calm list of entries with a clear hover affordance.
+// ---------------------------------------------------------------------------
 .post-list {
-  margin: 1em 0;
+  margin: 1.5em 0 0;
+  padding: 0;
   list-style: none;
-  &:hover,
-  &:focus-within {
-    .post-link {
-      opacity: .6;
-    }
-  }
 }
 
 .post-list li {
-  margin-bottom: 1em;
+  margin: 0;
+  border-bottom: 1px solid var(--border);
+  &:first-child { border-top: 1px solid var(--border); }
 }
 
 .post-link {
-  color: $text-color;
+  color: var(--text);
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
+  gap: .2em;
   text-decoration: none;
-  padding: .25em;
-  transition: opacity .125s ease-in-out;
+  padding: 1.15em .5em;
+  border-radius: 8px;
+  transition: background-color .15s ease, padding-left .15s ease;
+
   &:hover,
-  &:focus {
-    opacity: 1 !important;
+  &:focus-visible {
+    background: color-mix(in srgb, var(--accent) 7%, transparent);
+    padding-left: 1em;
+    outline: none;
+    .post-link__title { color: var(--accent); }
   }
+
   @media (min-width: $on-tablet) {
-    display: flex;
     flex-direction: row;
+    align-items: baseline;
     justify-content: space-between;
-    .post-date {
-      margin-left: auto;
-    }
+    gap: 1.5em;
+    .post-date { margin-left: auto; }
   }
 }
 
 .post-link__heading {
   display: block;
-  margin-right: 4em;
-  @media (min-width: $on-tablet) {
-    padding: .25em 0;
-  }
   h1 {
-    font-size: 1em;
-    margin-bottom: 0;
-    margin-top: 0;
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 1.25;
+    margin: 0;
+    transition: color .15s ease;
   }
 }
 
-.post-link__title + .post-link__excerpt {
-  opacity: .6;
+.post-link__title { transition: color .15s ease; }
+
+.post-link__excerpt {
+  display: block;
+  margin-top: .35em;
+  font-size: .95rem;
+  color: var(--text-muted);
 }
 
+.post-link__title + .post-link__excerpt { color: var(--text-muted); }
+
+// Pagination ----------------------------------------------------------------
 .post-pagination {
-  margin-top: 4rem;
-  font-size: .75em;
+  margin-top: 3.5rem;
+  font-family: $font-sans;
+  font-size: .82rem;
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-between;
   text-align: center;
-  > * {
-    flex-grow: 1;
-    flex-basis: 0;
-    padding: 1em 0;
+
+  > * { flex: 1 1 0; padding: 1em 0; }
+
+  .pagination-number {
+    color: var(--text-muted);
+    letter-spacing: .03em;
   }
-  &:hover,
-  &:focus-within {
-    a {
-      opacity: .6;
-    }
-  }
+
   a {
+    color: var(--text-muted);
     text-decoration: none;
     text-transform: uppercase;
-    transition: opacity .125s ease-in-out;
-    &:hover,
-    &:focus {
-      opacity: 1;
-    }
+    letter-spacing: .04em;
+    transition: color .15s ease;
+    &:hover, &:focus-visible { color: var(--accent); }
   }
 }

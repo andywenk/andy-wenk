@@ -3,15 +3,16 @@
 
 @charset "utf-8";
 
-$asset_url: '{{ '/assets' | absolute_url }}';
+$asset_url: '{{ '/assets' | relative_url }}';
 
-@import 
+@import
   "reset",
   "variables",
-  "syntax-highlighting",
+  "tokens",
   "mixins",
   "font",
   "base",
+  "syntax-highlighting",
   "masthead",
   "menu",
   "post-list",

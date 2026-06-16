@@ -1,6 +1,19 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
   <head>
+    <!-- Theme: apply saved/system preference before paint to avoid a flash -->
+    <script>
+      (function () {
+        try {
+          var t = localStorage.getItem('theme');
+          if (t !== 'light' && t !== 'dark') {
+            t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+          }
+          document.documentElement.setAttribute('data-theme', t);
+        } catch (e) {}
+      })();
+    </script>
+    <meta name="color-scheme" content="light dark">
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-CXTW9WS6Q9"></script>
     <script>
@@ -15,8 +28,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ site.title }}{% if page.title and page.title != "" %} &mdash; {{ page.title }}{% endif %}</title>
     {% if site.description %}<meta name="description" content="{{ site.description }}">{% endif %}  
-    <link rel="stylesheet" href="{{ '/assets/css/bootstrap-grid.min.css' | absolute_url }}?{{ site.time | date: '%s%N' }}">
-    <link rel="stylesheet" href="{{ '/assets/css/main.css' | absolute_url }}?{{ site.time | date: '%s%N' }}">
+    <link rel="stylesheet" href="{{ '/assets/css/bootstrap-grid.min.css' | relative_url }}?{{ site.time | date: '%s%N' }}">
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}?{{ site.time | date: '%s%N' }}">
     <link rel="shortcut icon" type="image/x-icon" href="{{ site.icon }}">
     <link rel="apple-touch-icon" href="{{ site.icon }}">
     <link href="//cdn-images.mailchimp.com/embedcode/classic-071822.css" rel="stylesheet" type="text/css">
@@ -79,5 +92,19 @@
     <!-- START scattergun webcomponent -->
     <script src='https://assets.scattergun.email/email_subscription_form.js'></script>
     <!-- END scattergun webcomponent -->
+
+    <!-- Theme toggle -->
+    <script>
+      (function () {
+        var btn = document.querySelector('.theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+          var next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+          document.documentElement.setAttribute('data-theme', next);
+          try { localStorage.setItem('theme', next); } catch (e) {}
+          btn.setAttribute('aria-pressed', next === 'dark');
+        });
+      })();
+    </script>
   </body>
 </html>
