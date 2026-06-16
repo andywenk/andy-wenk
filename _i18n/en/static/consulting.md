@@ -4,7 +4,9 @@
 
 ### You need support?
 
-I've been working in web development for over 20 years, developing products, helping build companies, and building and managing teams. I have gained a lot of experience over the years and I am looking forward to helping you achieve your goals. [You can read my CV](https://rxresu.me/andywenk/andreas-wenk-cto-de){:target="_blank"} what I have done so far. 
+I've been working in web development for over 25 years, developing products, helping build companies, and building and managing teams. I have gained a lot of experience over the years and I am looking forward to helping you achieve your goals. 
+
+[w{v}cs](https://wvcs.de){:target="_blank"} is my little consulting company. Jump to the website to find out more.  
 
 ### How can I help you?
 

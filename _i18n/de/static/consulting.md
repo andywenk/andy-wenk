@@ -4,7 +4,9 @@
 
 ### Ihr braucht Unterstützung?
 
-Ich arbeite seit über 20 Jahren im Bereich der Web-Entwicklung, habe Produkte entwickelt, habe beim Aufbau von Unternehmen geholfen und habe Teams aufgebaut und geleitet. Ich durfte in den Jahren viele Erfahrung sammeln und freue mich darauf, euch beim erarbeiten und erreichen eurer Ziele unter die Arme zu greifen. [In meinem CV könnte ihr nachlesen](https://rxresu.me/andywenk/andreas-wenk-cto-de){:target="_blank"}, was ich bislang gemacht habe. 
+Ich arbeite seit über 25 Jahren im Bereich der Web-Entwicklung, habe Produkte entwickelt, habe beim Aufbau von Unternehmen geholfen und habe Teams aufgebaut und geleitet. Ich durfte in den Jahren viele Erfahrung sammeln und freue mich darauf, euch beim erarbeiten und erreichen eurer Ziele unter die Arme zu greifen. 
+
+[w{v}cs](https://wvcs.de){:target="_blank"} ist meine kleine aber feine Consulting Firma. Ihr findet dort weitere Informationen.  
 
 ### Wie kann ich euch helfen?
 
