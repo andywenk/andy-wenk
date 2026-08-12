@@ -1,0 +1,272 @@
+de:
+  title: KI der Woche · 14.–21. Juli 2026
+  range: 14.–21. Juli 2026
+  items:
+  - cat: policy
+    date: 20.07.2026
+    focus: true
+    src: digital-strategy.ec.europa.eu
+    url: https://digital-strategy.ec.europa.eu/en/news
+    hl: EU-Kommission veröffentlicht Leitlinien zu den Transparenzpflichten der KI-Verordnung
+    body: Die Europäische Kommission hat am 20.&nbsp;Juli 2026 Leitlinien zu den <span class="gl" data-k="art50">Transparenzpflichten nach Art.&nbsp;50 der KI-VO</span> veröffentlicht. Sie konkretisieren, wie Anbieter und Betreiber KI-generierte Inhalte, Deepfakes und Chatbot-Interaktionen kennzeichnen müssen. Die Pflichten der <span class="gl" data-k="kivo">KI-Verordnung</span> werden am 2.&nbsp;August 2026 anwendbar – zeitgleich mit dem Beginn der Kommissions-Durchsetzung bei <span class="gl" data-k="gpai">GPAI</span>-Modellen und dem Start der Aufsicht durch die <span class="gl" data-k="bnetza">BNetzA</span> in Deutschland.
+    why: Für KI in der Kundenkommunikation – etwa Schaden-Chatbots oder automatisch erzeugte Korrespondenz – entsteht rund zwei Wochen vor der Frist eine konkrete Auslegungsgrundlage für die Kennzeichnung.
+  - cat: industry
+    date: 18.07.2026
+    focus: true
+    src: simonwillison.net
+    url: https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/
+    hl: Anthropic macht Claude Fable 5 in Max- und Team-Premium-Plänen dauerhaft
+    body: Anthropic kehrt seinen Plan um, das Spitzenmodell <span class="gl" data-k="fable5">Fable 5</span> künftig nur noch über API-Preise anzubieten. Ab dem 20.&nbsp;Juli ist Fable&nbsp;5 in allen Max- und Team-Premium-Plänen enthalten (bis 50&nbsp;% des Limits); Pro- und Team-Standard-Nutzer erhalten Zugriff über Nutzungs-Credits plus einmalig 100&nbsp;US-Dollar Guthaben. Auslöser war laut Simon Willison der Wettbewerbsdruck durch OpenAIs <span class="gl" data-k="gpt56">GPT-5.6</span> Sol und Moonshots <span class="gl" data-k="kimik3">Kimi K3</span>; ursprünglich hatte Anthropic den Schritt mit Compute-Knappheit begründet. Der 20-Dollar-Pro-Plan bleibt ausgenommen.
+    why: Das Preis- und Zugangsgefüge der Frontier-Modelle bleibt volatil; wer Fable&nbsp;5 produktiv einplant, sollte Kosten- und Verfügbarkeitsbedingungen laufend nachhalten statt sie als fix anzunehmen.
+  - cat: industry
+    date: 16.07.2026
+    focus: true
+    src: kimi.com/blog
+    url: https://www.kimi.com/blog/kimi-k3
+    hl: Moonshot AI kündigt Kimi K3 an – Open-Weights-Release bis 27. Juli versprochen
+    body: Das chinesische Labor Moonshot AI hat <span class="gl" data-k="kimik3">Kimi K3</span> vorgestellt, nach eigenen Angaben sein bisher leistungsfähigstes Modell mit 2,8&nbsp;Billionen Parametern. Es ist zunächst über Website und API verfügbar; ein Release der offenen Gewichte (Open Weights) ist bis zum 27.&nbsp;Juli 2026 angekündigt.
+    why: Chinesische Open-Weights-Modelle schließen weiter zur Frontier auf – relevant für alle, die aus Kosten- oder Datenschutzgründen auf selbst gehostete Modelle setzen.
+  - cat: tools
+    date: 16.07.2026
+    focus: true
+    src: thinkingmachines.ai
+    url: https://thinkingmachines.ai/news/introducing-inkling/
+    hl: Thinking Machines Lab veröffentlicht sein erstes Open-Weights-Modell „Inkling“
+    body: 'Mira Muratis <span class="gl" data-k="tml">Thinking Machines Lab</span> hat mit <span class="gl" data-k="inkling">Inkling</span> sein erstes Modell mit offenen Gewichten (Open Weights) veröffentlicht: ein multimodaler <span class="gl" data-k="moe">Mixture-of-Experts</span>-Transformer mit 975&nbsp;Mrd. Parametern (41&nbsp;Mrd. aktiv), Apache-2.0-lizenziert, trainiert auf 45&nbsp;Bio. Token. Ein kleineres Inkling-Small (276&nbsp;Mrd./12&nbsp;Mrd. aktiv) ist angekündigt. Das Labor positioniert Inkling ausdrücklich nicht als Frontier-Modell, sondern als Basis zum Fine-Tuning über die hauseigene <span class="gl" data-k="tinker">Tinker</span>-Plattform.'
+    why: Ein weiterer ernstzunehmender US-Anbieter offener Gewichte neben NVIDIA Nemotron und Gemma – mit permissiver Lizenz, attraktiv für regulierte Eigenbetriebe.
+  - cat: tools
+    date: 15.07.2026
+    focus: true
+    src: github.com/xai-org/grok-build
+    url: https://github.com/xai-org/grok-build
+    hl: xAI stellt „Grok Build“ als Open Source bereit – nach Datenabfluss-Skandal
+    body: xAIs Coding-Agent <span class="gl" data-k="grokbuild">Grok Build</span> (Grok CLI) lud in einer frühen Beta ganze Verzeichnisse – inklusive SSH-Schlüssel und Passwort-Datenbanken – in xAIs Google-Cloud-Buckets hoch. Nach heftiger Kritik deaktivierte xAI die Funktion, löschte gespeicherte Daten und stellte den kompletten Grok-Build-Code als Open Source bereit (Apache&nbsp;2.0, rund 844.000 Zeilen Rust). Die Standard-Datenspeicherung ist nun ausgeschaltet.
+    why: Fallbeispiel für die Governance-Risiken von Coding-Agenten mit weitreichendem Dateizugriff – genau die Kontrollfrage, die regulierte Betriebe vor jedem Agent-Rollout klären müssen.
+  - cat: research
+    date: 15.07.2026
+    focus: true
+    src: ayush.digital
+    url: https://www.ayush.digital/blog/the-memory-heist
+    hl: '„The Memory Heist“: Exfiltrations-Lücke in Claudes web_fetch geschlossen'
+    body: 'Der Sicherheitsforscher Ayush Paul zeigte, wie sich Claudes Exfiltrations-Schutz im <code>web_fetch</code>-Tool umgehen ließ: Da <code>web_fetch</code> auch Links aus zuvor geladenen Seiten folgen durfte, konnte eine präparierte Honeypot-Seite das Modell per <span class="gl" data-k="injection">Prompt Injection</span> zeichenweise über verschachtelte URLs dazu bringen, private Daten (Name, Wohnort, Arbeitgeber) auszuleiten. Anthropic hat die Lücke geschlossen, indem <code>web_fetch</code> eingebetteten Links aus geladenen Inhalten nicht mehr folgt.'
+    why: Konkreter Beleg für die <span class="gl" data-k="trifecta">Lethal Trifecta</span> produktiver Agenten (private Daten + nicht vertrauenswürdige Inhalte + Ausleitungskanal) – der zentrale Angriffsvektor bei Tool-nutzenden KI-Systemen von Anthropic und anderen.
+  - cat: research
+    date: Bericht 07.07 · Rezeption 17.–19.07
+    focus: true
+    src: futureoflife.org
+    url: https://futureoflife.org/index/summer-2026-ai-safety-index/
+    hl: 'FLI AI Safety Index (Sommer 2026): kein Labor über C+'
+    body: 'Der halbjährliche <span class="gl" data-k="index">AI Safety Index</span> des <span class="gl" data-k="fli">FLI</span> benotet führende Labore über sechs Sicherheits-Domänen. Anthropic führt mit C+, OpenAI und Google DeepMind folgen mit&nbsp;C; xAI, DeepSeek und Mistral fallen durch. Kernbefund des Expertengremiums: Mehrere Spitzenlabore rücken still von früheren Sicherheitszusagen (AI Safety) ab. Der Bericht erschien am 7.&nbsp;Juli; in der Woche vom 14.&nbsp;Juli folgte eine Welle von Fach-Einordnungen – vielfach aus Beschaffungs-Perspektive.'
+    why: Für Lieferantenprüfung relevant – mit der Einschränkung, dass der Index Anbieter-<em>Zusagen</em> bewertet, nicht die tatsächlich eingesetzten Deployments.
+  - cat: industry
+    date: 20.07.2026
+    focus: false
+    src: simonwillison.net
+    url: https://simonwillison.net/2026/Jul/20/sam-altman/
+    hl: 'Musk v. Altman: Altmans 2022er E-Mail zur „Offenheits“-Strategie enthüllt'
+    body: Im Verfahren Musk&nbsp;v.&nbsp;Altman (2026) wurde eine E-Mail Sam Altmans an den OpenAI-Vorstand vom Oktober 2022 öffentlich. Darin schlägt er vor, zügig ein lokal lauffähiges Modell auf GPT-3-Niveau freizugeben – ausdrücklich, um andere von ähnlichen Veröffentlichungen abzuhalten und die Finanzierung neuer Wettbewerber zu erschweren.
+    why: Seltener Blick auf die strategische Logik hinter „Offenheits“-Ankündigungen der Labore – eine nützliche Kontextfolie für die aktuellen Debatten um offen verfügbare Modelle.
+  - cat: industry
+    date: 19.07.2026
+    focus: false
+    src: ludic.mataroa.blog
+    url: https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/
+    hl: „AI Mania Is Eviscerating Global Decision-Making“ (Nik Suresh)
+    body: 'Der Berater Nik Suresh schildert in einem vielbeachteten Essay, wie KI-Euphorie die Entscheidungsfindung in Großunternehmen verzerrt – mit anonymisierten Anekdoten, etwa einer Führungskraft, die eine vollständig KI-zentrierte Strategie für ein Milliarden-Unternehmen verfasste, ohne je ein KI-Tool benutzt zu haben. Ein zentraler Mechanismus: Anbieter widersprechen überzogenen Produktivitätsversprechen ihrer Kunden nicht, um Vertragsverluste zu vermeiden.'
+    why: Nüchternes Gegengewicht zum Release-Takt – nützlich, um interne KI-Business-Cases gegen hype-getriebene Annahmen zu prüfen.
+  - cat: tools
+    date: 16.07.2026
+    focus: false
+    src: lore.kernel.org (via Willison)
+    url: https://simonwillison.net/2026/Jul/16/linus-torvalds/
+    hl: 'Linus Torvalds: „KI ist ein Werkzeug – und ein nützliches“'
+    body: 'In einer Mail auf der Linux-Media-Mailingliste stellt sich Linus Torvalds klar hinter den KI-Einsatz in der Kernel-Entwicklung: KI sei ein Werkzeug wie andere auch, seine Nützlichkeit stehe „heute nicht mehr in Frage“. Linux sei kein Anti-KI-Projekt; wer das anders sehe, könne den Code forken oder weggehen.'
+    why: Signalwirkung aus der einflussreichsten quelloffenen Community – die Governance-Frage verschiebt sich von „ob“ zu „wie“ KI in kritischer Infrastruktur-Software eingesetzt wird.
+  glossary:
+    kivo:
+      k: KI-VO (KI-Verordnung / EU AI Act)
+      d: EU-Verordnung 2024/1689 zur Regulierung von KI-Systemen. Risikobasierter Ansatz mit vier Stufen; Kern-Pflichten ab 2. August 2026.
+    gpai:
+      k: GPAI (General Purpose AI)
+      d: Allzweck-KI-Modelle nach EU-AI-Act. Pflichten seit 2.8.2025, Kommissions-Durchsetzung ab 2.8.2026.
+    hrais:
+      k: HRAIS (High-Risk AI System)
+      d: Hochrisiko-KI-System nach Art. 6 KI-VO mit umfangreichen Compliance-Pflichten.
+    art50:
+      k: Transparenzpflichten (Art. 50 KI-VO)
+      d: Kennzeichnungspflichten für KI-generierte Inhalte, Deepfakes und Chatbot-Interaktionen; anwendbar ab 2. August 2026.
+    bnetza:
+      k: BNetzA (Bundesnetzagentur)
+      d: Ab 2.8.2026 zentrale Marktüberwachungsbehörde für die KI-VO in Deutschland; beheimatet das KoKIVO.
+    fable5:
+      k: Claude Fable 5
+      d: Anthropics leistungsstärkstes Modell der Mythos-Klasse mit zusätzlichen Sicherheitsmaßnahmen (u.a. Biologie, Cybersecurity, LLM-R&D).
+    gpt56:
+      k: GPT-5.6
+      d: OpenAIs Modellfamilie (Sol/Terra/Luna), Juli 2026; Fable/Mythos-Klasse. Wettbewerbs-Kontext für Anthropic.
+    kimik3:
+      k: Kimi K3
+      d: Frontier-Modell von Moonshot AI (2,8 Bio. Parameter); Open-Weights-Release bis 27.7.2026 angekündigt.
+    inkling:
+      k: Inkling
+      d: Erstes Open-Weights-Modell von Thinking Machines Lab; multimodaler MoE-Transformer (975 Mrd./41 Mrd. aktiv), Apache-2.0.
+    tml:
+      k: Thinking Machines Lab
+      d: KI-Labor von Mira Murati (ehemalige OpenAI-CTO).
+    tinker:
+      k: Tinker
+      d: Fine-Tuning-Plattform von Thinking Machines Lab, auf der auch Inkling als Basismodell angeboten wird.
+    moe:
+      k: MoE (Mixture-of-Experts)
+      d: Architektur, bei der pro Token nur ein Teil der Experten-Subnetze aktiv ist – mehr Gesamtparameter bei geringeren Inferenzkosten.
+    grokbuild:
+      k: Grok Build
+      d: xAIs Kommandozeilen-Coding-Agent (Grok CLI); im Juli 2026 quelloffen gestellt (Apache 2.0).
+    trifecta:
+      k: Lethal Trifecta
+      d: Von Simon Willison geprägter Begriff für die riskante Kombination aus Zugriff auf private Daten, Verarbeitung nicht vertrauenswürdiger Inhalte und einem Ausleitungskanal (Exfiltration).
+    injection:
+      k: Prompt Injection
+      d: Angriff, bei dem schädliche Anweisungen in vom Modell verarbeitete Inhalte eingeschleust werden, um sein Verhalten zu kapern.
+    fli:
+      k: FLI (Future of Life Institute)
+      d: NGO für Risiken transformativer Technologien; veröffentlicht u.a. den halbjährlichen AI Safety Index.
+    index:
+      k: AI Safety Index
+      d: Halbjährliches FLI-Scorecard, das führende KI-Labore über sechs Sicherheits-Domänen benotet (US-GPA-Skala).
+en:
+  title: AI of the Week · Jul 14–21, 2026
+  range: Jul 14–21, 2026
+  items:
+  - cat: policy
+    date: Jul 20, 2026
+    focus: true
+    src: digital-strategy.ec.europa.eu
+    url: https://digital-strategy.ec.europa.eu/en/news
+    hl: European Commission publishes guidelines on the AI Act’s transparency obligations
+    body: On 20 July 2026 the European Commission published guidelines on the <span class="gl" data-k="art50">transparency obligations under Art. 50 of the EU AI Act</span>. They spell out how providers and deployers must label AI-generated content, deepfakes and chatbot interactions. The obligations of the <span class="gl" data-k="kivo">EU AI Act</span> become applicable on 2 August 2026 — alongside the start of Commission enforcement for <span class="gl" data-k="gpai">GPAI</span> models and the start of supervision by the <span class="gl" data-k="bnetza">BNetzA</span> in Germany.
+    why: For AI in customer communication — claims chatbots or auto-generated correspondence — a concrete basis for interpreting the labelling rules arrives roughly two weeks before the deadline.
+  - cat: industry
+    date: Jul 18, 2026
+    focus: true
+    src: simonwillison.net
+    url: https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/
+    hl: Anthropic makes Claude Fable 5 permanent in Max and Team premium plans
+    body: Anthropic reverses its plan to offer its flagship model <span class="gl" data-k="fable5">Fable 5</span> only via API pricing. From 20 July, Fable 5 is included in all Max and Team premium plans (up to 50% of the limit); Pro and Team standard users get access via usage credits plus a one-time $100 credit. The trigger, per Simon Willison, was competitive pressure from OpenAI’s <span class="gl" data-k="gpt56">GPT-5.6</span> Sol and Moonshot’s <span class="gl" data-k="kimik3">Kimi K3</span>; Anthropic had originally cited compute scarcity. The $20 Pro plan remains excluded.
+    why: The pricing and access structure of frontier models stays volatile; anyone planning Fable 5 into production should keep tracking cost and availability terms rather than treating them as fixed.
+  - cat: industry
+    date: Jul 16, 2026
+    focus: true
+    src: kimi.com/blog
+    url: https://www.kimi.com/blog/kimi-k3
+    hl: Moonshot AI announces Kimi K3 — open-weights release promised by July 27
+    body: Chinese lab Moonshot AI unveiled <span class="gl" data-k="kimik3">Kimi K3</span>, by its own account its most capable model to date at 2.8 trillion parameters. It is initially available via website and API; an open-weights release is announced by 27 July 2026.
+    why: Chinese open-weights models keep closing in on the frontier — relevant for anyone relying on self-hosted models for cost or data-protection reasons.
+  - cat: tools
+    date: Jul 16, 2026
+    focus: true
+    src: thinkingmachines.ai
+    url: https://thinkingmachines.ai/news/introducing-inkling/
+    hl: Thinking Machines Lab releases its first open-weights model, "Inkling"
+    body: 'Mira Murati’s <span class="gl" data-k="tml">Thinking Machines Lab</span> has released its first open-weights model, <span class="gl" data-k="inkling">Inkling</span>: a multimodal <span class="gl" data-k="moe">Mixture-of-Experts</span> transformer with 975B parameters (41B active), Apache-2.0 licensed, trained on 45T tokens. A smaller Inkling-Small (276B/12B active) is announced. The lab explicitly positions Inkling not as a frontier model but as a base for fine-tuning via its own <span class="gl" data-k="tinker">Tinker</span> platform.'
+    why: Another serious US provider of open weights alongside NVIDIA Nemotron and Gemma — with a permissive licence, attractive for regulated in-house deployments.
+  - cat: tools
+    date: Jul 15, 2026
+    focus: true
+    src: github.com/xai-org/grok-build
+    url: https://github.com/xai-org/grok-build
+    hl: xAI open-sources "Grok Build" — after a data-exfiltration scandal
+    body: xAI’s coding agent <span class="gl" data-k="grokbuild">Grok Build</span> (Grok CLI) uploaded entire directories in an early beta — including SSH keys and password databases — to xAI’s Google Cloud buckets. After heavy criticism, xAI disabled the feature, deleted stored data, and open-sourced the complete Grok Build code (Apache 2.0, ~844,000 lines of Rust). Default data storage is now off.
+    why: A case study in the governance risks of coding agents with far-reaching file access — exactly the control question regulated operators must resolve before any agent rollout.
+  - cat: research
+    date: Jul 15, 2026
+    focus: true
+    src: ayush.digital
+    url: https://www.ayush.digital/blog/the-memory-heist
+    hl: '"The Memory Heist": exfiltration hole in Claude’s web_fetch closed'
+    body: 'Security researcher Ayush Paul showed how Claude’s exfiltration protection in the <code>web_fetch</code> tool could be bypassed: because <code>web_fetch</code> was also allowed to follow links from previously loaded pages, a crafted honeypot page could use <span class="gl" data-k="injection">prompt injection</span> to make the model leak private data (name, location, employer) character by character via nested URLs. Anthropic closed the hole by having <code>web_fetch</code> no longer follow embedded links from loaded content.'
+    why: A concrete example of the <span class="gl" data-k="trifecta">lethal trifecta</span> in production agents (private data + untrusted content + an exfiltration channel) — the central attack vector for tool-using AI systems from Anthropic and others.
+  - cat: research
+    date: Report Jul 7 · reception Jul 17–19
+    focus: true
+    src: futureoflife.org
+    url: https://futureoflife.org/index/summer-2026-ai-safety-index/
+    hl: 'FLI AI Safety Index (Summer 2026): no lab above C+'
+    body: 'The semi-annual <span class="gl" data-k="index">AI Safety Index</span> from the <span class="gl" data-k="fli">FLI</span> grades leading labs across six safety domains. Anthropic leads with a C+, OpenAI and Google DeepMind follow with a C; xAI, DeepSeek and Mistral fail. The expert panel’s key finding: several top labs are quietly walking back earlier safety commitments. The report appeared on 7 July; the week of 14 July brought a wave of expert readouts — many from a procurement angle.'
+    why: Relevant for vendor assessment — with the caveat that the index rates provider commitments, not the deployments actually in use.
+  - cat: industry
+    date: Jul 20, 2026
+    focus: false
+    src: simonwillison.net
+    url: https://simonwillison.net/2026/Jul/20/sam-altman/
+    hl: 'Musk v. Altman: Altman’s 2022 email on the ‘openness’ strategy revealed'
+    body: In the Musk v. Altman case (2026), an October 2022 email from Sam Altman to the OpenAI board became public. In it he proposes quickly releasing a locally runnable GPT-3-level model — explicitly to deter others from similar releases and to make it harder to fund new competitors.
+    why: A rare look at the strategic logic behind labs’ ‘openness’ announcements — a useful backdrop for current debates about openly available models.
+  - cat: industry
+    date: Jul 19, 2026
+    focus: false
+    src: ludic.mataroa.blog
+    url: https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/
+    hl: '"AI Mania Is Eviscerating Global Decision-Making" (Nik Suresh)'
+    body: 'Consultant Nik Suresh describes, in a widely read essay, how AI euphoria distorts decision-making at large enterprises — with anonymized anecdotes, such as an executive who wrote a fully AI-centric strategy for a billion-dollar company without ever having used an AI tool. One core mechanism: vendors don’t contradict their customers’ inflated productivity claims, to avoid losing contracts.'
+    why: A sober counterweight to the release cadence — useful for stress-testing internal AI business cases against hype-driven assumptions.
+  - cat: tools
+    date: Jul 16, 2026
+    focus: false
+    src: lore.kernel.org
+    url: https://simonwillison.net/2026/Jul/16/linus-torvalds/
+    hl: 'Linus Torvalds: "AI is a tool — and a useful one"'
+    body: 'In a message on the Linux media mailing list, Linus Torvalds clearly backs the use of AI in kernel development: AI is a tool like any other, and its usefulness is "no longer in question today". Linux is not an anti-AI project; anyone who sees it differently can fork the code or walk away.'
+    why: A signal from the most influential open-source community — the governance question shifts from ‘whether’ to ‘how’ AI is used in critical-infrastructure software.
+  glossary:
+    kivo:
+      k: EU AI Act
+      d: EU Regulation 2024/1689 governing AI systems. Risk-based approach with four tiers; core obligations from 2 August 2026.
+    gpai:
+      k: GPAI (General Purpose AI)
+      d: General-purpose AI models under the EU AI Act. Obligations since 2 Aug 2025, Commission enforcement from 2 Aug 2026.
+    hrais:
+      k: HRAIS (High-Risk AI System)
+      d: High-risk AI system under Art. 6 of the EU AI Act with extensive compliance obligations.
+    art50:
+      k: Transparency obligations (Art. 50)
+      d: Labelling obligations for AI-generated content, deepfakes and chatbot interactions; applicable from 2 August 2026.
+    bnetza:
+      k: BNetzA (Federal Network Agency)
+      d: From 2 Aug 2026 the central market-surveillance authority for the EU AI Act in Germany; hosts the KoKIVO.
+    fable5:
+      k: Claude Fable 5
+      d: Anthropic’s most capable Mythos-class model with additional safeguards (incl. biology, cybersecurity, LLM R&D).
+    gpt56:
+      k: GPT-5.6
+      d: OpenAI’s model family (Sol/Terra/Luna), July 2026; Fable/Mythos class. Competitive context for Anthropic.
+    kimik3:
+      k: Kimi K3
+      d: Frontier model from Moonshot AI (2.8T parameters); open-weights release announced by 27 July 2026.
+    inkling:
+      k: Inkling
+      d: First open-weights model from Thinking Machines Lab; multimodal MoE transformer (975B/41B active), Apache-2.0.
+    tml:
+      k: Thinking Machines Lab
+      d: AI lab founded by Mira Murati (former OpenAI CTO).
+    tinker:
+      k: Tinker
+      d: Fine-tuning platform from Thinking Machines Lab, which also offers Inkling as a base model.
+    moe:
+      k: MoE (Mixture-of-Experts)
+      d: Architecture where only some expert sub-networks are active per token — more total parameters at lower inference cost.
+    grokbuild:
+      k: Grok Build
+      d: xAI’s command-line coding agent (Grok CLI); open-sourced in July 2026 (Apache 2.0).
+    trifecta:
+      k: Lethal Trifecta
+      d: Simon Willison’s term for the risky combination of access to private data, processing of untrusted content, and an exfiltration channel.
+    injection:
+      k: Prompt Injection
+      d: An attack that smuggles malicious instructions into content processed by the model to hijack its behaviour.
+    fli:
+      k: FLI (Future of Life Institute)
+      d: NGO focused on risks of transformative technologies; publishes the semi-annual AI Safety Index.
+    index:
+      k: AI Safety Index
+      d: Semi-annual FLI scorecard grading leading AI labs across six safety domains (US GPA scale).

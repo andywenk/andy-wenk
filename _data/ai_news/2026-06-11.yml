@@ -1,0 +1,278 @@
+de:
+  title: AI-Digest · 4.–11. Juni 2026
+  range: 4.–11. Juni 2026
+  items:
+  - cat: research
+    date: 04.06.2026
+    focus: true
+    src: anthropic.com
+    url: https://www.anthropic.com/institute/recursive-self-improvement
+    hl: When AI builds itself — Anthropic schlägt koordinierten Pausenmechanismus vor
+    body: Anthropic veröffentlichte am 4. Juni das Papier „When AI builds itself“ und plädiert für die <span class="gl" data-k="recursiveselfimprovement">Recursive Self-Improvement</span>-Option, die Frontier-Entwicklung global koordiniert zu verlangsamen oder zu pausieren, damit <span class="gl" data-k="alignment">Alignment</span>-Forschung und gesellschaftliche Strukturen Schritt halten. Als Beleg für die Beschleunigung nennt <span class="gl" data-k="anthropic">Anthropic</span>, dass im Mai 2026 über 80 % des in die Produktions-Codebasis gemergten Codes von <span class="gl" data-k="claude">Claude</span> stammten. Die Pause sei kein einseitiges Versprechen — man würde nur unter verifizierbaren Bedingungen und nur bremsen, wenn andere Labs mitziehen.
+    why: Erste konkrete Pause-Governance-Position eines führenden Labs — relevant für die Frage, wie reale Verlangsamungsmechanismen aussehen und wie glaubwürdig sie angesichts des parallel laufenden IPO sind.
+  - cat: industry
+    date: 09.06.2026
+    focus: true
+    src: anthropic.com
+    url: https://www.anthropic.com/news/claude-fable-5-mythos-5
+    hl: Claude Fable 5 & Mythos 5 — Mythos-Klasse wird breit verfügbar
+    body: Fünf Tage nach dem Pause-Papier veröffentlichte Anthropic am 9. Juni <span class="gl" data-k="claudefable5">Claude Fable 5</span> — ein für den allgemeinen Gebrauch abgesichertes Modell der <span class="gl" data-k="mythos">Mythos</span>-Klasse, laut <span class="gl" data-k="anthropic">Anthropic</span> das leistungsstärkste je breit verfügbare Modell und state-of-the-art auf nahezu allen getesteten Benchmarks. Konservativ getunte Safeguards leiten in unter 5 % der Sitzungen an Claude Opus 4.8 um. Parallel startete für Cyberdefender und Infrastrukturbetreiber <span class="gl" data-k="claudemythos">Claude Mythos</span> 5 — dasselbe Modell mit teils gelockerten Safeguards, zunächst über <span class="gl" data-k="projectglasswing">Project Glasswing</span>.
+    why: Der Spagat zwischen Pause-Rhetorik und Release des bisher stärksten Modells binnen einer Woche prägt die Wahrnehmung der Sicherheitsversprechen; für regulierte Branchen relevant ist die konservative Safeguard-Architektur.
+  - cat: policy
+    date: 11.06.2026
+    focus: true
+    src: bundestag.de
+    url: https://www.bundestag.de/dokumente/textarchiv/2026/kw24-de-ki-1183820
+    hl: 'KI-MIG: Digitalausschuss macht Weg frei, Bundestag debattiert Durchführungsgesetz'
+    body: Am 11. Juni befasste sich der Bundestag in einer Debatte mit dem <span class="gl" data-k="kimig">KI-MIG</span>, dem Gesetz zur Durchführung der <span class="gl" data-k="kiverordnung">KI-Verordnung</span>. Der Digitalausschuss gab den von CDU/CSU und SPD getragenen, modifizierten Entwurf (21/4594) frei; die Schlussabstimmung im Plenum war für den 12. Juni angesetzt. Das Gesetz benennt die <span class="gl" data-k="bnetza">BNetzA</span> als zentrale Marktüberwachungsbehörde, Koordinierungs- und notifizierende Stelle und regelt Zuständigkeiten, Aufsicht und Bußgelder.
+    why: Mit Inkrafttreten der <span class="gl" data-k="kivo">KI-VO</span>-Kernpflichten zum 2. August 2026 schafft das KI-MIG die nationale Vollzugsstruktur — für deutsche Anwender und Anbieter die maßgebliche Behörden- und Sanktionslandschaft.
+  - cat: policy
+    date: 05.06.2026
+    focus: true
+    src: science.org
+    url: https://www.science.org/content/article/ai-executives-join-call-stricter-regulation-synthetic-biology
+    hl: Frontier-Labs fordern verpflichtendes Screening synthetischer DNA
+    body: 'Am 5. Juni unterzeichneten die Chefs von OpenAI, <span class="gl" data-k="anthropic">Anthropic</span>, Google DeepMind und Microsoft AI — neben rund 69 KI- und Sicherheitsexperten — einen offenen Brief an den US-Kongress. Gefordert werden verpflichtendes Screening aller DNA-/RNA-Syntheseaufträge gegen Gefahrendatenbanken, Kundenverifikation und Risikobewertungen pro Auftrag. Begründung: KI senke die Expertise-Schwelle zur Waffenfähigmachung biologischen Materials. Im Senat liegt mit dem Biosecurity Modernization and Innovation Act bereits ein parteiübergreifender Entwurf vor.'
+    why: Seltene gemeinsame Positionierung konkurrierender Labs zu Biosecurity — ein Signal, dass Frontier-Modelle als realer Faktor in der Bioweapon-Risikokette eingestuft werden.
+  - cat: tools
+    date: 04.06.2026
+    focus: true
+    src: artificialanalysis.ai
+    url: https://artificialanalysis.ai/articles/nvidia-nemotron-3-ultra-released
+    hl: NVIDIA Nemotron 3 Ultra 550B — stärkstes US-Open-Weights-Modell
+    body: 'Am 4. Juni gab NVIDIA die <span class="gl" data-k="openweights">Open-Weights</span>-Veröffentlichung von <span class="gl" data-k="nemotron3ultra">Nemotron 3 Ultra</span> frei: 550B Parameter (55B aktiv), Mamba2-Transformer-Hybrid mit Latent-MoE und Multi-Token-Prediction, in BF16 und NVFP4-Quantisierung. Mit 47,7 im Artificial Analysis Intelligence Index ist es das stärkste US-Open-Weights-Modell, liegt aber hinter dem chinesischen Spitzenreiter Kimi K2.6 (53,9). Basis- und Post-Training-Checkpoints sind auf Hugging Face verfügbar.'
+    why: Setzt die US-Open-Weights-Benchmark neu — relevant für Teams, die leistungsfähige Modelle aus Datenkontroll- oder Compliance-Gründen selbst hosten wollen.
+  - cat: industry
+    date: 10.06.2026
+    focus: true
+    src: fortune.com
+    url: https://fortune.com/2026/06/10/anthropic-accu-claude-fable-5-limits-capabilities-ai-researchers-developers/
+    hl: „Secret sabotage“? Entwickler werfen Anthropic stilles Beschneiden von Fable 5 vor
+    body: Einen Tag nach dem Launch berichteten KI-Forschende und Entwickler, <span class="gl" data-k="claudefable5">Claude Fable 5</span> liefere für bestimmte Aufgaben still reduzierte Fähigkeiten; <span class="gl" data-k="anthropic">Anthropic</span> wurde teils „geheime Sabotage“ vorgeworfen. Hintergrund sind die konservativ getunten Safeguards, die in einem Teil der Sitzungen an das schwächere Claude Opus 4.8 umleiten — von Nutzern als unangekündigte Leistungsbeschneidung wahrgenommen.
+    why: Zeigt die Spannung zwischen aggressiven Safeguards und der Nutzererwartung an deterministische Modell-Performance — relevant für alle, die Fable 5 produktiv einsetzen und reproduzierbare Ergebnisse brauchen.
+  - cat: industry
+    date: 08.06.2026
+    focus: false
+    src: openai.com
+    url: https://openai.com/index/openai-submits-confidential-s-1/
+    hl: 'OpenAI: vertrauliches S-1, „Built to benefit everyone“ und Economic Research Exchange'
+    body: Am 8. Juni bestätigte OpenAI, vertraulich einen <span class="gl" data-k="s1">S-1</span>-Entwurf bei der SEC eingereicht zu haben — der formale Vorlauf für einen möglichen Börsengang, ohne festgelegtes Timing. Zeitgleich veröffentlichten Sam Altman und Jakub Pachocki das Strategiepapier „Built to benefit everyone“ und kündigten den OpenAI Economic Research Exchange an, der externe Forschung zu den ökonomischen Effekten von KI bündeln soll.
+    why: OpenAIs IPO-Vorbereitung — kurz nach der S-1 eines weiteren Frontier-Labs — markiert den Beginn eines KI-Börsengang-Zyklus und erhöht den Druck zu Transparenz über Geschäftsmodell und gesellschaftliche Wirkung.
+  - cat: industry
+    date: 05.06.2026
+    focus: false
+    src: simonwillison.net
+    url: https://simonwillison.net/2026/Jun/2/microsofts-new-models/
+    hl: 'Microsofts MAI-Modelle: Trainingsdaten-Angabe widerspricht „clean licensed data“-Claim'
+    body: Microsoft hatte auf der Build 2026 (2. Juni) sieben eigene <span class="gl" data-k="mai">MAI</span>-Modelle vorgestellt, darunter das Reasoning-Modell MAI-Thinking-1, angeblich ausschließlich auf „enterprise-grade, sauberen und kommerziell lizenzierten Daten“ trainiert. Simon Willison wies kurz darauf nach, dass der Preprint zu MAI-Thinking-1 eine Trainings-Pipeline mit <span class="gl" data-k="commoncrawl">Common Crawl</span> beschreibt — dem web-gescrapten Korpus ohne Lizenzgarantien, was dem Reinheits-Claim widerspricht.
+    why: Trainingsdaten-Provenienz wird unter dem <span class="gl" data-k="aiact">AI Act</span> und in Urheberrechtsfragen prüfbar — eine dokumentierte Diskrepanz zwischen Marketing und Preprint ist ein konkretes Compliance- und Reputationsrisiko.
+  - cat: tools
+    date: 09.06.2026
+    focus: true
+    src: simonwillison.net
+    url: https://simonwillison.net/2026/Jun/9/llm/
+    hl: 'Release: llm 0.32a3 — Human-in-the-Loop-Tool-Calling'
+    body: 'Simon Willison veröffentlichte am 9. Juni die Alpha llm 0.32a3 seines CLI/Library-Tools für LLM-Zugriff. Schwerpunkt ist Human-in-the-Loop-Tool-Calling: eine neue Ausnahme <code>llm.PauseChain</code> pausiert eine Tool-Kette sauber für menschliche Freigabe, jeder Tool-Call erhält eine garantiert eindeutige <code>tool_call_id</code>, und Ketten lassen sich aus einer Message-Historie mit unaufgelösten Tool-Calls fortsetzen.'
+    why: Approval-Gates und resümierbare Tool-Ketten sind Grundbausteine für auditierbare Agenten — praktisch für regulierte Umgebungen, in denen nicht jeder Schritt autonom laufen darf.
+  - cat: tools
+    date: 10.06.2026
+    focus: true
+    src: simonwillison.net
+    url: https://simonwillison.net/2026/Jun/10/datasette-agent/
+    hl: 'Release: datasette-agent 0.2a0'
+    body: Am 10. Juni erschien datasette-agent 0.2a0 — ein Agent, der über Datasette mit Daten interagiert und die Human-in-the-Loop-Mechanik (u. a. die <code>ask_user()</code>-Funktion) der neuen llm-Alpha praktisch nutzt. Das Release zeigt das Zusammenspiel von Agenten-Framework und pausierbaren Tool-Ketten an einem konkreten Daten-Werkzeug.
+    why: Konkretes Muster, wie ein produktiver Agent menschliche Freigaben in den Ablauf einbaut, statt vollautonom zu handeln — übertragbar auf agentische Workflows mit Kontrollanforderungen.
+  glossary:
+    recursiveselfimprovement:
+      k: Recursive Self-Improvement
+      d: 'Rekursive Selbstverbesserung: Szenario, in dem KI maßgeblich an der Entwicklung der nächsten, stärkeren KI-Generation mitwirkt und sich der Fortschritt dadurch beschleunigt.'
+    alignment:
+      k: Alignment
+      d: 'Sicherheits- und Ausrichtungsforschung: Methoden, die sicherstellen, dass KI-Systeme menschlichen Werten und Absichten folgen.'
+    anthropic:
+      k: Anthropic
+      d: KI-Labor hinter Claude, MCP und Claude Code. Verfolgt einen sicherheitsorientierten Ansatz.
+    claude:
+      k: Claude
+      d: Modell- und Werkzeugfamilie von Anthropic, u. a. Claude Code und die Modelle der Fable-/Mythos-Reihe.
+    claudefable5:
+      k: Claude Fable 5
+      d: Am 9. Juni 2026 veröffentlichtes Anthropic-Modell der Mythos-Klasse, für den allgemeinen Gebrauch abgesichert; laut Anthropic das stärkste je breit verfügbare Modell.
+    mythos:
+      k: Mythos
+      d: Anthropics leistungsstärkste Modellklasse. Mythos 5 wird zunächst über Project Glasswing an Cyberdefender und Infrastrukturbetreiber ausgeliefert.
+    claudemythos:
+      k: Claude Mythos
+      d: Anthropics leistungsstärkste Modellklasse. Claude Mythos 5 ist dasselbe Modell wie Fable 5, jedoch mit in Teilen gelockerten Safeguards, zunächst über Project Glasswing für Cyberdefender.
+    projectglasswing:
+      k: Project Glasswing
+      d: Anthropics Programm, das geprüfte Organisationen mit Mythos-Modellen für Cybersecurity (v. a. Schwachstellen-Findung) ausstattet.
+    kimig:
+      k: KI-MIG
+      d: KI-Marktüberwachungs- und Innovationsförderungs-Gesetz. Deutsches Durchführungsgesetz zur EU-KI-Verordnung; benennt die BNetzA als zentrale Aufsichtsbehörde.
+    kiverordnung:
+      k: KI-Verordnung
+      d: EU-Verordnung 2024/1689 (EU AI Act) zur Regulierung von KI-Systemen. Risikobasierter Ansatz; Kern-Pflichten ab 2. August 2026.
+    bnetza:
+      k: BNetzA
+      d: Bundesnetzagentur. Ab 2. August 2026 zentrale Marktüberwachungs-, Koordinierungs- und notifizierende Behörde für die KI-Verordnung in Deutschland.
+    kivo:
+      k: KI-VO
+      d: EU-Verordnung 2024/1689 zur Regulierung von KI-Systemen. Risikobasiert mit vier Stufen; Kern-Pflichten ab 2. August 2026.
+    openweights:
+      k: Open Weights
+      d: Modelle, deren Gewichte öffentlich verfügbar sind und selbst gehostet werden können — relevant für Datenkontrolle und Compliance.
+    nemotron3ultra:
+      k: Nemotron 3 Ultra
+      d: NVIDIAs 550B-Parameter-Open-Weights-Modell (55B aktiv, Mamba2-Transformer-Hybrid mit Latent-MoE), veröffentlicht am 4. Juni 2026; stärkstes US-Open-Weights-Modell, hinter dem chinesischen Spitzenreiter.
+    s1:
+      k: S-1
+      d: Vertrauliche SEC-Registrierungserklärung, formaler Vorlauf eines US-Börsengangs (IPO).
+    mai:
+      k: MAI
+      d: Microsoft-AI-Modellfamilie (z. B. MAI-Thinking-1, MAI-Code-1), auf der Build 2026 vorgestellt; Microsofts hauseigene Modelle zur Reduktion der OpenAI-Abhängigkeit.
+    commoncrawl:
+      k: Common Crawl
+      d: Frei verfügbares, web-gescraptes Daten-Repository ohne Lizenzgarantien für die indexierten Inhalte; häufig in LLM-Trainingsdaten.
+    aiact:
+      k: AI Act
+      d: Englische Bezeichnung der EU-KI-Verordnung (2024/1689).
+en:
+  title: AI Digest · Jun 4–11, 2026
+  range: Jun 4–11, 2026
+  items:
+  - cat: research
+    date: Jun 4, 2026
+    focus: true
+    src: anthropic.com
+    url: https://www.anthropic.com/institute/recursive-self-improvement
+    hl: When AI builds itself — Anthropic proposes a coordinated pause mechanism
+    body: On 4 June Anthropic published the paper "When AI builds itself" and argues for the option of globally coordinating a slowdown or pause of frontier development — a <span class="gl" data-k="recursiveselfimprovement">recursive self-improvement</span> safeguard — so that <span class="gl" data-k="alignment">alignment</span> research and societal structures can keep pace. As evidence of the acceleration, <span class="gl" data-k="anthropic">Anthropic</span> notes that in May 2026 over 80% of the code merged into its production codebase came from <span class="gl" data-k="claude">Claude</span>. The pause is not a unilateral pledge — the company would only slow down under verifiable conditions and only if other labs join.
+    why: The first concrete pause-governance stance from a leading lab — relevant to what real slowdown mechanisms look like and how credible they are alongside the parallel IPO.
+  - cat: industry
+    date: Jun 9, 2026
+    focus: true
+    src: anthropic.com
+    url: https://www.anthropic.com/news/claude-fable-5-mythos-5
+    hl: Claude Fable 5 & Mythos 5 — the Mythos class becomes broadly available
+    body: Five days after the pause paper, Anthropic released <span class="gl" data-k="claudefable5">Claude Fable 5</span> on 9 June — a general-use, safeguarded model of the <span class="gl" data-k="mythos">Mythos</span> class, per <span class="gl" data-k="anthropic">Anthropic</span> the most capable ever made broadly available and state-of-the-art on nearly all tested benchmarks. Conservatively tuned safeguards route under 5% of sessions to Claude Opus 4.8. In parallel, <span class="gl" data-k="claudemythos">Claude Mythos</span> 5 launched for cyber-defenders and infrastructure operators — the same model with partly relaxed safeguards, initially via <span class="gl" data-k="projectglasswing">Project Glasswing</span>.
+    why: The straddle between pause rhetoric and shipping the strongest model within a week shapes perceptions of the safety promises; the conservative safeguard architecture is what matters for regulated sectors.
+  - cat: policy
+    date: Jun 11, 2026
+    focus: true
+    src: bundestag.de
+    url: https://www.bundestag.de/dokumente/textarchiv/2026/kw24-de-ki-1183820
+    hl: 'KI-MIG: digital committee clears the way, Bundestag debates the implementing act'
+    body: On 11 June the Bundestag debated the <span class="gl" data-k="kimig">KI-MIG</span>, the act implementing the <span class="gl" data-k="kiverordnung">EU AI Act</span>. The digital committee cleared the modified draft (21/4594) backed by CDU/CSU and SPD; the final plenary vote was scheduled for 12 June. The act names the <span class="gl" data-k="bnetza">BNetzA</span> as the central market-surveillance, coordination and notifying body and sets out responsibilities, oversight and fines.
+    why: With the <span class="gl" data-k="kivo">EU AI Act</span> core obligations taking effect on 2 August 2026, the KI-MIG creates the national enforcement structure — the decisive authority and sanctions landscape for German users and providers.
+  - cat: policy
+    date: Jun 5, 2026
+    focus: true
+    src: science.org
+    url: https://www.science.org/content/article/ai-executives-join-call-stricter-regulation-synthetic-biology
+    hl: Frontier labs call for mandatory screening of synthetic DNA
+    body: 'On 5 June the heads of OpenAI, <span class="gl" data-k="anthropic">Anthropic</span>, Google DeepMind and Microsoft AI — alongside some 69 AI and security experts — signed an open letter to the US Congress. They call for mandatory screening of all DNA/RNA synthesis orders against hazard databases, customer verification and per-order risk assessments. The rationale: AI lowers the expertise threshold for weaponizing biological material. In the Senate, the bipartisan Biosecurity Modernization and Innovation Act is already on the table.'
+    why: A rare joint stance by competing labs on biosecurity — a signal that frontier models are treated as a real factor in the bioweapon risk chain.
+  - cat: tools
+    date: Jun 4, 2026
+    focus: true
+    src: artificialanalysis.ai
+    url: https://artificialanalysis.ai/articles/nvidia-nemotron-3-ultra-released
+    hl: NVIDIA Nemotron 3 Ultra 550B — strongest US open-weights model
+    body: 'On 4 June NVIDIA released the <span class="gl" data-k="openweights">open weights</span> of <span class="gl" data-k="nemotron3ultra">Nemotron 3 Ultra</span>: 550B parameters (55B active), a Mamba2-Transformer hybrid with Latent-MoE and multi-token prediction, in BF16 and NVFP4 quantization. At 47.7 on the Artificial Analysis Intelligence Index it is the strongest US open-weights model, but trails the Chinese leader Kimi K2.6 (53.9). Base and post-training checkpoints are available on Hugging Face.'
+    why: Resets the US open-weights benchmark — relevant for teams that want to self-host capable models for data-control or compliance reasons.
+  - cat: industry
+    date: Jun 10, 2026
+    focus: true
+    src: fortune.com
+    url: https://fortune.com/2026/06/10/anthropic-accu-claude-fable-5-limits-capabilities-ai-researchers-developers/
+    hl: '"Secret sabotage"? Developers accuse Anthropic of quietly clipping Fable 5'
+    body: A day after launch, AI researchers and developers reported that <span class="gl" data-k="claudefable5">Claude Fable 5</span> delivered quietly reduced capabilities on certain tasks; <span class="gl" data-k="anthropic">Anthropic</span> was accused by some of "secret sabotage". The background is the conservatively tuned safeguards, which route part of the sessions to the weaker Claude Opus 4.8 — perceived by users as an unannounced capability cut.
+    why: Shows the tension between aggressive safeguards and users’ expectation of deterministic model performance — relevant for anyone running Fable 5 in production who needs reproducible results.
+  - cat: industry
+    date: Jun 8, 2026
+    focus: false
+    src: openai.com
+    url: https://openai.com/index/openai-submits-confidential-s-1/
+    hl: 'OpenAI: confidential S-1, "Built to benefit everyone" and Economic Research Exchange'
+    body: On 8 June OpenAI confirmed it had confidentially filed a draft <span class="gl" data-k="s1">S-1</span> with the SEC — the formal precursor to a possible IPO, with no set timing. At the same time Sam Altman and Jakub Pachocki published the strategy paper "Built to benefit everyone" and announced the OpenAI Economic Research Exchange, meant to bundle external research on the economic effects of AI.
+    why: OpenAI’s IPO preparation — shortly after another frontier lab’s S-1 — marks the start of an AI IPO cycle and raises the pressure for transparency about the business model and societal impact.
+  - cat: industry
+    date: Jun 5, 2026
+    focus: false
+    src: simonwillison.net
+    url: https://simonwillison.net/2026/Jun/2/microsofts-new-models/
+    hl: 'Microsoft’s MAI models: training-data disclosure contradicts the "clean licensed data" claim'
+    body: At Build 2026 (2 June) Microsoft had unveiled seven in-house <span class="gl" data-k="mai">MAI</span> models, including the reasoning model MAI-Thinking-1, supposedly trained exclusively on "enterprise-grade, clean and commercially licensed data". Simon Willison soon showed that the MAI-Thinking-1 preprint describes a training pipeline including <span class="gl" data-k="commoncrawl">Common Crawl</span> — the web-scraped corpus without licensing guarantees, contradicting the purity claim.
+    why: Training-data provenance becomes auditable under the <span class="gl" data-k="aiact">AI Act</span> and in copyright disputes — a documented gap between marketing and preprint is a concrete compliance and reputational risk.
+  - cat: tools
+    date: Jun 9, 2026
+    focus: true
+    src: simonwillison.net
+    url: https://simonwillison.net/2026/Jun/9/llm/
+    hl: 'Release: llm 0.32a3 — human-in-the-loop tool calling'
+    body: 'On 9 June Simon Willison released the alpha llm 0.32a3 of his CLI/library for LLM access. The focus is human-in-the-loop tool calling: a new <code>llm.PauseChain</code> exception cleanly pauses a tool chain for human approval, every tool call gets a guaranteed-unique <code>tool_call_id</code>, and chains can resume from a message history with unresolved tool calls.'
+    why: Approval gates and resumable tool chains are building blocks for auditable agents — practical for regulated environments where not every step may run autonomously.
+  - cat: tools
+    date: Jun 10, 2026
+    focus: true
+    src: simonwillison.net
+    url: https://simonwillison.net/2026/Jun/10/datasette-agent/
+    hl: 'Release: datasette-agent 0.2a0'
+    body: On 10 June datasette-agent 0.2a0 appeared — an agent that interacts with data via Datasette and puts the human-in-the-loop mechanics (incl. the <code>ask_user()</code> function) of the new llm alpha to practical use. The release shows the interplay of an agent framework and pausable tool chains on a concrete data tool.
+    why: A concrete pattern for how a production agent builds human approvals into the flow rather than acting fully autonomously — transferable to agentic workflows with control requirements.
+  glossary:
+    recursiveselfimprovement:
+      k: Recursive Self-Improvement
+      d: Scenario in which AI substantially contributes to developing the next, more capable AI generation, accelerating progress.
+    alignment:
+      k: Alignment
+      d: 'Safety and alignment research: methods ensuring AI systems follow human values and intentions.'
+    anthropic:
+      k: Anthropic
+      d: AI lab behind Claude, MCP and Claude Code; pursues a safety-oriented approach.
+    claude:
+      k: Claude
+      d: Anthropic’s family of models and tools, incl. Claude Code and the Fable/Mythos models.
+    claudefable5:
+      k: Claude Fable 5
+      d: Anthropic model of the Mythos class released on 9 June 2026, safeguarded for general use; per Anthropic the most capable ever made broadly available.
+    mythos:
+      k: Mythos
+      d: Anthropic’s most capable model class. Mythos 5 is delivered initially via Project Glasswing to cyber-defenders and infrastructure operators.
+    claudemythos:
+      k: Claude Mythos
+      d: Anthropic’s most capable model class. Claude Mythos 5 is the same model as Fable 5 but with partly relaxed safeguards, initially via Project Glasswing for cyber-defenders.
+    projectglasswing:
+      k: Project Glasswing
+      d: Anthropic programme equipping vetted organisations with Mythos models for cybersecurity (esp. vulnerability finding).
+    kimig:
+      k: KI-MIG
+      d: Germany’s AI market-surveillance and innovation act implementing the EU AI Act; names the BNetzA as the central supervisory authority.
+    kiverordnung:
+      k: EU AI Act
+      d: EU Regulation 2024/1689 governing AI systems. Risk-based approach; core obligations from 2 August 2026.
+    bnetza:
+      k: BNetzA
+      d: Germany’s Federal Network Agency. From 2 August 2026 the central market-surveillance, coordination and notifying body for the EU AI Act in Germany.
+    kivo:
+      k: EU AI Act
+      d: EU Regulation 2024/1689 governing AI systems. Risk-based with four tiers; core obligations from 2 August 2026.
+    openweights:
+      k: Open Weights
+      d: Models whose weights are publicly available and can be self-hosted — relevant for data control and compliance.
+    nemotron3ultra:
+      k: Nemotron 3 Ultra
+      d: NVIDIA’s 550B open-weights model (55B active, Mamba2-Transformer hybrid with Latent-MoE), released 4 June 2026; strongest US open-weights model, behind the Chinese leader.
+    s1:
+      k: S-1
+      d: Confidential SEC registration statement, the formal precursor to a US IPO.
+    mai:
+      k: MAI
+      d: Microsoft’s AI model family (e.g. MAI-Thinking-1, MAI-Code-1), unveiled at Build 2026; in-house models to reduce OpenAI dependence.
+    commoncrawl:
+      k: Common Crawl
+      d: Freely available web-scraped data repository without licensing guarantees for indexed content; common in LLM training data.
+    aiact:
+      k: AI Act
+      d: English name for the EU AI Act (Regulation 2024/1689).

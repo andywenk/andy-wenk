@@ -1,0 +1,132 @@
+---
+layout: default
+---
+{% assign key = page.digest %}
+{% assign lang = site.lang | default: site.defaultLang %}
+{% assign d = site.data.digests[key][lang] %}
+{% unless d %}{% assign d = site.data.digests[key][site.defaultLang] %}{% endunless %}
+{% if lang == 'de' %}
+  {% assign L_back = '← Alle AI-News' %}{% assign L_why = 'Warum es wichtig ist' %}
+  {% assign L_all = 'Alle' %}{% assign L_count = 'Meldungen' %}{% assign L_source = 'Quelle' %}{% assign L_focus = 'Fokus' %}
+{% else %}
+  {% assign L_back = '← All AI-News' %}{% assign L_why = 'Why it matters' %}
+  {% assign L_all = 'All' %}{% assign L_count = 'items' %}{% assign L_source = 'Source' %}{% assign L_focus = 'Focus' %}
+{% endif %}
+
+{% include menu.html %}
+
+<main class="aidg" id="main" role="main" aria-label="Content">
+  <p class="aidg-back"><a href="{% unless lang == site.defaultLang %}/{{ lang }}{% endunless %}/ai-news/">{{ L_back }}</a></p>
+
+  <header class="aidg-head">
+    <h1 class="aidg-title">{{ d.title }}</h1>
+    <p class="aidg-sub">{{ d.range }} · {{ d.items | size }} {{ L_count }}</p>
+  </header>
+
+  {% capture cats_s %}{% for it in d.items %}{{ it.cat }}|{% endfor %}{% endcapture %}
+  {% assign cats = cats_s | split: "|" | uniq %}
+  <div class="aidg-filters" role="tablist">
+    <button class="aidg-chip is-active" data-cat="all" aria-pressed="true">{{ L_all }}</button>
+    {% for c in cats %}{% if c != '' %}<button class="aidg-chip" data-cat="{{ c }}" aria-pressed="false">{{ c | capitalize }}</button>{% endif %}{% endfor %}
+  </div>
+
+  <ul class="aidg-list">
+    {% for it in d.items %}
+    <li class="aidg-card{% if it.focus %} is-focus{% endif %}" data-cat="{{ it.cat }}">
+      <details{% if forloop.first %} open{% endif %}>
+        <summary>
+          <span class="aidg-meta">
+            <span class="aidg-tag {{ it.cat }}">{{ it.cat }}</span>
+            <span class="aidg-date">{{ it.date }}</span>
+            {% if it.focus %}<span class="aidg-badge">★ {{ L_focus }}</span>{% endif %}
+          </span>
+          <span class="aidg-hl">{{ it.hl }}</span>
+          <span class="aidg-chev">▸</span>
+        </summary>
+        <div class="aidg-body">
+          <p>{{ it.body }}</p>
+          <div class="aidg-why"><b>{{ L_why }}</b>{{ it.why }}</div>
+          <p class="aidg-src">{{ L_source }}: <a href="{{ it.url }}" target="_blank" rel="noopener">{{ it.src }}</a></p>
+        </div>
+      </details>
+    </li>
+    {% endfor %}
+  </ul>
+
+  <footer class="aidg-foot">
+    {% if lang == 'de' %}★ = Fokus-Treffer. Begriffe mit gepunkteter Linie sind anklickbar.{% else %}★ = focus match. Dotted terms are clickable.{% endif %}
+  </footer>
+</main>
+
+<script>window.__AIDG_GLOSSARY = {{ d.glossary | jsonify }};</script>
+<style>
+  .aidg{max-width:44rem;margin:0 auto;padding:0 1rem 3rem;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+  .aidg-back{margin:.4rem 0 1rem;font-size:.85rem}
+  .aidg-back a{color:var(--accent-strong);text-decoration:none;font-weight:600}
+  .aidg-back a:hover{text-decoration:underline}
+  .aidg-head{border-bottom:1px solid var(--border);padding-bottom:1rem;margin-bottom:1.2rem}
+  .aidg-title{font-family:"EB Garamond",Garamond,serif;font-weight:600;font-size:1.9rem;line-height:1.15;margin:0 0 .3rem}
+  .aidg-sub{color:var(--text-muted);font-size:.9rem;margin:0}
+  .aidg-filters{display:flex;flex-wrap:wrap;gap:.5rem;margin:0 0 1.2rem}
+  .aidg-chip{font-size:.8rem;padding:.3rem .8rem;border:1px solid var(--border);background:var(--surface);color:var(--text-muted);border-radius:999px;cursor:pointer;transition:.15s}
+  .aidg-chip:hover{border-color:var(--accent);color:var(--accent)}
+  .aidg-chip.is-active{background:var(--text);color:var(--bg);border-color:var(--text)}
+  .aidg-list{list-style:none;margin:0;padding:0}
+  .aidg-card{background:var(--surface);border:1px solid var(--border);border-radius:10px;margin:0 0 .7rem;overflow:hidden}
+  .aidg-card.is-focus{border-left:3px solid var(--accent)}
+  .aidg-card.is-hidden{display:none}
+  .aidg-card summary{list-style:none;cursor:pointer;padding:.9rem 1.1rem;display:block;position:relative}
+  .aidg-card summary::-webkit-details-marker{display:none}
+  .aidg-meta{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem;margin-bottom:.35rem}
+  .aidg-tag{font-size:.65rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:.15rem .5rem;border-radius:4px;color:#fff}
+  .aidg-tag.research{background:#2f6f4f}.aidg-tag.industry{background:#2d5e8c}
+  .aidg-tag.policy{background:#8c4a2d}.aidg-tag.tools{background:#5a4b8c}
+  .aidg-date{font-size:.72rem;color:var(--text-faint)}
+  .aidg-badge{font-size:.68rem;font-weight:700;color:var(--accent-strong)}
+  .aidg-hl{display:block;font-family:"EB Garamond",Garamond,serif;font-size:1.2rem;font-weight:600;line-height:1.3;padding-right:1.2rem}
+  .aidg-chev{position:absolute;right:1rem;top:1rem;color:var(--text-faint);transition:transform .2s}
+  details[open] .aidg-chev{transform:rotate(90deg)}
+  .aidg-body{padding:0 1.1rem 1.1rem}
+  .aidg-body p{margin:.7rem 0 0;font-size:.95rem;line-height:1.6}
+  .aidg-why{margin:.8rem 0 0;padding:.7rem .85rem;background:var(--code-bg);border-radius:8px;font-size:.9rem;line-height:1.55}
+  .aidg-why b{display:block;font-size:.7rem;text-transform:uppercase;letter-spacing:.05em;color:var(--accent-strong);margin-bottom:.25rem}
+  .aidg-src{font-size:.82rem}
+  .aidg-src a{color:var(--accent-strong);text-decoration:none;border-bottom:1px solid var(--border-strong)}
+  .gl{border-bottom:1px dotted var(--accent);cursor:help;background:none;border-top:0;border-left:0;border-right:0;padding:0;font:inherit;color:inherit}
+  .pop{display:block;margin:.55rem 0 .1rem;padding:.65rem .8rem;background:var(--bg-elevated);border:1px solid var(--accent);border-left:3px solid var(--accent);border-radius:6px;font-size:.85rem;line-height:1.5}
+  .pop .k{font-weight:700;display:block;margin-bottom:.15rem}
+  .aidg-foot{margin-top:1.6rem;padding-top:1rem;border-top:1px solid var(--border);color:var(--text-muted);font-size:.78rem}
+  @media (max-width:520px){.aidg-title{font-size:1.55rem}.aidg-hl{font-size:1.08rem}}
+</style>
+<script>
+(function(){
+  var G = window.__AIDG_GLOSSARY || {};
+  var chips = document.querySelectorAll('.aidg-chip');
+  var cards = document.querySelectorAll('.aidg-card');
+  chips.forEach(function(ch){ ch.addEventListener('click', function(){
+    chips.forEach(function(c){ c.classList.remove('is-active'); c.setAttribute('aria-pressed','false'); });
+    ch.classList.add('is-active'); ch.setAttribute('aria-pressed','true');
+    var cat = ch.getAttribute('data-cat');
+    cards.forEach(function(card){ card.classList.toggle('is-hidden', cat!=='all' && card.getAttribute('data-cat')!==cat); });
+  }); });
+  function closeAll(){ document.querySelectorAll('.pop').forEach(function(p){ p.remove(); }); }
+  document.addEventListener('click', function(e){
+    var t = e.target.closest('.gl');
+    if(t){
+      e.preventDefault();
+      var g = G[t.getAttribute('data-k')];
+      if(!g){ return; }
+      var host = t.closest('p, .aidg-why') || t.parentNode;
+      var already = host.nextElementSibling && host.nextElementSibling.classList && host.nextElementSibling.classList.contains('pop');
+      closeAll();
+      if(already) return;
+      var pop = document.createElement('span'); pop.className='pop';
+      var kk = document.createElement('span'); kk.className='k'; kk.textContent = g.k;
+      pop.appendChild(kk); pop.appendChild(document.createTextNode(g.d));
+      host.parentNode.insertBefore(pop, host.nextSibling);
+      return;
+    }
+    if(!e.target.closest('.pop')) closeAll();
+  });
+})();
+</script>

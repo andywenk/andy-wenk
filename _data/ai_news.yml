@@ -1,0 +1,19 @@
+# AI-News digests. Newest handled via sort in ai-news/index.html.
+# Für jeden neuen Digest: HTML nach /ai-news/ legen und hier einen Eintrag ergänzen.
+- date: 2026-08-12
+  range: "2.–12. August 2026"
+  count: 10
+  teaser: "EU AI Act Stufe 2 · Anthropic Chip-Team · Qwen3.8-Max Open Weights · LLM 0.32 · Google-DeepMind-Beben · GPT-5.6-Cyber"
+  file: 2026-08-12-ai-digest.html
+
+- date: 2026-07-21
+  range: "14.–21. Juli 2026"
+  count: 9
+  teaser: "EU-Transparenz-Leitlinien · Claude Fable 5 dauerhaft in Premium · Kimi K3 · Grok Build Open Source · FLI Safety Index"
+  file: 2026-07-21-ai-digest.html
+
+- date: 2026-06-11
+  range: "4.–11. Juni 2026"
+  count: 10
+  teaser: "Anthropic Pause-Papier · Claude Fable 5 & Mythos 5 · KI-MIG · NVIDIA Nemotron 3 Ultra Open Weights"
+  file: 2026-06-11-ai-digest.html
