@@ -1,0 +1,312 @@
+de:
+  title: AI-Digest · 10.–17. August 2026
+  range: 10.–17. August 2026
+  items:
+  - cat: industry
+    date: 12.08.2026
+    focus: true
+    src: explainx.ai
+    url: https://www.explainx.ai/blog/qwen3-8-max-open-weights-live-hugging-face-august-2026
+    hl: 'Qwen3.8-Max: Open Weights sind da — und der 27B-Ableger gleich hinterher'
+    body: 'Alibaba hat am 12. August die Gewichte von <span class="gl" data-k="qwen38max">Qwen3.8-Max</span> veröffentlicht (2,4 Bio. Parameter, <span class="gl" data-k="moe">MoE</span> mit 95 Mrd. aktiv) — allerdings unter neuer Lizenz und ohne Vision-Fähigkeiten und 1M-Kontext der geschlossenen Variante. Am 14. August folgte <span class="gl" data-k="qwen3827">Qwen3.8-27B</span>, der kompakte, lokal betreibbare Ableger, der prompt auf Platz 1 der Hacker-News-Frontpage landete. Damit löst Alibaba die Anfang August gegebene <span class="gl" data-k="openweights">Open-Weights</span>-Zusage ein, deren Ausbleiben letzte Woche noch Thema war.'
+    why: Das größte frei verfügbare MoE-Modell ist real — wer Self-Hosting erwägt, sollte aber Lizenztext und die abgespeckte Feature-Matrix gegen die API-Variante prüfen.
+  - cat: policy
+    date: 11.08.2026
+    focus: true
+    src: techpolicy.press
+    url: https://www.techpolicy.press/five-questions-the-us-government-should-answer-about-its-secretive-frontier-ai-framework/
+    hl: 'US-Frontier-Framework: Frist verpasst, Schwelle bleibt geheim'
+    body: 'Die per <span class="gl" data-k="eo14409">Executive Order 14409</span> (Juni 2026) angeordneten Kern-Deliverables — ein klassifiziertes Benchmarking-Verfahren zur Bestimmung „covered frontier models" plus ein rund 30-tägiges Pre-Release-Zugangsfenster für die Regierung — waren zum 1. August fällig; die Frist wurde verpasst. Die Capability-Schwelle selbst ist nicht öffentlich; Entwickler können nur individuell anfragen, ob ihr Modell darunterfällt. Pikant: OpenAI und Anthropic wirken faktisch an der Schwelle mit, die ihre Wettbewerber später erfüllen müssen. Im Kongress soll der <span class="gl" data-k="gaaia">GAAIA</span>-Entwurf mit Transparenzpflichten und unabhängigen Audits gegensteuern.'
+    why: Nach der EU baut auch die US-Ebene ein Pre-Release-Regime für Frontier-Modelle auf — aber intransparent und im Verzug; wer Frontier-APIs einsetzt, bekommt eine weitere regulatorische Unbekannte.
+  - cat: tools
+    date: 12.08.2026
+    focus: true
+    src: claude.com
+    url: https://claude.com/blog/cowork-chrome-side-panel
+    hl: Claude Cowork zieht ins Chrome-Seitenpanel
+    body: 'Anthropic benennt seine Chrome-Erweiterung in <span class="gl" data-k="claudecowork">Claude Cowork</span> um und macht sie zur vollwertigen Cowork-Session in der Browser-Seitenleiste: Skills, Plugins und Konnektoren funktionieren damit erstmals ohne Zusatz-Setup direkt im Browser, Sitzungen synchronisieren in Echtzeit mit Desktop, Web und Mobile. Max- und Team-Kunden haben seit dem 12. August Zugriff, Pro folgt in den kommenden Wochen.'
+    why: Der Browser wird zur dritten Cowork-Oberfläche neben Desktop und Mobile — agentische Workflows samt Konnektoren rücken dorthin, wo Sachbearbeitung tatsächlich stattfindet.
+  - cat: industry
+    date: 14.08.2026
+    focus: true
+    src: releasebot.io
+    url: https://releasebot.io/updates/anthropic
+    hl: 'Anthropic-Wochenupdates: Bio-Safeguards entschärft, Skills aus GitHub, Preisuhr läuft'
+    body: 'Drei Plattform-Änderungen in einer Woche: <span class="gl" data-k="fable5">Claude Fable 5</span> bekam verfeinerte Biologie-Safeguards — rund 85 % weniger Fallbacks durch False Positives, Dual-Use-Anfragen bleiben blockiert. <span class="gl" data-k="managedagents">Managed-Agents</span>-Sessions laden Skills jetzt direkt aus GitHub-Repositories (automatische Discovery in .claude/skills). Und der Sonnet-5-Aktionspreis von 2/10 USD pro Mio. Token endet zum 31. August; ab 1. September gelten wieder 3/15 USD.'
+    why: Die Safeguard-Nachjustierung zeigt, dass Sicherheitsfilter iterativ kalibriert werden — und die auslaufende Sonnet-Promo ist ein konkreter Kostenfaktor für laufende Integrationen.
+  - cat: research
+    date: 14.08.2026
+    focus: true
+    src: manaknightdigital.com
+    url: https://manaknightdigital.com/blog/ai-news-week-of-august-14-2026
+    hl: 'Z.ai: GLM-5.3 meldet 84,5 % auf CyberGym — knapp über Mythos 5'
+    body: 'Das chinesische Lab Z.ai gibt an, sein kommendes Modell <span class="gl" data-k="glm53">GLM-5.3</span> erreiche 84,5 % auf <span class="gl" data-k="cybergym">CyberGym</span> (Finden und Bestätigen von Software-Schwachstellen) — knapp über den 83,8 % von Anthropics zugangsbeschränktem <span class="gl" data-k="mythos5">Mythos 5</span>. Es ist eine Herstellerangabe vor Release, unabhängige Verifikation steht aus. Bemerkenswert ist sie trotzdem: Offensive-taugliche Cyber-Fähigkeiten, die US-Labs bewusst hinter Zugangskontrollen halten, reklamiert ein Lab mit Open-Weights-Tradition für sich.'
+    why: Wenn Cyber-Fähigkeiten auf Mythos-Niveau in frei verfügbaren Modellen landen, verliert die Zugangskontrolle als Sicherheitsinstrument an Wirkung — relevant für jede Cyber-Bedrohungslage.
+  - cat: research
+    date: 13.08.2026
+    focus: true
+    src: skycrumbs.com
+    url: https://skycrumbs.com/blog/ai-research-august-2026
+    hl: Frühwarnsystem erkennt Fähigkeitssprünge vor den Benchmarks
+    body: 'Eine Koalition europäischer AI-Safety-Forscher hat ein Frühwarn-Framework vorgestellt, das <span class="gl" data-k="capabilityjump">Capability Jumps</span> erkennen soll, bevor sie in Standard-Benchmarks sichtbar werden. Die Methode überwacht bestimmte interne Modellverhalten während des Trainings, die sichtbaren Fähigkeitszuwächsen mit messbarem zeitlichem Vorlauf vorausgehen. Das adressiert ein Kernproblem von Frontier-Evaluationen: Bisher fallen Sprünge erst auf, wenn das Modell sie bereits zeigt.'
+    why: Ein belastbarer Vorlauf-Indikator für Fähigkeitssprünge wäre genau das Instrument, das Regulierer (EU AI Office, US-Framework) für Pre-Release-Aufsicht brauchen.
+  - cat: tools
+    date: 11.08.2026
+    focus: true
+    src: releasebot.io
+    url: https://releasebot.io/updates/microsoft
+    hl: 'Microsoft Agent Framework 1.14: Mistral-Client und Checkpoint-Resume'
+    body: 'Microsofts <span class="gl" data-k="agentframework">Agent Framework</span> erreichte Version 1.14.0: breitere Modellunterstützung inklusive eines Mistral-Chat-Clients, Wiederaufnahme von Workflows aus Checkpoints sowie neue Hooks und Storage-Optionen in Core und Foundry. Das Framework konsolidiert seit der 1.0 im April Semantic Kernel und AutoGen zu Microsofts produktivem Agenten-Stack für .NET und Python.'
+    why: Checkpoint-Resume ist für langlaufende Agenten-Workflows in Unternehmen ein praktisch wichtiger Baustein — Abbrüche kosten sonst den gesamten Lauf.
+  - cat: tools
+    date: 13.08.2026
+    focus: true
+    src: theopenweights.com
+    url: https://theopenweights.com/
+    hl: 'LiquidAI: 3B-Vision-Language-Modell für Edge-Hardware'
+    body: 'LiquidAI hat am 13. August ein 3-Mrd.-Parameter-<span class="gl" data-k="vlm">Vision-Language-Modell</span> mit offenen Gewichten veröffentlicht, getunt auf schnelle multimodale Inferenz auf Edge-Hardware. Es setzt die Reihe kompakter <span class="gl" data-k="openweights">Open-Weights</span>-Releases fort, die multimodale Fähigkeiten ohne Cloud-Anbindung auf Endgeräte bringen.'
+    why: Multimodale Verarbeitung on-device — etwa für Dokumente und Fotos — ohne Datenabfluss in die Cloud ist für datenschutzsensible Branchen der interessantere Pfad.
+  - cat: industry
+    date: 13.08.2026
+    focus: false
+    src: blog.google
+    url: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/
+    hl: 'Gemini 3.7 Flash: Googles Arbeitstier, drei Wochen nach dem Vorgänger'
+    body: 'Google veröffentlichte am 13. August <span class="gl" data-k="gemini37flash">Gemini 3.7 Flash</span> — nur drei Wochen nach 3.6 Flash. Auf <span class="gl" data-k="deepswe">DeepSWE</span> v1.1 springt das Modell von 49,0 auf 65,3 %, auf FrontierCode 1.1 Main von 34,4 auf 43,6 %. Der Einführungspreis von 0,75/3,75 USD pro Mio. Token (bis Jahresende) halbiert den 3.6-Startpreis; verfügbar ist es sofort, auch in <span class="gl" data-k="geminispark">Gemini Spark</span> in über 160 Ländern. Das große Pro-Modell lässt derweil weiter auf sich warten.'
+    why: Googles Release-Kadenz im Workhorse-Segment verschärft den Preis-Leistungs-Druck — für Coding-Automatisierung lohnt ein Vergleichs-Benchmark gegen die bisherige Modellwahl.
+  - cat: industry
+    date: 12.08.2026
+    focus: false
+    src: techstartups.com
+    url: https://techstartups.com/2026/08/12/top-tech-news-today-august-12-2026-anthropic-google-ibm-lovable-nvidia-openai-more/
+    hl: 'OpenAI: Preissenkungen und ein 14× schnellerer Ultrafast-Tier'
+    body: 'OpenAI senkte die API-Preise für <span class="gl" data-k="gpt56">GPT-5.6</span> Luna um 80 % (auf 0,20 USD pro Mio. Input-Token), führte einen Fast-Mode für Sol ein und zeigte als Preview den Service-Tier <span class="gl" data-k="ultrafast">Ultrafast</span>: GPT-5.6 Sol mit bis zu 750 Output-Tokens pro Sekunde, bis zu 14× schneller als die Standardverarbeitung — bei unveränderter Modellqualität. Dazu kam eine native Desktop-App für Linux.'
+    why: Inferenz-Geschwindigkeit wird neben dem Preis zur eigenen Wettbewerbsachse — für latenzkritische Anwendungen wie Kundeninteraktion kann ein schnellerer Tier mehr wert sein als ein besseres Modell.
+  - cat: research
+    date: 12.08.2026
+    focus: false
+    src: skycrumbs.com
+    url: https://skycrumbs.com/blog/ai-research-august-2026
+    hl: DeepMind beschreibt „Reasoning Collapse" bei umformulierten Problemen
+    body: 'Ein DeepMind-Paper untersucht eine spezifische Schwäche aktueller Reasoning-Modelle: <span class="gl" data-k="reasoningcollapse">Reasoning Collapse</span> — Modelle, die ein Problem in einer Formulierung korrekt lösen, scheitern an einer äquivalenten, anders gestellten Variante. Ein Trainingsverfahren, das Modelle beim Fine-Tuning systematischen Umformulierungen aussetzt, reduziert diese Brüchigkeit auf dem eigenen Benchmark um rund 40 %.'
+    why: Wer Reasoning-Modelle in Prozesse einbaut, sollte Robustheit gegen Umformulierungen explizit testen — gleiche Aufgabe, andere Wortwahl, anderes Ergebnis ist ein reales Betriebsrisiko.
+  glossary:
+    qwen38max:
+      k: Qwen3.8-Max
+      d: Alibabas Flaggschiff-Modell (2,4 Bio. Parameter, MoE mit 95 Mrd. aktiv). Gewichte seit 12. August 2026 offen verfügbar, ohne Vision und 1M-Kontext der API-Variante.
+    qwen3827:
+      k: Qwen3.8-27B
+      d: Kompakter, lokal betreibbarer Open-Weights-Ableger von Qwen3.8-Max; veröffentlicht am 14. August 2026.
+    moe:
+      k: MoE (Mixture-of-Experts)
+      d: Architektur, bei der pro Token nur ein Teil der Experten aktiv ist — mehr Gesamtparameter bei geringeren Inferenzkosten.
+    openweights:
+      k: Open Weights
+      d: Modelle mit öffentlich verfügbaren, selbst hostbaren Gewichten — relevant für Datenkontrolle und Compliance.
+    eo14409:
+      k: Executive Order 14409
+      d: US-Präsidialerlass vom 2. Juni 2026, der ein Verfahren zur Identifikation und Prüfung von „covered frontier models" auf Cyber- und Sicherheitsrisiken anordnet, inkl. Pre-Release-Zugang der Regierung.
+    gaaia:
+      k: GAAIA
+      d: Great American Artificial Intelligence Act of 2026. Kongress-Entwurf, der das Frontier-Framework der EO 14409 um Transparenzpflichten, unabhängige Audits und Sicherheitstests ergänzen soll.
+    claudecowork:
+      k: Claude Cowork
+      d: Anthropics agentische Arbeitsumgebung für Wissensarbeit; seit August 2026 auch als vollwertige Session im Chrome-Seitenpanel.
+    fable5:
+      k: Claude Fable 5
+      d: Anthropics stärkstes allgemein verfügbares Modell (Mythos-Klasse) mit zusätzlichen Safeguards, u. a. für Biologie und Cybersecurity.
+    managedagents:
+      k: Managed Agents
+      d: Anthropics Plattform-Layer für produktive Agent-Deployments; bündelt Memory, Tools, Orchestrierung und Evaluierung als Managed Service.
+    glm53:
+      k: GLM-5.3
+      d: Angekündigtes Modell des chinesischen Labs Z.ai (vormals Zhipu AI), das nach Herstellerangaben 84,5 % auf CyberGym erreicht.
+    cybergym:
+      k: CyberGym
+      d: Benchmark für offensive Cyber-Fähigkeiten von KI-Modellen — misst das Finden und Bestätigen realer Software-Schwachstellen.
+    mythos5:
+      k: Mythos 5
+      d: Anthropics Modellvariante der Mythos-Klasse mit gelockerten Safeguards; nur für geprüfte Organisationen (u. a. Cyberdefender) zugänglich.
+    capabilityjump:
+      k: Capability Jump
+      d: Sprunghafter Fähigkeitszuwachs eines KI-Modells, der in Standard-Benchmarks erst mit Verzögerung sichtbar wird — Zielgröße von Frühwarn-Frameworks.
+    agentframework:
+      k: Agent Framework (Microsoft)
+      d: Microsofts produktives Agenten-Framework für .NET und Python; konsolidiert Semantic Kernel und AutoGen, Version 1.0 seit April 2026.
+    vlm:
+      k: VLM (Vision-Language-Modell)
+      d: Modell, das Bild- und Textverarbeitung kombiniert — Grundlage für multimodale Aufgaben wie Dokument- und Foto-Analyse.
+    gemini37flash:
+      k: Gemini 3.7 Flash
+      d: Googles Workhorse-Modell für Coding und autonome Workflows, veröffentlicht am 13. August 2026 — drei Wochen nach Gemini 3.6 Flash.
+    deepswe:
+      k: DeepSWE
+      d: Coding-Benchmark von Datacurve; misst repo-übergreifende Software-Engineering-Fähigkeiten über reale Open-Source-Repositories.
+    geminispark:
+      k: Gemini Spark
+      d: Googles Always-on-Agent, der wiederkehrende Aufgaben automatisiert; Ausspielkanal neuer Gemini-Modelle in über 160 Ländern.
+    gpt56:
+      k: GPT-5.6
+      d: OpenAIs Modellfamilie (u. a. Sol/Terra/Luna), seit Juli 2026; Gegenstand des Preiskampfs im Sommer 2026.
+    ultrafast:
+      k: Ultrafast
+      d: Von OpenAI angekündigter API-Service-Tier, der GPT-5.6 Sol mit bis zu 750 Output-Tokens pro Sekunde ausliefert — bis zu 14× schneller als Standard.
+    reasoningcollapse:
+      k: Reasoning Collapse
+      d: Von DeepMind beschriebene Schwäche von Reasoning-Modellen — korrekt gelöste Probleme scheitern in äquivalenter, anders formulierter Form.
+en:
+  title: AI Digest · Aug 10–17, 2026
+  range: Aug 10–17, 2026
+  items:
+  - cat: industry
+    date: Aug 12, 2026
+    focus: true
+    src: explainx.ai
+    url: https://www.explainx.ai/blog/qwen3-8-max-open-weights-live-hugging-face-august-2026
+    hl: 'Qwen3.8-Max: the open weights are live — with the 27B sibling right behind'
+    body: 'On August 12 Alibaba published the weights of <span class="gl" data-k="qwen38max">Qwen3.8-Max</span> (2.4T parameters, <span class="gl" data-k="moe">MoE</span> with 95B active) — under a new license, and stripped of the closed variant''s vision capabilities and 1M context. On August 14, <span class="gl" data-k="qwen3827">Qwen3.8-27B</span> followed — the compact, locally runnable sibling, which promptly hit #1 on the Hacker News front page. That delivers on the <span class="gl" data-k="openweights">open-weights</span> commitment made in early August, whose delay was still a story last week.'
+    why: The largest freely available MoE model is now real — but anyone considering self-hosting should check the license text and the reduced feature matrix against the API variant.
+  - cat: policy
+    date: Aug 11, 2026
+    focus: true
+    src: techpolicy.press
+    url: https://www.techpolicy.press/five-questions-the-us-government-should-answer-about-its-secretive-frontier-ai-framework/
+    hl: 'US frontier framework: deadline missed, threshold stays secret'
+    body: 'The core deliverables mandated by <span class="gl" data-k="eo14409">Executive Order 14409</span> (June 2026) — a classified benchmarking process to determine "covered frontier models" plus a roughly 30-day pre-release government access window — were due August 1; the deadline was missed. The capability threshold itself is not public; developers can only ask individually whether their model crosses it. Notably, OpenAI and Anthropic are effectively helping write the threshold their competitors will later have to clear. In Congress, the <span class="gl" data-k="gaaia">GAAIA</span> bill aims to counter with transparency mandates and independent audits.'
+    why: After the EU, the US is also building a pre-release regime for frontier models — but opaquely and behind schedule; anyone deploying frontier APIs gains another regulatory unknown.
+  - cat: tools
+    date: Aug 12, 2026
+    focus: true
+    src: claude.com
+    url: https://claude.com/blog/cowork-chrome-side-panel
+    hl: Claude Cowork moves into the Chrome side panel
+    body: 'Anthropic is renaming its Chrome extension to <span class="gl" data-k="claudecowork">Claude Cowork</span> and turning it into a full Cowork session in the browser side panel: skills, plugins and connectors now work directly in the browser for the first time without extra setup, and sessions sync in real time with desktop, web and mobile. Max and Team customers got access on August 12; Pro follows over the coming weeks.'
+    why: The browser becomes the third Cowork surface alongside desktop and mobile — agentic workflows including connectors move to where day-to-day knowledge work actually happens.
+  - cat: industry
+    date: Aug 14, 2026
+    focus: true
+    src: releasebot.io
+    url: https://releasebot.io/updates/anthropic
+    hl: 'Anthropic''s week in updates: relaxed bio safeguards, skills from GitHub, pricing clock ticking'
+    body: 'Three platform changes in one week: <span class="gl" data-k="fable5">Claude Fable 5</span> received refined biology safeguards — about 85% fewer fallbacks from false positives, while dual-use requests remain blocked. <span class="gl" data-k="managedagents">Managed Agents</span> sessions can now load skills directly from GitHub repositories (automatic discovery in .claude/skills). And Sonnet 5''s promotional pricing of $2/$10 per million tokens ends August 31; standard $3/$15 pricing returns September 1.'
+    why: The safeguard recalibration shows safety filters are tuned iteratively — and the expiring Sonnet promo is a concrete cost factor for running integrations.
+  - cat: research
+    date: Aug 14, 2026
+    focus: true
+    src: manaknightdigital.com
+    url: https://manaknightdigital.com/blog/ai-news-week-of-august-14-2026
+    hl: 'Z.ai: GLM-5.3 claims 84.5% on CyberGym — just above Mythos 5'
+    body: 'Chinese lab Z.ai says its upcoming model <span class="gl" data-k="glm53">GLM-5.3</span> scores 84.5% on <span class="gl" data-k="cybergym">CyberGym</span> (finding and confirming software vulnerabilities) — slightly above the 83.8% of Anthropic''s access-restricted <span class="gl" data-k="mythos5">Mythos 5</span>. It is a vendor claim ahead of release, with independent verification pending. It is remarkable nonetheless: offense-grade cyber capabilities that US labs deliberately keep behind access controls are being claimed by a lab with an open-weights tradition.'
+    why: If cyber capabilities at Mythos level land in freely available models, access control loses force as a safety instrument — relevant to any cyber threat picture.
+  - cat: research
+    date: Aug 13, 2026
+    focus: true
+    src: skycrumbs.com
+    url: https://skycrumbs.com/blog/ai-research-august-2026
+    hl: Early-warning system detects capability jumps before the benchmarks do
+    body: 'A coalition of European AI safety researchers has presented an early-warning framework designed to detect <span class="gl" data-k="capabilityjump">capability jumps</span> before they become visible in standard benchmarks. The method monitors certain internal model behaviors during training that precede visible capability improvements by measurable lead times. That addresses a core problem of frontier evaluations: until now, jumps only show up once the model already exhibits them.'
+    why: A reliable leading indicator for capability jumps is exactly the instrument regulators (EU AI Office, US framework) need for pre-release oversight.
+  - cat: tools
+    date: Aug 11, 2026
+    focus: true
+    src: releasebot.io
+    url: https://releasebot.io/updates/microsoft
+    hl: 'Microsoft Agent Framework 1.14: Mistral client and checkpoint resume'
+    body: 'Microsoft''s <span class="gl" data-k="agentframework">Agent Framework</span> reached version 1.14.0: broader model support including a Mistral chat client, resuming workflows from checkpoints, and new hooks and storage options across core and Foundry. Since 1.0 in April, the framework has been consolidating Semantic Kernel and AutoGen into Microsoft''s production agent stack for .NET and Python.'
+    why: Checkpoint resume is a practically important building block for long-running enterprise agent workflows — otherwise an interruption costs the entire run.
+  - cat: tools
+    date: Aug 13, 2026
+    focus: true
+    src: theopenweights.com
+    url: https://theopenweights.com/
+    hl: 'LiquidAI: a 3B vision-language model for edge hardware'
+    body: 'On August 13 LiquidAI released a 3-billion-parameter <span class="gl" data-k="vlm">vision-language model</span> with open weights, tuned for fast multimodal inference on edge hardware. It continues the run of compact <span class="gl" data-k="openweights">open-weights</span> releases bringing multimodal capabilities to end devices without a cloud connection.'
+    why: On-device multimodal processing — for documents and photos, say — without data leaving for the cloud is the more interesting path for privacy-sensitive industries.
+  - cat: industry
+    date: Aug 13, 2026
+    focus: false
+    src: blog.google
+    url: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/
+    hl: 'Gemini 3.7 Flash: Google''s workhorse, three weeks after its predecessor'
+    body: 'On August 13 Google released <span class="gl" data-k="gemini37flash">Gemini 3.7 Flash</span> — just three weeks after 3.6 Flash. On <span class="gl" data-k="deepswe">DeepSWE</span> v1.1 the model jumps from 49.0 to 65.3%, on FrontierCode 1.1 Main from 34.4 to 43.6%. The introductory price of $0.75/$3.75 per million tokens (through year-end) halves the 3.6 launch price; it is available immediately, including in <span class="gl" data-k="geminispark">Gemini Spark</span> across more than 160 countries. The big Pro model, meanwhile, remains delayed.'
+    why: Google's release cadence in the workhorse segment sharpens the price-performance squeeze — for coding automation, it's worth benchmarking against your current model choice.
+  - cat: industry
+    date: Aug 12, 2026
+    focus: false
+    src: techstartups.com
+    url: https://techstartups.com/2026/08/12/top-tech-news-today-august-12-2026-anthropic-google-ibm-lovable-nvidia-openai-more/
+    hl: 'OpenAI: price cuts and a 14× faster Ultrafast tier'
+    body: 'OpenAI cut API prices for <span class="gl" data-k="gpt56">GPT-5.6</span> Luna by 80% (to $0.20 per million input tokens), introduced a Fast mode for Sol, and previewed the <span class="gl" data-k="ultrafast">Ultrafast</span> service tier: GPT-5.6 Sol at up to 750 output tokens per second, up to 14× faster than standard processing — with model quality unchanged. A native Linux desktop app rounded out the week.'
+    why: Inference speed is becoming its own competitive axis alongside price — for latency-critical applications like customer interaction, a faster tier can be worth more than a better model.
+  - cat: research
+    date: Aug 12, 2026
+    focus: false
+    src: skycrumbs.com
+    url: https://skycrumbs.com/blog/ai-research-august-2026
+    hl: DeepMind describes "reasoning collapse" on reformulated problems
+    body: 'A DeepMind paper examines a specific weakness of current reasoning models: <span class="gl" data-k="reasoningcollapse">reasoning collapse</span> — models that solve a problem correctly in one framing fail on an equivalent variant stated differently. A training method that exposes models to systematic reformulations during fine-tuning reduces this brittleness by about 40% on the authors'' benchmark.'
+    why: Anyone building reasoning models into processes should explicitly test robustness against reformulation — same task, different wording, different result is a real operational risk.
+  glossary:
+    qwen38max:
+      k: Qwen3.8-Max
+      d: Alibaba's flagship model (2.4T parameters, MoE with 95B active). Weights openly available since August 12, 2026, without the API variant's vision and 1M context.
+    qwen3827:
+      k: Qwen3.8-27B
+      d: Compact, locally runnable open-weights sibling of Qwen3.8-Max; released August 14, 2026.
+    moe:
+      k: MoE (Mixture-of-Experts)
+      d: Architecture where only a subset of experts is active per token — more total parameters at lower inference cost.
+    openweights:
+      k: Open Weights
+      d: Models whose weights are publicly available and self-hostable — relevant for data control and compliance.
+    eo14409:
+      k: Executive Order 14409
+      d: US executive order of June 2, 2026 mandating a process to identify and review "covered frontier models" for cyber and national-security risks, including pre-release government access.
+    gaaia:
+      k: GAAIA
+      d: Great American Artificial Intelligence Act of 2026. Congressional bill meant to complement the EO 14409 frontier framework with transparency mandates, independent audits and security testing.
+    claudecowork:
+      k: Claude Cowork
+      d: Anthropic's agentic work environment for knowledge work; since August 2026 also a full session in the Chrome side panel.
+    fable5:
+      k: Claude Fable 5
+      d: Anthropic's most capable generally available model (Mythos class) with additional safeguards, including for biology and cybersecurity.
+    managedagents:
+      k: Managed Agents
+      d: Anthropic's platform layer for production agent deployments; bundles memory, tools, orchestration and evaluation as a managed service.
+    glm53:
+      k: GLM-5.3
+      d: Announced model from Chinese lab Z.ai (formerly Zhipu AI), claimed by the vendor to score 84.5% on CyberGym.
+    cybergym:
+      k: CyberGym
+      d: Benchmark for offensive cyber capabilities of AI models — measures finding and confirming real software vulnerabilities.
+    mythos5:
+      k: Mythos 5
+      d: Anthropic's Mythos-class model variant with relaxed safeguards; accessible only to vetted organizations (e.g. cyber defenders).
+    capabilityjump:
+      k: Capability Jump
+      d: A sudden capability gain in an AI model that only shows up in standard benchmarks with delay — the target of early-warning frameworks.
+    agentframework:
+      k: Agent Framework (Microsoft)
+      d: Microsoft's production agent framework for .NET and Python; consolidates Semantic Kernel and AutoGen, version 1.0 since April 2026.
+    vlm:
+      k: VLM (vision-language model)
+      d: A model combining image and text processing — the basis for multimodal tasks like document and photo analysis.
+    gemini37flash:
+      k: Gemini 3.7 Flash
+      d: Google's workhorse model for coding and autonomous workflows, released August 13, 2026 — three weeks after Gemini 3.6 Flash.
+    deepswe:
+      k: DeepSWE
+      d: Coding benchmark by Datacurve; measures cross-repo software-engineering ability across real open-source repositories.
+    geminispark:
+      k: Gemini Spark
+      d: Google's always-on agent automating recurring tasks; the delivery channel for new Gemini models in 160+ countries.
+    gpt56:
+      k: GPT-5.6
+      d: OpenAI's model family (Sol/Terra/Luna), since July 2026; at the center of the summer 2026 price war.
+    ultrafast:
+      k: Ultrafast
+      d: OpenAI's previewed API service tier delivering GPT-5.6 Sol at up to 750 output tokens per second — up to 14× faster than standard.
+    reasoningcollapse:
+      k: Reasoning Collapse
+      d: A weakness of reasoning models described by DeepMind — problems solved correctly in one framing fail when stated in an equivalent, different form.
