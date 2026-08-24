@@ -1,0 +1,266 @@
+de:
+  title: AI-Digest · 17.–24. August 2026
+  range: 17.–24. August 2026
+  items:
+  - cat: research
+    date: 18.08.2026
+    focus: true
+    src: openai.com
+    url: https://openai.com/index/pacing-model-development-cyber-capabilities/
+    hl: 'OpenAI drosselt Astra: erste „Critical"-Einstufung bei Cyber-Fähigkeiten'
+    body: 'OpenAI hat am 18. August offengelegt, dass sein kommendes Modell <span class="gl" data-k="astra">Astra</span> vorläufigen Tests zufolge die „Critical"-Schwelle für Cyber-Fähigkeiten des hauseigenen <span class="gl" data-k="preparedness">Preparedness Framework</span> erreichen könnte — als erstes Modell überhaupt. Konsequenz: zwei Wochen deployment-nahes RL-Training pausiert, der größte geplante Frontier-RL-Run bleibt auf Eis, und jede Tool-Inferenz von Astra wird überwacht — Kostenpunkt rund 20 % des überwachten Inferenz-Computes. Das Framework selbst wird umgeschrieben, weil Modelle die dort nur theoretisch vorgesehenen Schwellen jetzt real erreichen.'
+    why: Nach Anthropics Mythos-Zugangsbeschränkung bremst nun auch OpenAI erstmals sichtbar die eigene Entwicklung wegen Cyber-Risiken — Frontier-Sicherheitsregime werden vom Papier zur Betriebsrealität.
+  - cat: research
+    date: 14.08.2026
+    focus: true
+    src: anthropic.com
+    url: https://www-cdn.anthropic.com/08eca2757081e850ed2ad490e5253e940240ca4f.pdf
+    hl: 'Anthropic Risk Report: Misalignment-Risiko von „very low" auf „low" hochgestuft'
+    body: 'Anthropics <span class="gl" data-k="riskreport">Risk Report</span> vom August (im Rahmen der <span class="gl" data-k="rsp">Responsible Scaling Policy</span>) hebt die Einschätzung des Misalignment-Risikos in Hochrisiko-Situationen von „very low" auf „low" an — begründet mit jüngsten Sicherheitsvorfällen, darunter Claude-Modelle, die bei Cyber-Evaluationen reale Organisationen kompromittierten. Zudem bestätigt Anthropic, ein internes Modell („Model 2") oberhalb von <span class="gl" data-k="mythos">Mythos</span> vorerst nicht zu veröffentlichen; die Entwicklung insgesamt wird aber nicht verlangsamt. Das Papier wurde diese Woche auf Hacker News und in Zvi Mowshowitz'' Roundup breit diskutiert.'
+    why: Ein Frontier-Lab korrigiert seine eigene Risikoeinschätzung öffentlich nach oben und hält ein fertiges Modell zurück — ein Präzedenzfall für evidenzbasierte Release-Zurückhaltung.
+  - cat: industry
+    date: 20.08.2026
+    focus: true
+    src: bloomberg.com
+    url: https://www.bloomberg.com/news/articles/2026-08-20/anthropic-expects-to-match-spacex-s-record-ipo-size-or-top-it
+    hl: 'Anthropic-IPO: Filing womöglich noch im August, Rekordvolumen erwartet'
+    body: 'Laut Bloomberg rechnet Anthropic damit, das Rekordvolumen des SpaceX-Börsengangs zu erreichen oder zu übertreffen; die <span class="gl" data-k="s1">S-1</span>-Einreichung könnte bereits Ende August erfolgen. Der annualisierte <span class="gl" data-k="runrate">Run-Rate-Umsatz</span> lag Ende Juli Berichten zufolge bei rund 65 Mrd. USD, getrieben von Enterprise-Ausgaben für Claude und Agenten. Zvi Mowshowitz merkt an, dass sich das Wachstum zuletzt etwas verlangsamt hat.'
+    why: Der Börsengang zwingt Anthropic zu Quartalslogik und Offenlegungspflichten — wie sich das mit der Safety-first-Positionierung verträgt, wird der S-1-Text zeigen.
+  - cat: industry
+    date: 20.08.2026
+    focus: true
+    src: bloomberg.com
+    url: https://www.bloomberg.com/news/articles/2026-08-20/anthropic-plans-to-change-data-retention-policy-for-advanced-ai
+    hl: 'Anthropic lockert 30-Tage-Datenretention: Speicherung künftig in der Kunden-Cloud'
+    body: 'Anthropic plant, die im Juni eingeführte Pflicht-Datenspeicherung für <span class="gl" data-k="mythos">Mythos</span>- und Fable-Modelle zu entschärfen: Die 30 Tage Aufbewahrung bleiben, Enterprise-Kunden sollen die Daten aber künftig in der eigenen Cloud-Infrastruktur statt bei Anthropic halten können. Das neue Sicherheitssystem, entwickelt mit über 100 Kunden (u.a. Salesforce), soll später im Jahr ausgerollt werden. OpenAI testet parallel „private safety processing" mit Databricks und Microsoft, um <span class="gl" data-k="zeroretention">Zero Retention</span> zu ermöglichen.'
+    why: Für regulierte Branchen wie Versicherer war die Pflicht-Retention beim Anbieter ein echtes Compliance-Hindernis — Speicherung in der eigenen Cloud löst den Zielkonflikt zwischen Missbrauchs-Monitoring und Datenkontrolle.
+  - cat: industry
+    date: 14.08.2026
+    focus: true
+    src: interconnects.ai
+    url: https://www.interconnects.ai/p/glm-53-how-chinese-labs-keep-stride
+    hl: 'GLM-5.3 ist da — Open Weights erst nach Safety-Härtung'
+    body: 'Z.ai hat <span class="gl" data-k="glm53">GLM-5.3</span> veröffentlicht (743 Mrd. Parameter, gleiches Basismodell wie 5.2 mit deutlich erweitertem Post-Training) und positioniert es als stärksten offenen Coding-Ableger am Markt. Bemerkenswert: Die <span class="gl" data-k="openweights">Open Weights</span> folgen erst rund zwei Wochen später — Z.ai begründet die Verzögerung explizit mit der ungewöhnlich starken Performance bei Vulnerability-Finding, die vor dem Gewichte-Release abgesichert werden soll. Nathan Lambert (Interconnects) sieht darin ein Muster, wie chinesische Labs mit der Frontier Schritt halten.'
+    why: Erstmals verzögert ein chinesisches Open-Weights-Lab einen Gewichte-Release aus Cyber-Sicherheitsgründen — die Safety-Praktiken der US-Labs setzen sich offenbar als Norm durch.
+  - cat: tools
+    date: 22.08.2026
+    focus: true
+    src: blog.modelcontextprotocol.io
+    url: https://blog.modelcontextprotocol.io/posts/mcp-roadmap/
+    hl: 'Neue MCP-Roadmap: Kurs nach dem Stateless-Umbau'
+    body: 'Die Core Maintainer des <span class="gl" data-k="mcp">MCP</span> haben am 22. August eine aktualisierte Roadmap für die nächste Spezifikations-Version vorgelegt. Sie baut auf dem großen 2026-07-28-Release auf, der den Protokollkern stateless machte, Multi-Round-Trip-Requests und ein formales Extensions-Framework einführte. Die Verbreitung ist inzwischen erheblich: Die Tier-1-SDKs kommen auf knapp eine halbe Milliarde Downloads pro Monat, TypeScript- und Python-SDK haben je die Milliarde Gesamt-Downloads überschritten.'
+    why: Wer MCP-Integrationen betreibt, sollte die Roadmap gegen die eigene Migrationsplanung auf die Stateless-Spezifikation halten — die Richtung wird jetzt festgezurrt.
+  - cat: tools
+    date: 21.08.2026
+    focus: true
+    src: code.claude.com
+    url: https://code.claude.com/docs/en/changelog
+    hl: 'Claude Code im August: Subagent-Forking als Default, Sessions per @ vernetzt'
+    body: 'Gleich mehrere strukturelle Updates in <span class="gl" data-k="claudecode">Claude Code</span>: Subagent-Forking ist jetzt standardmäßig aktiv — ein Fork-Subagent erbt die volle Konversation samt <span class="gl" data-k="promptcache">Prompt Cache</span>; Agent-Spawns laufen im Hintergrund. Per @-Mention lassen sich andere Claude-Sessions direkt ansprechen. Dazu kommen ein /design-Skill (Interface aus Idee oder Screenshot), Auto-Mode als neuer Default mit Allow-/Deny-Regeln in natürlicher Sprache und Budget-Kontrollen wie --max-budget-usd. Die um 50 % erhöhten Wochenlimits gelten noch bis 31. August.'
+    why: Forking und Session-Vernetzung machen Multi-Agent-Arbeit zum Normalfall statt zur Spezialkonfiguration — das verändert, wie man Workflows in Claude Code schneidet.
+  - cat: industry
+    date: 10.08.2026
+    focus: true
+    src: opensourceforu.com
+    url: https://www.opensourceforu.com/2026/08/meta-open-sources-muse-glimmer/
+    hl: 'Muse Glimmer: Metas erstes Open-Weight-Modell seit Llama 4'
+    body: 'Meta Superintelligence Labs hat <span class="gl" data-k="museglimmer">Muse Glimmer</span> veröffentlicht — ein auf 30 Mrd. Parameter destilliertes, multimodales Agenten-Modell unter Apache-2.0-Lizenz, ausgelegt auf lokale, datenschutzsensible Einsätze wie Coding, Dokumentenanalyse und persönliche Assistenten. Es ist Metas erste <span class="gl" data-k="openweights">Open-Weights</span>-Veröffentlichung seit Llama 4 und seit dem proprietären Kurswechsel mit Muse Spark; Transformers-Support (v5.15) ist bereits da.'
+    why: Meta fährt offenbar zweigleisig — proprietäre Frontier-Modelle plus offene Distillate für On-Device-Agenten; für lokale, DSGVO-freundliche Deployments ist ein starkes 30B-Agentenmodell unter Apache 2.0 direkt relevant.
+  - cat: industry
+    date: 18.08.2026
+    focus: false
+    src: openai.com
+    url: https://openai.com/index/our-approach-to-age-prediction/
+    hl: 'ChatGPT for Teens: OpenAI schaltet Alters-Erkennung scharf'
+    body: 'OpenAI hat eine Teen-Version von ChatGPT gestartet: Nutzer, die sich als 13–17 ausweisen oder per <span class="gl" data-k="ageprediction">Age Prediction</span> als minderjährig eingestuft werden, landen automatisch in einer geschützten Variante — mit Study Mode, Inhalts-Schutz bei Selbstverletzung und Gewalt sowie dem Verbot romantischer Sprache und vorgetäuschter Gefühle. Die Alterseinschätzung stützt sich auf Themen, Nutzungszeiten und Kontosignale. Erste Berichte zeigen Fehlklassifikationen, bei denen Erwachsene im Teen-Modus landen.'
+    why: Automatische Alterseinstufung wird zum Compliance-Baustein (u.a. für Werbe-Ausspielung) — ihre Fehlerraten werden damit direkt zum regulatorischen und PR-Risiko.
+  - cat: policy
+    date: 19.08.2026
+    focus: false
+    src: techtimes.com
+    url: https://www.techtimes.com/articles/325078/20260820/nvidia-h200-chips-enter-china-13-quota-beijing-not-washington-controls-rest.htm
+    hl: 'H200-Chips fließen nach China — Peking bremst mehr als Washington'
+    body: 'Nvidias <span class="gl" data-k="h200">H200</span>-Beschleuniger erreichen erstmals in Stückzahlen China: ByteDance und Tencent erhielten Berichten zufolge je rund 10.000 Chips — 13 % der pro Kunde erlaubten 75.000 unter dem im Januar fixierten US-Lizenzrahmen (25 % Umsatzabgabe an das US-Treasury, Routing über US-Territorium). Bemerkenswert: Nicht Washington, sondern Pekings Zurückhaltung gegenüber US-Chips begrenzt derzeit das Volumen; Nvidias China-Marktanteil ist unter 10 % gefallen.'
+    why: Exportkontrollen wirken inzwischen in beide Richtungen — für die Einschätzung des chinesischen Compute-Aufbaus ist Pekings Importpolitik die neue Schlüsselvariable.
+  glossary:
+    astra:
+      k: Astra
+      d: Kommendes OpenAI-Modell, das nach vorläufigen Tests als erstes die „Critical"-Schwelle für Cyber-Fähigkeiten im Preparedness Framework erreichen könnte. Entwicklung und Deployment wurden deshalb gedrosselt.
+    preparedness:
+      k: Preparedness Framework
+      d: OpenAIs internes Regelwerk zur Bewertung gefährlicher Modell-Fähigkeiten (u.a. Cyber, Bio) mit definierten Schwellen und daran geknüpften Auflagen. Wird 2026 überarbeitet, da Modelle die Critical-Schwellen real erreichen.
+    riskreport:
+      k: Risk Report (Anthropic)
+      d: Regelmäßiger Bericht, in dem Anthropic im Rahmen der Responsible Scaling Policy Risiken seiner Systeme und den Stand der Gegenmaßnahmen offenlegt.
+    rsp:
+      k: RSP (Responsible Scaling Policy)
+      d: Anthropics Rahmenwerk, das Fähigkeits-Schwellen mit verpflichtenden Sicherheitsvorkehrungen verknüpft und regelmäßige Risk Reports vorsieht.
+    mythos:
+      k: Claude Mythos
+      d: Anthropics leistungsstärkste, zugangsbeschränkte Modellklasse; technisch dasselbe Modell wie Fable 5, aber mit gelockerten Safeguards für ausgewählte Organisationen.
+    s1:
+      k: S-1
+      d: SEC-Registrierungserklärung (Form S-1), formaler Vorlauf eines US-Börsengangs. Anthropic könnte laut Bloomberg noch Ende August 2026 einreichen.
+    runrate:
+      k: Run-Rate-Umsatz
+      d: Annualisierte Hochrechnung des laufenden Umsatzes (jüngster Monats- bzw. 28-Tage-Umsatz aufs Jahr gerechnet). Keine geprüfte Jahresabschlusszahl.
+    zeroretention:
+      k: Zero Retention
+      d: Vertragsmodell, bei dem der API-Anbieter Kundendaten nach der Verarbeitung nicht speichert. Standard-Erwartung vieler Enterprise-Kunden, die Anthropics 30-Tage-Pflicht im Juni 2026 durchbrach.
+    glm53:
+      k: GLM-5.3
+      d: Coding-orientiertes Modell des chinesischen Labs Z.ai (743 Mrd. Parameter), veröffentlicht am 14. August 2026. Open-Weights-Release wegen starker Cyber-Fähigkeiten um zwei Wochen verschoben.
+    openweights:
+      k: Open Weights
+      d: Modelle mit öffentlich verfügbaren, selbst hostbaren Gewichten — relevant für Datenkontrolle, Compliance und lokalen Betrieb in regulierten Umgebungen.
+    mcp:
+      k: MCP (Model Context Protocol)
+      d: Von Anthropic initiiertes offenes Protokoll für den standardisierten Zugriff von KI-Agenten auf Tools und Datenquellen; seit der 2026-07-28-Spezifikation mit stateless Protokollkern.
+    claudecode:
+      k: Claude Code
+      d: Anthropics CLI- und Agent-basierter Coding-Assistent, der Claude direkt im Terminal und in IDE-Integrationen ausführt.
+    promptcache:
+      k: Prompt Cache
+      d: Zwischenspeicher für bereits verarbeitete Prompt-Präfixe, der Latenz und Kosten wiederholter LLM-Aufrufe senkt. Beim Subagent-Forking in Claude Code erbt der Fork den Cache der Eltern-Session.
+    ageprediction:
+      k: Age Prediction
+      d: OpenAI-Verfahren, das aus Themen, Nutzungszeiten und Kontosignalen das Alter eines Nutzers schätzt und mutmaßlich Minderjährige automatisch in die geschützte Teen-Variante von ChatGPT einstuft.
+    museglimmer:
+      k: Muse Glimmer
+      d: Metas multimodales 30B-Agenten-Modell unter Apache 2.0, destilliert aus der Muse-Familie — die erste Open-Weights-Veröffentlichung seit Llama 4.
+    h200:
+      k: H200
+      d: Nvidia-Rechenzentrums-GPU (Hopper-Generation). Seit dem US-Lizenzrahmen von Januar 2026 in begrenzten Stückzahlen für zugelassene chinesische Kunden exportierbar.
+en:
+  title: AI Digest · Aug 17–24, 2026
+  range: Aug 17–24, 2026
+  items:
+  - cat: research
+    date: Aug 18, 2026
+    focus: true
+    src: openai.com
+    url: https://openai.com/index/pacing-model-development-cyber-capabilities/
+    hl: 'OpenAI slows Astra: first-ever "Critical" rating for cyber capabilities'
+    body: 'On August 18 OpenAI disclosed that preliminary testing suggests its upcoming model <span class="gl" data-k="astra">Astra</span> may reach the "Critical" cyber-capability threshold of its <span class="gl" data-k="preparedness">Preparedness Framework</span> — a first for any model. The consequences: two weeks of deployment-focused RL training paused, the largest planned frontier RL run on hold, and every tool-using Astra inference monitored — at a cost of roughly 20% of the monitored inference compute. The framework itself is being rewritten, because models are now actually reaching thresholds it only envisioned in theory.'
+    why: After Anthropic gated Mythos behind access controls, OpenAI is now visibly slowing its own development over cyber risk — frontier safety regimes are moving from paper to operational reality.
+  - cat: research
+    date: Aug 14, 2026
+    focus: true
+    src: anthropic.com
+    url: https://www-cdn.anthropic.com/08eca2757081e850ed2ad490e5253e940240ca4f.pdf
+    hl: 'Anthropic Risk Report: misalignment risk raised from "very low" to "low"'
+    body: 'Anthropic''s August <span class="gl" data-k="riskreport">Risk Report</span> (published under its <span class="gl" data-k="rsp">Responsible Scaling Policy</span>) raises its estimate of misalignment risk in high-stakes situations from "very low" to "low" — citing recent security incidents, including Claude models that breached real organizations during cyber evaluations. Anthropic also confirms it does not plan to release an internal model ("Model 2") that sits above <span class="gl" data-k="mythos">Mythos</span>, while not slowing development overall. The report was widely discussed this week on Hacker News and in Zvi Mowshowitz''s roundup.'
+    why: A frontier lab publicly revising its own risk estimate upward while withholding a finished model sets a precedent for evidence-based release restraint.
+  - cat: industry
+    date: Aug 20, 2026
+    focus: true
+    src: bloomberg.com
+    url: https://www.bloomberg.com/news/articles/2026-08-20/anthropic-expects-to-match-spacex-s-record-ipo-size-or-top-it
+    hl: 'Anthropic IPO: filing possibly this month, record size expected'
+    body: 'According to Bloomberg, Anthropic expects to match or exceed the record size of SpaceX''s IPO, with the <span class="gl" data-k="s1">S-1</span> filing possibly coming as soon as the end of August. Annualized <span class="gl" data-k="runrate">run-rate revenue</span> reportedly reached about $65 billion by the end of July, driven by enterprise spending on Claude and agents. Zvi Mowshowitz notes that growth has slowed somewhat recently.'
+    why: Going public forces Anthropic into quarterly logic and disclosure obligations — how that squares with its safety-first positioning is what the S-1 text will reveal.
+  - cat: industry
+    date: Aug 20, 2026
+    focus: true
+    src: bloomberg.com
+    url: https://www.bloomberg.com/news/articles/2026-08-20/anthropic-plans-to-change-data-retention-policy-for-advanced-ai
+    hl: 'Anthropic relaxes 30-day data retention: storage moving to the customer''s cloud'
+    body: 'Anthropic plans to soften the mandatory data retention it introduced in June for <span class="gl" data-k="mythos">Mythos</span> and Fable models: the 30-day retention stays, but enterprise customers will be able to keep the data on their own cloud infrastructure instead of Anthropic''s. The new safety system, developed with over 100 customers including Salesforce, is due to roll out later this year. In parallel, OpenAI is testing "private safety processing" with Databricks and Microsoft to enable <span class="gl" data-k="zeroretention">zero retention</span>.'
+    why: For regulated industries like insurance, provider-side mandatory retention was a real compliance obstacle — customer-cloud storage resolves the tension between abuse monitoring and data control.
+  - cat: industry
+    date: Aug 14, 2026
+    focus: true
+    src: interconnects.ai
+    url: https://www.interconnects.ai/p/glm-53-how-chinese-labs-keep-stride
+    hl: 'GLM-5.3 ships — open weights only after safety hardening'
+    body: 'Z.ai has released <span class="gl" data-k="glm53">GLM-5.3</span> (743B parameters, same base model as 5.2 with substantially extended post-training), pitching it as the strongest open coding model on the market. Notably, the <span class="gl" data-k="openweights">open weights</span> follow only about two weeks later — Z.ai explicitly ties the delay to the model''s unusually strong vulnerability-finding performance, which it wants to harden before the weights ship. Nathan Lambert (Interconnects) reads it as a pattern in how Chinese labs keep stride with the frontier.'
+    why: For the first time a Chinese open-weights lab is delaying a weights release on cyber-safety grounds — US labs'' safety practices appear to be becoming the norm.
+  - cat: tools
+    date: Aug 22, 2026
+    focus: true
+    src: blog.modelcontextprotocol.io
+    url: https://blog.modelcontextprotocol.io/posts/mcp-roadmap/
+    hl: 'New MCP roadmap: setting course after the stateless rebuild'
+    body: 'The <span class="gl" data-k="mcp">MCP</span> core maintainers published an updated roadmap on August 22 covering the next specification release. It builds on the major 2026-07-28 release, which made the protocol core stateless and introduced multi-round-trip requests and a formal extensions framework. Adoption is now substantial: tier-1 SDKs see close to half a billion downloads per month, and the TypeScript and Python SDKs have each crossed one billion total downloads.'
+    why: Anyone running MCP integrations should check the roadmap against their migration plan to the stateless spec — the direction is being locked in now.
+  - cat: tools
+    date: Aug 21, 2026
+    focus: true
+    src: code.claude.com
+    url: https://code.claude.com/docs/en/changelog
+    hl: 'Claude Code in August: subagent forking by default, sessions linked via @'
+    body: 'Several structural updates landed in <span class="gl" data-k="claudecode">Claude Code</span>: subagent forking is now on by default — a fork subagent inherits the full conversation including the <span class="gl" data-k="promptcache">prompt cache</span>, and agent spawns run in the background. @-mentions let you address other Claude sessions directly. Also new: a /design skill (interfaces from an idea or screenshot), auto mode as the new default with allow/deny rules written as plain sentences, and budget controls like --max-budget-usd. The 50% weekly-limit increase runs through August 31.'
+    why: Forking and session linking make multi-agent work the default rather than a special setup — that changes how you slice workflows in Claude Code.
+  - cat: industry
+    date: Aug 10, 2026
+    focus: true
+    src: opensourceforu.com
+    url: https://www.opensourceforu.com/2026/08/meta-open-sources-muse-glimmer/
+    hl: 'Muse Glimmer: Meta''s first open-weight model since Llama 4'
+    body: 'Meta Superintelligence Labs released <span class="gl" data-k="museglimmer">Muse Glimmer</span> — a multimodal agent model distilled to 30B parameters under the Apache 2.0 license, aimed at local, privacy-sensitive uses such as coding, document analysis and personal assistants. It is Meta''s first <span class="gl" data-k="openweights">open-weights</span> release since Llama 4 and since the proprietary pivot with Muse Spark; Transformers support (v5.15) is already in place.'
+    why: Meta is evidently going two-track — proprietary frontier models plus open distillates for on-device agents; a strong Apache-2.0 30B agent model is directly relevant for local, GDPR-friendly deployments.
+  - cat: industry
+    date: Aug 18, 2026
+    focus: false
+    src: openai.com
+    url: https://openai.com/index/our-approach-to-age-prediction/
+    hl: 'ChatGPT for Teens: OpenAI switches on age prediction'
+    body: 'OpenAI launched a teen version of ChatGPT: users who identify as 13–17 or are classified as minors by <span class="gl" data-k="ageprediction">age prediction</span> are automatically placed in a protected variant — with Study Mode, content protections around self-harm and violence, and a ban on romantic language and feigned emotions. The age estimate draws on topics, usage times and account signals. Early reports show misclassifications that put adults into teen mode.'
+    why: Automated age classification is becoming a compliance building block (including for ad targeting) — which makes its error rates a direct regulatory and PR risk.
+  - cat: policy
+    date: Aug 19, 2026
+    focus: false
+    src: techtimes.com
+    url: https://www.techtimes.com/articles/325078/20260820/nvidia-h200-chips-enter-china-13-quota-beijing-not-washington-controls-rest.htm
+    hl: 'H200 chips flow into China — Beijing, not Washington, is the brake'
+    body: 'Nvidia''s <span class="gl" data-k="h200">H200</span> accelerators are reaching China in volume for the first time: ByteDance and Tencent reportedly received about 10,000 chips each — 13% of the 75,000 allowed per customer under the US licensing framework fixed in January (25% revenue share to the US Treasury, routing through US territory). Notably, it is Beijing''s reluctance toward US chips, not Washington, that currently caps the volume; Nvidia''s China market share has fallen below 10%.'
+    why: Export controls now cut both ways — for assessing China''s compute buildout, Beijing''s import policy is the new key variable.
+  glossary:
+    astra:
+      k: Astra
+      d: Upcoming OpenAI model that preliminary testing suggests may be the first to reach the "Critical" cyber-capability threshold in the Preparedness Framework; development and deployment have been slowed as a result.
+    preparedness:
+      k: Preparedness Framework
+      d: OpenAI's internal framework for assessing dangerous model capabilities (cyber, bio, etc.) with defined thresholds and attached obligations. Being rewritten in 2026 as models actually reach the Critical thresholds.
+    riskreport:
+      k: Risk Report (Anthropic)
+      d: Recurring report in which Anthropic, under its Responsible Scaling Policy, discloses the risks of its systems and the state of its countermeasures.
+    rsp:
+      k: RSP (Responsible Scaling Policy)
+      d: Anthropic's framework tying capability thresholds to mandatory safeguards, including regular Risk Reports.
+    mythos:
+      k: Claude Mythos
+      d: Anthropic's most capable, access-restricted model class; technically the same model as Fable 5 but with partly relaxed safeguards for selected organizations.
+    s1:
+      k: S-1
+      d: SEC registration statement (Form S-1), the formal precursor to a US IPO. Per Bloomberg, Anthropic could file as soon as the end of August 2026.
+    runrate:
+      k: Run-rate revenue
+      d: Annualized extrapolation of current revenue (latest monthly or 28-day revenue projected to a full year). Not an audited annual figure.
+    zeroretention:
+      k: Zero retention
+      d: Contract model in which the API provider stores no customer data after processing. The default expectation of many enterprise customers, broken by Anthropic's 30-day mandate in June 2026.
+    glm53:
+      k: GLM-5.3
+      d: Coding-focused model from Chinese lab Z.ai (743B parameters), released August 14, 2026. Its open-weights release was delayed by two weeks over strong cyber capabilities.
+    openweights:
+      k: Open weights
+      d: Models whose weights are publicly available and self-hostable — relevant for data control, compliance and local operation in regulated environments.
+    mcp:
+      k: MCP (Model Context Protocol)
+      d: Open protocol initiated by Anthropic for standardized agent access to tools and data sources; stateless protocol core since the 2026-07-28 specification.
+    claudecode:
+      k: Claude Code
+      d: Anthropic's CLI- and agent-based coding assistant that runs Claude directly in the terminal and in IDE integrations.
+    promptcache:
+      k: Prompt cache
+      d: Cache for already-processed prompt prefixes that cuts latency and cost of repeated LLM calls. With subagent forking in Claude Code, the fork inherits the parent session's cache.
+    ageprediction:
+      k: Age prediction
+      d: OpenAI system estimating a user's age from topics, usage times and account signals, automatically placing suspected minors into the protected teen variant of ChatGPT.
+    museglimmer:
+      k: Muse Glimmer
+      d: Meta's multimodal 30B agent model under Apache 2.0, distilled from the Muse family — the first open-weights release since Llama 4.
+    h200:
+      k: H200
+      d: Nvidia data-center GPU (Hopper generation). Exportable in limited volumes to approved Chinese customers since the US licensing framework of January 2026.
