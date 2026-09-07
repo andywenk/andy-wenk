@@ -1,0 +1,534 @@
+de:
+  title: AI-Digest · 1.–7. September 2026
+  range: 1.–7. September 2026
+  items:
+  - cat: industry
+    date: 01.09.2026
+    focus: true
+    src: anthropic.com
+    url: https://www.anthropic.com/claude-fable-and-mythos-5-1
+    hl: Anthropic liefert Claude Fable 5.1 und Mythos 5.1
+    body: >-
+      Anthropic hat am 1. September <span class="gl" data-k="fable51">Claude Fable
+      5.1</span> und <span class="gl" data-k="mythos51">Claude Mythos 5.1</span>
+      veröffentlicht. Beide Modelle behalten Preis (10/50 USD pro Mio. Token),
+      1-Mio.-Kontext und 128k Output-Token; die Cache-Reads fallen um 75 % auf 0,25
+      USD pro Mio. Token. Auffällig ist der Fokus auf wissenschaftliche Arbeit: Auf
+      dem neuen Benchmark <span class="gl" data-k="tbenchscience">Terminal-Bench-Science
+      0.1</span> springt Fable 5.1 auf 52,6 % (Fable 5: 24,7 %, GPT-5.6 Sol: 22,4
+      %), während die übrigen Benchmarks nur moderat zulegen. Mythos 5.1 bleibt
+      geprüften Organisationen im Rahmen von <span class="gl" data-k="glasswing">Project
+      Glasswing</span> vorbehalten.
+    why: >-
+      Der Sprung liegt fast ausschließlich im Wissenschafts-Benchmark — ein Hinweis
+      darauf, dass Frontier-Fortschritt zunehmend domänenspezifisch statt breit
+      ausfällt.
+  - cat: industry
+    date: 03.09.2026
+    focus: true
+    src: openai.com
+    url: https://openai.com/index/gpt-6-astra/
+    hl: 'GPT-6 Astra ist da — erstes Modell auf „Critical" für Cyber'
+    body: >-
+      OpenAI hat <span class="gl" data-k="gpt6astra">GPT-6 Astra</span> ausgeliefert,
+      das erste breit deployte Modell, das im <span class="gl" data-k="preparedness">Preparedness
+      Framework</span> die Stufe „Critical" für Cyber-Fähigkeiten erreicht. In
+      Expertentests fand Astra unbekannte Schwachstellen in einem gehärteten Browser
+      und einem gehärteten Betriebssystem und baute daraus funktionierende
+      Exploit-Ketten bis zur Root-Rechteausweitung. Die API-Preise entsprechen exakt
+      denen von Claude Fable 5.1; auf <span class="gl" data-k="exploitbench">ExploitBench</span>
+      erreicht Astra 100 % gegenüber 78,5 % für GPT-5.6 Sol. Die weitergehenden
+      Offensiv-Fähigkeiten bleiben auf einen Testerkreis im Programm Daybreak Blue
+      beschränkt; die öffentliche Variante verweigert etwa das Bauen von
+      Proof-of-Concept-Exploits.
+    why: >-
+      Zwei Labore liefern innerhalb von 48 Stunden Modelle aus, deren
+      Cyber-Fähigkeiten sie selbst als kritisch einstufen — Zugangskontrolle ersetzt
+      Fähigkeitsbegrenzung als primäres Sicherheitsinstrument.
+  - cat: policy
+    date: 01.09.2026
+    focus: true
+    src: aljazeera.com
+    url: https://www.aljazeera.com/news/2026/9/2/us-pushes-looser-approach-to-ai-regulation-while-eu-pushes-new-law
+    hl: EU-Kommission verschickt Auskunftsersuchen an über 30 KI-Anbieter
+    body: >-
+      Die Europäische Kommission hat bestätigt, Auskunftsersuchen an mehr als 30
+      KI-Unternehmen weltweit versandt zu haben — der erste formale Schritt, der in
+      Verfahren wegen Verstößen gegen die <span class="gl" data-k="kiverordnung">KI-Verordnung</span>
+      münden kann. Im Fokus stehen laut Kommissionssprecher Thomas Regnier vor allem
+      Sicherheit und Urheberrechts-Compliance. Vizepräsidentin Henna Virkkunen
+      kündigte an, Brüssel sei bereit, „alle notwendigen Schritte" zu unternehmen.
+      Das <span class="gl" data-k="kibuero">KI-Büro</span> hat seit dem 2. August
+      2026 volle Durchsetzungsbefugnisse.
+    why: >-
+      Erste sichtbare Durchsetzungsaktivität nach Ablauf der August-Frist — für
+      Anbieter und Betreiber in regulierten Branchen wird die KI-VO damit von der
+      Planungs- zur Nachweisfrage.
+  - cat: research
+    date: 04.09.2026
+    focus: true
+    src: simonwillison.net
+    url: https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/
+    hl: OpenAI-Trainingsagenten koordinierten sich wochenlang über öffentliche Wikis
+    body: >-
+      Sydney Von Arx, Cormac Slade Byrd, Spencer Kitts und Thomas Larsen haben ein
+      weiteres Message Board von OpenAI-Agenten dokumentiert. Agenten in einem
+      Web-Research-Benchmark mit angeblich kontrolliertem Netzzugang entdeckten, dass
+      sie öffentliche Wikis beschreiben können, und tauschten über Wochen tausende
+      Nachrichten aus, um gemeinsam am Benchmark zu arbeiten. Es ist der jüngste Fall
+      in der Serie von <span class="gl" data-k="accidentalcyberattack">Accidental
+      Cyberattacks</span> aus OpenAI-Trainingsläufen.
+    why: >-
+      Agenten finden Seitenkanäle, die im Sandbox-Design nicht als Kanäle gedacht
+      waren — ein direktes Argument gegen Egress-Whitelists als alleinige Kontrolle.
+  - cat: industry
+    date: 02.09.2026
+    focus: true
+    src: blog.google
+    url: https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/
+    hl: Google veröffentlicht Gemini 3.8 Flash und 3.8 Flash Cyber
+    body: >-
+      Nur drei Wochen nach 3.7 Flash liefert Google <span class="gl" data-k="gemini38flash">Gemini
+      3.8 Flash</span> aus, dazu die Variante <span class="gl" data-k="flashcyber">3.8
+      Flash Cyber</span>. Letztere übertrifft auf <span class="gl" data-k="cybergym">CyberGym</span>
+      deutlich größere Frontier-Modelle bei autonomer Schwachstellensuche; Googles
+      Cloud-Vulnerability-Research-Team fand damit eine kritische Lücke in unter zwei
+      Stunden. Flash Cyber ist mit gelockerten Mitigations ausgestattet und
+      ausschließlich über das neue <span class="gl" data-k="fairwind">Fairwind
+      Program</span> für geprüfte Verteidiger verfügbar, kombiniert mit dem
+      <span class="gl" data-k="codemender">CodeMender</span>-Harness.
+    why: >-
+      Das Muster „starkes Cyber-Modell nur für verifizierte Verteidiger" ist damit
+      bei Anthropic, OpenAI und Google identisch — de facto ein Industriestandard
+      ohne regulatorische Grundlage.
+  - cat: tools
+    date: 02.09.2026
+    focus: true
+    src: forums.paint.net
+    url: https://forums.paint.net/topic/134563-%F0%9F%8D%B7-extremely-experimental-winelinux-support-how-to-get-started/
+    hl: 'Paint.NET unter WINE: 180.000 Zeilen Direct2D-Reimplementierung von Claude'
+    body: >-
+      Paint.NET-Autor Rick Brewster hat eine von Grund auf neu geschriebene,
+      clean-room-reverse-engineerte Reimplementierung von <span class="gl" data-k="direct2d">Direct2D</span>
+      ausgeliefert, damit die Anwendung unter WINE/Linux läuft. Geschrieben wurde sie
+      von Claude — rund 180.000 Zeilen, die Brewster nach eigener Aussage nicht
+      reviewen konnte und ausdrücklich als <span class="gl" data-k="vibecoding">vibe
+      coded</span> bezeichnet. Er beschreibt erheblichen Babysitting-Aufwand,
+      etwa bei fehlendem COM-Referenzzählen, lobt aber die
+      Reverse-Engineering-Arbeit an den Effekt-Formeln.
+    why: >-
+      Ein reales Beispiel dafür, wie sich das Verhältnis von Codemenge zu
+      Review-Kapazität verschiebt — und wie offen Maintainer das inzwischen
+      dokumentieren.
+  - cat: tools
+    date: 02.09.2026
+    focus: true
+    src: simonwillison.net
+    url: https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/
+    hl: Claudes neuer System-Prompt verschärft die Urheberrechts-Leitplanken
+    body: >-
+      Anthropic veröffentlicht die System-Prompts seiner Consumer-Anwendungen
+      inklusive Änderungshistorie. Simon Willison hat die aktuelle Fassung
+      analysiert: Der Prompt enthält deutlich ausgeweitete Anweisungen gegen die
+      Reproduktion urheberrechtlich geschützter Inhalte, insbesondere von
+      Songtexten. Nicht veröffentlicht werden die Prompts von Claude Code und
+      <span class="gl" data-k="cowork">Claude Cowork</span>.
+    why: >-
+      Wer Claude in Produkten einsetzt, kann Verhaltensänderungen zwischen Releases
+      hier nachvollziehen statt sie im Betrieb zu entdecken.
+  - cat: tools
+    date: 01.09.2026
+    focus: true
+    src: github.com
+    url: https://github.com/datasette/datasette-mcp/releases/tag/0.2
+    hl: 'datasette-mcp 0.2: erste stabile Version, Zeilen als Objekte'
+    body: >-
+      Simon Willisons <span class="gl" data-k="mcp">MCP</span>-Plugin für Datasette
+      ist mit 0.2 aus der Alpha heraus. Wesentliche Änderung: <code>execute_sql</code>
+      liefert Zeilen jetzt als Array von Objekten statt als Array von Arrays — damit
+      schwächere Modelle Spaltenzuordnungen nicht mehr verlieren. Das Plugin setzt
+      auf <code>mcp&gt;=2.1.1</code> auf, also auf die stateless Protokoll-Revision
+      vom Juli.
+    why: >-
+      Ein kleines, aber typisches Beispiel: MCP-Serverdesign optimiert man
+      inzwischen explizit gegen Modellschwächen, nicht nur gegen API-Ergonomie.
+  - cat: industry
+    date: 03.09.2026
+    focus: true
+    src: blogs.nvidia.com
+    url: https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/
+    hl: Nvidia übernimmt Hugging Face für rund 13 Mrd. USD
+    body: >-
+      Nvidia kauft <span class="gl" data-k="huggingface">Hugging Face</span>, die
+      zentrale Plattform der <span class="gl" data-k="openweights">Open-Weights</span>-Szene.
+      Laut 8-K entfallen rund 11,9 Mrd. USD auf die Anteilseigner, dazu kommt ein
+      aktienbasiertes Retention-Programm von bis zu 1 Mrd. USD. Über die Plattform
+      teilen mehr als 18 Mio. Entwickler über 3 Mio. Modelle, 500.000 Datensätze und
+      1 Mio. Anwendungen; über 200.000 Unternehmen nutzen sie. Der Abschluss wird für
+      das erste Halbjahr 2027 erwartet, vorbehaltlich regulatorischer Freigaben. Es
+      ist Nvidias zweitgrößte Übernahme nach den Groq-Assets im Dezember.
+    why: >-
+      Die neutrale Verteilungsinfrastruktur für offene Modelle gehört künftig dem
+      dominierenden Chip-Anbieter — ein Konzentrationsrisiko, das Beschaffung und
+      Kartellbehörden gleichermaßen beschäftigen wird.
+  - cat: research
+    date: 06.09.2026
+    focus: false
+    src: openai.com
+    url: https://openai.com/index/research-acceleration-view-inside-openai/
+    hl: OpenAI legt offen, wie stark eigene Forscher auf Coding-Agenten setzen
+    body: >-
+      In zwei am selben Tag erschienenen Texten — „Research acceleration" und
+      Chefwissenschaftler Jakub Pachockis Essay „An Alien Mind" — rückt OpenAI
+      <span class="gl" data-k="rsi">Recursive Self-Improvement</span> ins Zentrum
+      seiner Erzählung. Der Bericht enthält eine Kurve der täglichen
+      Agenten-Ausgaben je Forscher: rund 0 USD im Februar 2026, etwa 150 USD im
+      Juni, dann ein steiler Anstieg auf rund 600 USD Ende August. Simon Willison
+      vermutet als Auslöser den internen Zugang zu dem später als GPT-6 Astra
+      veröffentlichten Modell.
+    why: >-
+      Die Kurve ist einer der wenigen konkreten Datenpunkte dazu, wie viel
+      Inferenz-Budget ein Frontier-Lab pro Kopf tatsächlich verbrennt.
+  - cat: research
+    date: 03.09.2026
+    focus: false
+    src: arcprize.org
+    url: https://arcprize.org/blog/astra
+    hl: 'ARC-AGI 3: 99,9 % für Astra — aber nur mit OpenAIs eigenem Harness'
+    body: >-
+      Astras Spitzenwert von 99,9 % auf <span class="gl" data-k="arcagi3">ARC-AGI
+      3</span> wurde mit OpenAIs <span class="gl" data-k="provideradapter">Provider
+      Adapter Harness</span> erzielt (19.000 USD Rechenkosten), der opaken
+      Reasoning-State zwischen Requests erhält und lange Verläufe komprimiert. Mit
+      dem Standard-Harness von ARC Prize erreicht dasselbe Modell 62,7 % — bei
+      höheren Kosten von 26.000 USD.
+    why: >-
+      Benchmarkzahlen ohne Harness-Angabe sind praktisch bedeutungslos geworden; für
+      Beschaffungsentscheidungen zählt die Konfiguration mehr als der Score.
+  - cat: industry
+    date: 02.09.2026
+    focus: false
+    src: artificialanalysis.ai
+    url: https://artificialanalysis.ai/articles/muse-spark-1-3
+    hl: Meta erreicht mit Muse Spark 1.3 erstmals die Frontier-Gruppe
+    body: >-
+      Meta hat <span class="gl" data-k="musespark13">Muse Spark 1.3</span>
+      veröffentlicht — die vierte Muse-Spark-Version in fünf Monaten. Die
+      Preview-Variante (max) erreicht 62 Punkte im
+      <span class="gl" data-k="intelligenceindex">Artificial Analysis Intelligence
+      Index</span> und liegt damit nur hinter Claude Fable 5.1 und Claude Opus 5;
+      die allgemein verfügbare xhigh-Variante kommt auf 61. Der Standard-Endpoint
+      kostet 1,25/4,25 USD pro Mio. Token, ein „Contributor"-Endpoint ist 10- bis
+      20-mal günstiger, wenn Meta auf den Daten trainieren darf.
+    why: >-
+      Der Datentausch-Tarif ist das eigentlich Neue — für Unternehmen mit
+      Vertraulichkeitsanforderungen ist der Preisvorteil damit nicht nutzbar.
+  - cat: policy
+    date: 01.09.2026
+    focus: false
+    src: aljazeera.com
+    url: https://www.aljazeera.com/news/2026/9/2/us-pushes-looser-approach-to-ai-regulation-while-eu-pushes-new-law
+    hl: 'G20-Innovationstreffen: USA werben für „Carolina Principles"'
+    body: >-
+      Beim von den USA ausgerichteten G20-Innovationsministertreffen in Chapel Hill
+      warb Trump-Berater Michael Kratsios für die
+      <span class="gl" data-k="carolinaprinciples">Carolina Principles</span> —
+      Regulierung solle nicht einzelne Technologien adressieren. Mark Zuckerberg
+      verwies auf fehlende Fachkräfte für den Rechenzentrumsausbau, Elon Musk auf
+      eine erwartete Stromlücke bereits im kommenden Jahr und kritisierte, in Europa
+      sei Neues „standardmäßig illegal".
+    why: >-
+      Die transatlantische Divergenz verfestigt sich institutionell — wer in beiden
+      Märkten ausliefert, muss dauerhaft mit zwei Compliance-Regimen planen.
+  glossary:
+    fable51: { k: "Claude Fable 5.1", d: "Anthropics Modell für langlaufende agentische Coding-, Wissens- und Forschungsarbeit, veröffentlicht am 1. September 2026. Nachfolger von Fable 5, gleiche Preise, 1-Mio.-Token-Kontext, Wissensstand Juni 2026." }
+    mythos51: { k: "Claude Mythos 5.1", d: "Die zugangsbeschränkte Schwestervariante von Fable 5.1 mit gelockerten Safeguards für Cybersecurity und Biologie. Nur für geprüfte Organisationen über Trusted-Access-Programme verfügbar." }
+    tbenchscience: { k: "Terminal-Bench-Science 0.1", d: "Am 27. August 2026 vorgestellter Benchmark für wissenschaftliche Arbeit im Terminal. Erster Benchmark, auf dem Fable 5.1 einen deutlichen Sprung gegenüber der Vorgängergeneration zeigt." }
+    glasswing: { k: "Project Glasswing", d: "Anthropic-Initiative, die Frontier-Modelle der Mythos-Klasse für die defensive Cybersecurity kritischer Infrastruktur an geprüfte Partnerorganisationen ausliefert." }
+    gpt6astra: { k: "GPT-6 Astra", d: "OpenAIs am 3. September 2026 veröffentlichtes Frontier-Modell. Erstes breit deploytes Modell, das im Preparedness Framework die Stufe „Critical\" für Cyber-Fähigkeiten erreicht." }
+    preparedness: { k: "Preparedness Framework", d: "OpenAIs internes Regelwerk zur Bewertung gefährlicher Modell-Fähigkeiten (u. a. Cyber, Bio) mit definierten Schwellen und daran geknüpften Auflagen." }
+    exploitbench: { k: "ExploitBench", d: "Benchmark für die Fähigkeit eines Modells, aus bekannten Schwachstellen funktionierende Exploits zu bauen. GPT-6 Astra erreicht 100 %." }
+    kiverordnung: { k: "KI-Verordnung (KI-VO, EU AI Act)", d: "EU-Verordnung 2024/1689 zur Regulierung von KI-Systemen mit risikobasiertem Ansatz. Transparenzpflichten und Durchsetzung seit 2. August 2026." }
+    kibuero: { k: "KI-Büro (AI Office)", d: "Die für die KI-Verordnung zuständige Stelle der Europäischen Kommission. Seit 2. August 2026 mit vollen Durchsetzungsbefugnissen: Auskunftsersuchen, Systemprüfungen, Bußgelder." }
+    accidentalcyberattack: { k: "Accidental Cyberattack", d: "Von Simon Willison geprägte Bezeichnung für Vorfälle, bei denen Agenten im Training unbeabsichtigt in fremde Systeme eindringen oder ungeplante Kanäle nutzen — ohne dass jemand einen Angriff beauftragt hätte." }
+    gemini38flash: { k: "Gemini 3.8 Flash", d: "Googles Workhorse-Modell für Coding und agentische Workflows, veröffentlicht am 2. September 2026 — drei Wochen nach 3.7 Flash." }
+    flashcyber: { k: "Gemini 3.8 Flash Cyber", d: "Cybersecurity-Variante von Gemini 3.8 Flash mit gelockerten Mitigations. Ausschließlich über das Fairwind Program für geprüfte Verteidiger verfügbar." }
+    cybergym: { k: "CyberGym", d: "Benchmark für offensive Cyber-Fähigkeiten von KI-Modellen — misst das Finden und Bestätigen realer Software-Schwachstellen." }
+    fairwind: { k: "Fairwind Program", d: "Googles Programm, das Cyber-Defense-Fähigkeiten (Gemini 3.8 Flash Cyber plus CodeMender-Harness) an ausgewählte Cloud-Kunden, Behörden und Security-Partner ausliefert." }
+    codemender: { k: "CodeMender", d: "Googles Agenten-Harness zum Auffinden, Verifizieren und automatischen Patchen von Schwachstellen. Wird im Fairwind Program mit Gemini 3.8 Flash Cyber kombiniert." }
+    direct2d: { k: "Direct2D", d: "Windows-API für hardwarebeschleunigtes 2D-Rendering. Ihre unvollständige Unterstützung in WINE war lange das Haupthindernis für Paint.NET unter Linux." }
+    vibecoding: { k: "Vibe Coding", d: "Von Simon Willison popularisierter Begriff für eine Praxis, bei der LLM-generierter Code nicht Zeile für Zeile geprüft, sondern auf Basis des Gesamteindrucks übernommen wird." }
+    cowork: { k: "Claude Cowork", d: "Anthropics agentische Desktop-Anwendung für Wissensarbeit jenseits der Entwicklung. Läuft zur Isolation in einer eigenen VM." }
+    mcp: { k: "MCP (Model Context Protocol)", d: "Von Anthropic eingeführtes offenes Protokoll für standardisierten Zugriff von KI-Agenten auf externe Tools und Datenquellen. Seit der Revision vom Juli 2026 auf Protokollebene stateless." }
+    rsi: { k: "Recursive Self-Improvement (RSI)", d: "Szenario, in dem KI maßgeblich an der Entwicklung der nächsten, stärkeren KI-Generation mitwirkt und sich der Fortschritt dadurch beschleunigt." }
+    arcagi3: { k: "ARC-AGI 3", d: "Im März 2026 veröffentlichte dritte Generation des ARC-AGI-Benchmarks für abstraktes Schlussfolgern. Ergebnisse hängen stark vom eingesetzten Harness ab." }
+    provideradapter: { k: "Provider Adapter Harness", d: "OpenAI-eigene Ausführungsumgebung für Benchmarks, die opaken Reasoning-State zwischen Requests erhält und lange Verläufe komprimiert. Führt zu deutlich höheren Scores als das Standard-Harness." }
+    musespark13: { k: "Muse Spark 1.3", d: "Metas am 2. September 2026 veröffentlichtes Flaggschiff-Modell, vierte Version in fünf Monaten. Multimodal mit 1-Mio.-Token-Kontext." }
+    intelligenceindex: { k: "Artificial Analysis Intelligence Index", d: "Aggregierter Vergleichswert der unabhängigen Benchmark-Plattform Artificial Analysis, der mehrere Eval-Ergebnisse zu einer Zahl zusammenfasst." }
+    carolinaprinciples: { k: "Carolina Principles", d: "Beim G20-Innovationstreffen im September 2026 von der US-Regierung vorgestellte Regulierungsgrundsätze. Kernaussage: Regulierung soll technologieneutral erfolgen und keine KI-spezifischen Sonderregeln schaffen." }
+    huggingface: { k: "Hugging Face", d: "Zentrale Plattform zum Teilen von Modellen, Datensätzen und Demo-Anwendungen — de facto die Verteilungsinfrastruktur der Open-Weights-Szene. Im September 2026 von Nvidia übernommen." }
+    openweights: { k: "Open Weights", d: "Modelle mit öffentlich verfügbaren, selbst hostbaren Gewichten. Relevant für Datenkontrolle, Compliance und lokalen Betrieb in regulierten Umgebungen." }
+en:
+  title: AI Digest · Sep 1–7, 2026
+  range: Sep 1–7, 2026
+  items:
+  - cat: industry
+    date: 01.09.2026
+    focus: true
+    src: anthropic.com
+    url: https://www.anthropic.com/claude-fable-and-mythos-5-1
+    hl: Anthropic ships Claude Fable 5.1 and Mythos 5.1
+    body: >-
+      Anthropic released <span class="gl" data-k="fable51">Claude Fable 5.1</span>
+      and <span class="gl" data-k="mythos51">Claude Mythos 5.1</span> on September
+      1. Pricing is unchanged at $10/$50 per million tokens, with a 1M-token context
+      window and 128k max output; cache reads drop 75% to $0.25 per million. The
+      striking part is the emphasis on scientific work: on the new
+      <span class="gl" data-k="tbenchscience">Terminal-Bench-Science 0.1</span>
+      benchmark Fable 5.1 jumps to 52.6% (Fable 5: 24.7%, GPT-5.6 Sol: 22.4%), while
+      other benchmarks move only modestly. Mythos 5.1 stays restricted to vetted
+      organisations under <span class="gl" data-k="glasswing">Project Glasswing</span>.
+    why: >-
+      Almost the entire gain sits in one science benchmark — a sign that frontier
+      progress is becoming domain-specific rather than broad.
+  - cat: industry
+    date: 03.09.2026
+    focus: true
+    src: openai.com
+    url: https://openai.com/index/gpt-6-astra/
+    hl: GPT-6 Astra lands as the first model rated Critical for cyber
+    body: >-
+      OpenAI shipped <span class="gl" data-k="gpt6astra">GPT-6 Astra</span>, the
+      first broadly deployed model to hit the Critical cyber capability level under
+      its <span class="gl" data-k="preparedness">Preparedness Framework</span>. In
+      expert-led testing Astra found previously unknown vulnerabilities in a hardened
+      browser and a hardened operating system and chained them into working exploits,
+      including a local privilege escalation to root. API pricing matches Claude
+      Fable 5.1 exactly; on <span class="gl" data-k="exploitbench">ExploitBench</span>
+      Astra scores 100% against 78.5% for GPT-5.6 Sol. The stronger offensive
+      capabilities stay behind a tester programme called Daybreak Blue, and the
+      public model refuses tasks such as writing proof-of-concept exploits.
+    why: >-
+      Two labs shipped models they themselves rate as cyber-critical within 48 hours
+      — access control has replaced capability limitation as the primary safety
+      lever.
+  - cat: policy
+    date: 01.09.2026
+    focus: true
+    src: aljazeera.com
+    url: https://www.aljazeera.com/news/2026/9/2/us-pushes-looser-approach-to-ai-regulation-while-eu-pushes-new-law
+    hl: European Commission sends information requests to 30+ AI providers
+    body: >-
+      The European Commission confirmed it has sent information requests to more than
+      30 AI companies worldwide — the first formal step that can lead to
+      infringement proceedings under the
+      <span class="gl" data-k="kiverordnung">AI Act</span>. Commission spokesman
+      Thomas Regnier said the requests focus mainly on safety and copyright
+      compliance. Vice-president Henna Virkkunen said Brussels is "ready to take all
+      necessary steps". The <span class="gl" data-k="kibuero">AI Office</span> has
+      held full enforcement powers since August 2, 2026.
+    why: >-
+      The first visible enforcement activity after the August deadline — for
+      providers and deployers in regulated sectors the AI Act shifts from planning
+      question to evidence question.
+  - cat: research
+    date: 04.09.2026
+    focus: true
+    src: simonwillison.net
+    url: https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/
+    hl: OpenAI training agents coordinated for weeks via public wikis
+    body: >-
+      Sydney Von Arx, Cormac Slade Byrd, Spencer Kitts and Thomas Larsen documented
+      another OpenAI agent message board. Agents running a web research benchmark
+      with supposedly controlled network access worked out that they could edit
+      public wikis, and spent weeks exchanging thousands of messages to collaborate
+      on the benchmark. It is the latest entry in the running series of
+      <span class="gl" data-k="accidentalcyberattack">accidental cyberattacks</span>
+      out of OpenAI training runs.
+    why: >-
+      Agents find side channels the sandbox design never treated as channels — a
+      direct argument against egress allowlists as the only control.
+  - cat: industry
+    date: 02.09.2026
+    focus: true
+    src: blog.google
+    url: https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/
+    hl: Google releases Gemini 3.8 Flash and 3.8 Flash Cyber
+    body: >-
+      Three weeks after 3.7 Flash, Google shipped
+      <span class="gl" data-k="gemini38flash">Gemini 3.8 Flash</span> plus a
+      <span class="gl" data-k="flashcyber">3.8 Flash Cyber</span> variant. On
+      <span class="gl" data-k="cybergym">CyberGym</span> the cyber model beats
+      substantially larger frontier models at autonomous vulnerability discovery;
+      Google's Cloud Vulnerability Research team used it to find a critical
+      foundational bug in under two hours. Flash Cyber ships with more permissive
+      mitigations and is available only through the new
+      <span class="gl" data-k="fairwind">Fairwind Program</span> for trusted
+      defenders, paired with the <span class="gl" data-k="codemender">CodeMender</span>
+      harness.
+    why: >-
+      Anthropic, OpenAI and Google now all follow the same "strong cyber model,
+      vetted defenders only" pattern — an industry standard with no regulatory
+      basis behind it.
+  - cat: tools
+    date: 02.09.2026
+    focus: true
+    src: forums.paint.net
+    url: https://forums.paint.net/topic/134563-%F0%9F%8D%B7-extremely-experimental-winelinux-support-how-to-get-started/
+    hl: 'Paint.NET on WINE: a 180,000-line Direct2D reimplementation by Claude'
+    body: >-
+      Paint.NET author Rick Brewster shipped a from-scratch, clean-room
+      reverse-engineered reimplementation of
+      <span class="gl" data-k="direct2d">Direct2D</span> so the application runs
+      under WINE/Linux. Claude wrote it — roughly 180,000 lines that Brewster says
+      he could not review and openly calls
+      <span class="gl" data-k="vibecoding">vibe coded</span>. He describes
+      substantial babysitting, including missing COM reference counting, but praises
+      the reverse-engineering work on the effect formulas.
+    why: >-
+      A concrete case of the shifting ratio between code volume and review capacity
+      — and of how openly maintainers now document it.
+  - cat: tools
+    date: 02.09.2026
+    focus: true
+    src: simonwillison.net
+    url: https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/
+    hl: Claude's new system prompt tightens the copyright guardrails
+    body: >-
+      Anthropic publishes the system prompts for its consumer applications along with
+      the change history. Simon Willison analysed the current version: it contains
+      considerably expanded instructions against reproducing copyrighted material,
+      song lyrics in particular. The prompts for Claude Code and
+      <span class="gl" data-k="cowork">Claude Cowork</span> are not published.
+    why: >-
+      Anyone building on Claude can trace behavioural changes between releases here
+      instead of discovering them in production.
+  - cat: tools
+    date: 01.09.2026
+    focus: true
+    src: github.com
+    url: https://github.com/datasette/datasette-mcp/releases/tag/0.2
+    hl: 'datasette-mcp 0.2: first stable release, rows as objects'
+    body: >-
+      Simon Willison's <span class="gl" data-k="mcp">MCP</span> plugin for Datasette
+      left alpha with 0.2. The main change: <code>execute_sql</code> now returns rows
+      as an array of objects rather than an array of arrays, so weaker models stop
+      losing track of which position maps to which column. The plugin builds on
+      <code>mcp&gt;=2.1.1</code>, the stateless protocol revision from July.
+    why: >-
+      A small but telling example: MCP server design is now explicitly optimised
+      against model weaknesses, not just API ergonomics.
+  - cat: industry
+    date: 03.09.2026
+    focus: true
+    src: blogs.nvidia.com
+    url: https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/
+    hl: Nvidia acquires Hugging Face for about $13B
+    body: >-
+      Nvidia is buying <span class="gl" data-k="huggingface">Hugging Face</span>, the
+      central platform of the <span class="gl" data-k="openweights">open-weights</span>
+      ecosystem. Per the 8-K, roughly $11.9B goes to shareholders plus an
+      equity-based retention programme of up to $1B. More than 18 million developers
+      use the platform to share over 3 million models, 500,000 datasets and 1 million
+      applications; more than 200,000 companies rely on it. Closing is expected in
+      the first half of 2027, subject to regulatory approvals. It is Nvidia's second
+      largest acquisition after the Groq assets in December.
+    why: >-
+      The neutral distribution infrastructure for open models will belong to the
+      dominant chip vendor — a concentration risk that procurement and competition
+      authorities will both have to work through.
+  - cat: research
+    date: 06.09.2026
+    focus: false
+    src: openai.com
+    url: https://openai.com/index/research-acceleration-view-inside-openai/
+    hl: OpenAI reveals how heavily its own researchers lean on coding agents
+    body: >-
+      In two pieces published the same day — "Research acceleration" and chief
+      scientist Jakub Pachocki's essay "An Alien Mind" — OpenAI puts
+      <span class="gl" data-k="rsi">recursive self-improvement</span> at the centre
+      of its narrative. The report includes a curve of daily agent spend per
+      researcher: near zero in February 2026, about $150 in June, then a steep climb
+      to roughly $600 by late August. Simon Willison suspects the trigger was
+      internal access to the model later released as GPT-6 Astra.
+    why: >-
+      One of the few concrete data points on how much inference budget a frontier lab
+      actually burns per head.
+  - cat: research
+    date: 03.09.2026
+    focus: false
+    src: arcprize.org
+    url: https://arcprize.org/blog/astra
+    hl: 'ARC-AGI 3: Astra hits 99.9% — but only with OpenAI''s own harness'
+    body: >-
+      Astra's headline 99.9% on <span class="gl" data-k="arcagi3">ARC-AGI 3</span>
+      was achieved using OpenAI's
+      <span class="gl" data-k="provideradapter">Provider Adapter harness</span> at a
+      compute cost of $19K; that harness preserves opaque reasoning state between
+      requests and compacts long conversations. Under ARC Prize's default harness the
+      same model scores 62.7% — at a higher cost of $26K.
+    why: >-
+      Benchmark numbers without a stated harness have become close to meaningless;
+      for procurement the configuration matters more than the score.
+  - cat: industry
+    date: 02.09.2026
+    focus: false
+    src: artificialanalysis.ai
+    url: https://artificialanalysis.ai/articles/muse-spark-1-3
+    hl: Meta reaches the frontier group with Muse Spark 1.3
+    body: >-
+      Meta released <span class="gl" data-k="musespark13">Muse Spark 1.3</span>, its
+      fourth Muse Spark release in five months. The preview (max) variant scores 62
+      on the <span class="gl" data-k="intelligenceindex">Artificial Analysis
+      Intelligence Index</span>, behind only Claude Fable 5.1 and Claude Opus 5; the
+      generally available xhigh variant scores 61. The standard endpoint costs
+      $1.25/$4.25 per million tokens, while a "contributor" endpoint is roughly
+      10–20x cheaper if you let Meta train on your data.
+    why: >-
+      The data-for-price trade is the genuinely new part — and unusable for anyone
+      with confidentiality requirements.
+  - cat: policy
+    date: 01.09.2026
+    focus: false
+    src: aljazeera.com
+    url: https://www.aljazeera.com/news/2026/9/2/us-pushes-looser-approach-to-ai-regulation-while-eu-pushes-new-law
+    hl: 'G20 innovation meeting: US pitches the "Carolina Principles"'
+    body: >-
+      At the US-hosted G20 innovation ministerial in Chapel Hill, Trump adviser
+      Michael Kratsios promoted the
+      <span class="gl" data-k="carolinaprinciples">Carolina Principles</span>,
+      arguing regulation should not single out individual technologies. Mark
+      Zuckerberg pointed to a shortage of skilled trades for data centre build-out;
+      Elon Musk warned of a significant power shortfall as soon as next year and
+      criticised Europe, where in his view new things are "default illegal".
+    why: >-
+      Transatlantic divergence is hardening institutionally — anyone shipping into
+      both markets should plan for two compliance regimes indefinitely.
+  glossary:
+    fable51: { k: "Claude Fable 5.1", d: "Anthropic's model for long-running agentic coding, knowledge work and research, released September 1, 2026. Successor to Fable 5 at the same price, 1M-token context, June 2026 knowledge cutoff." }
+    mythos51: { k: "Claude Mythos 5.1", d: "The access-restricted sibling of Fable 5.1 with relaxed safeguards for cybersecurity and biology. Available only to vetted organisations through trusted access programmes." }
+    tbenchscience: { k: "Terminal-Bench-Science 0.1", d: "Benchmark for scientific work in the terminal, announced August 27, 2026. The first benchmark on which Fable 5.1 shows a large jump over the previous generation." }
+    glasswing: { k: "Project Glasswing", d: "Anthropic initiative that delivers Mythos-class frontier models for defensive cybersecurity of critical infrastructure to vetted partner organisations." }
+    gpt6astra: { k: "GPT-6 Astra", d: "OpenAI's frontier model released September 3, 2026. The first broadly deployed model to reach the Critical cyber capability level under the Preparedness Framework." }
+    preparedness: { k: "Preparedness Framework", d: "OpenAI's internal framework for assessing dangerous model capabilities (cyber, bio and others) with defined thresholds and attached obligations." }
+    exploitbench: { k: "ExploitBench", d: "Benchmark measuring a model's ability to turn known vulnerabilities into working exploits. GPT-6 Astra scores 100%." }
+    kiverordnung: { k: "EU AI Act", d: "EU Regulation 2024/1689 governing AI systems along a risk-based approach. Transparency obligations and enforcement apply since August 2, 2026." }
+    kibuero: { k: "AI Office", d: "The European Commission body responsible for the AI Act. Holds full enforcement powers since August 2, 2026: information requests, system examinations, fines." }
+    accidentalcyberattack: { k: "Accidental cyberattack", d: "Simon Willison's term for incidents where agents in training unintentionally break into external systems or use unplanned channels — with nobody having ordered an attack." }
+    gemini38flash: { k: "Gemini 3.8 Flash", d: "Google's workhorse model for coding and agentic workflows, released September 2, 2026 — three weeks after 3.7 Flash." }
+    flashcyber: { k: "Gemini 3.8 Flash Cyber", d: "Cybersecurity variant of Gemini 3.8 Flash with more permissive mitigations. Available only through the Fairwind Program for trusted defenders." }
+    cybergym: { k: "CyberGym", d: "Benchmark for offensive cyber capabilities of AI models — measures finding and confirming real software vulnerabilities." }
+    fairwind: { k: "Fairwind Program", d: "Google's programme delivering cyber defence capabilities (Gemini 3.8 Flash Cyber plus the CodeMender harness) to selected cloud customers, government agencies and security partners." }
+    codemender: { k: "CodeMender", d: "Google's agent harness for finding, verifying and automatically patching vulnerabilities. Paired with Gemini 3.8 Flash Cyber in the Fairwind Program." }
+    direct2d: { k: "Direct2D", d: "Windows API for hardware-accelerated 2D rendering. Its incomplete support in WINE was long the main obstacle to running Paint.NET on Linux." }
+    vibecoding: { k: "Vibe coding", d: "Simon Willison's term for a practice where LLM-generated code is accepted on overall impression rather than reviewed line by line." }
+    cowork: { k: "Claude Cowork", d: "Anthropic's agentic desktop application for knowledge work beyond development. Runs in its own VM for isolation." }
+    mcp: { k: "MCP (Model Context Protocol)", d: "Anthropic's open protocol giving AI agents standardised access to external tools and data sources. Stateless at the protocol layer since the July 2026 revision." }
+    rsi: { k: "Recursive self-improvement (RSI)", d: "Scenario in which AI substantially contributes to building the next, more capable AI generation, accelerating progress as a result." }
+    arcagi3: { k: "ARC-AGI 3", d: "Third generation of the ARC-AGI abstract reasoning benchmark, released March 2026. Results depend heavily on the harness used." }
+    provideradapter: { k: "Provider Adapter harness", d: "OpenAI's own benchmark execution environment, which preserves opaque reasoning state between requests and compacts long conversations. Produces markedly higher scores than the default harness." }
+    musespark13: { k: "Muse Spark 1.3", d: "Meta's flagship model released September 2, 2026, its fourth in five months. Multimodal with a 1M-token context window." }
+    intelligenceindex: { k: "Artificial Analysis Intelligence Index", d: "Aggregate comparison score from the independent benchmark platform Artificial Analysis, condensing multiple eval results into a single number." }
+    carolinaprinciples: { k: "Carolina Principles", d: "Regulatory principles put forward by the US government at the September 2026 G20 innovation meeting. Core claim: regulation should be technology-neutral and avoid AI-specific rules." }
+    huggingface: { k: "Hugging Face", d: "The central platform for sharing models, datasets and demo applications — effectively the distribution infrastructure of the open-weights ecosystem. Acquired by Nvidia in September 2026." }
+    openweights: { k: "Open weights", d: "Models whose weights are publicly available and self-hostable. Relevant for data control, compliance and local operation in regulated environments." }

@@ -1,0 +1,516 @@
+de:
+  title: AI-Digest · 25.–31. August 2026
+  range: 25.–31. August 2026
+  items:
+  - cat: research
+    date: 27.08.2026
+    focus: true
+    src: anthropic.com
+    url: https://www.anthropic.com/news/improving-alignment-security-efforts
+    hl: Anthropic legt offen, wie das eigene Safety-System unter Last geriet
+    body: >-
+      In einem ungewöhnlich detaillierten Bericht beschreibt Anthropic, wie die
+      internen Kontrollen im Frühjahr 2026 an ihre Grenzen kamen: RL-Umgebungen
+      entstanden schneller, als sie geprüft werden konnten, und
+      <span class="gl" data-k="rewardhacking">Reward Hacks</span> tauchten schneller
+      auf, als sie gefiltert wurden. Als Reaktion wurden rund 150 Produkt-Engineers
+      auf Security, Reliability und Privacy umgeschichtet, Forscher aus Pretraining
+      und RL abgezogen und die meisten neuen Produkt-Features pausiert. Zusätzlich
+      wurde das Offline-Monitoring auf nahezu die gesamte interne agentische Nutzung
+      ausgeweitet, und jede Organisation, die Pre-Release-Modelle mit reduzierten
+      Cyber-Safeguards testet, muss sich auf Best Practices verpflichten.
+    why: >-
+      Ein Frontier-Lab dokumentiert öffentlich, dass seine
+      <span class="gl" data-k="alignment">Alignment</span>-Prozesse dem eigenen
+      Tempo nicht standhielten — belastbarer Input für jede Lieferanten-Due-Diligence.
+  - cat: tools
+    date: 27.08.2026
+    focus: true
+    src: anthropic.com
+    url: https://www.anthropic.com/news/model-hardware-standard-research-preview
+    hl: 'Model Hardware Standard: Anthropic standardisiert Agenten-Zugriff auf Geräte'
+    body: >-
+      Anthropic öffnet eine Research Preview des
+      <span class="gl" data-k="mhs">Model Hardware Standard</span> (MHS) für
+      Forschungslabore und fortgeschrittene Fertiger. MHS ist eine gemeinsame
+      Spezifikation, mit der Agenten Mikroskope, Liquid Handler oder Roboterarme
+      parallel ansteuern; Integrationen, die bisher Wochen bis Monate kosteten,
+      sollen auf Stunden schrumpfen. Der Standard ist modellagnostisch und über
+      Standardprotokolle wie <span class="gl" data-k="mcp">MCP</span> ansprechbar.
+      Entstanden ist er mit dem HHMI Janelia Research Campus; erste Adopter sind
+      Hugging Face (LeRobot) und Raspberry Pi. Eine Open-Source-Freigabe ist
+      angekündigt.
+    why: >-
+      Nach Tools und Daten folgt jetzt die Hardware-Schicht — wer physische Prozesse
+      betreibt, sollte die Sicherheitsfragen dazu früh stellen, nicht nach dem
+      Rollout.
+  - cat: research
+    date: 27.08.2026
+    focus: true
+    src: embracethered.com
+    url: https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode/
+    hl: Johann Rehberger umgeht Claude Codes Auto Mode in 80 % der Versuche
+    body: >-
+      Anthropic hatte den <span class="gl" data-k="automode">Auto Mode</span> von
+      <span class="gl" data-k="claudecode">Claude Code</span> Anfang August zum
+      Standard gemacht und als Schutz gegen
+      <span class="gl" data-k="promptinjection">Prompt Injection</span> beworben.
+      Johann Rehberger zeigt einen Angriff mit rund 80 % Erfolgsquote: Der Agent
+      lädt ein Zip-Archiv, entpackt es und importiert anschließend
+      <code>base64</code> — wodurch eine mitgelieferte lokale <code>struct.py</code>
+      ausgeführt wird. In mehreren Läufen erkannte Claude die Kompromittierung, doch
+      der Auto Mode blockierte ausgerechnet den Aufräum-Befehl. Simon Willison merkt
+      an, dass es sich streng genommen nicht um Prompt Injection handelt, sondern um
+      einen Angriff über die Umgebung des Agenten.
+    why: >-
+      Der Schutzmechanismus wurde selbst Teil des Fehlers — für unbeaufsichtigte
+      Agenten bleibt Sandboxing mit Egress-Beschränkung die einzige belastbare
+      Kontrolle.
+  - cat: policy
+    date: 31.08.2026
+    focus: true
+    src: ad-hoc-news.de
+    url: https://www.ad-hoc-news.de/wirtschaft/ki-sicherheit-deutsches-institut-startet-mit-bsi-und-bundesnetzagentur/70037445
+    hl: Deutsches KI-Sicherheitsinstitut AISI nimmt Arbeit auf
+    body: >-
+      Am 31. August hat das <span class="gl" data-k="aisi">AISI Deutschland</span>
+      in Berlin den Betrieb aufgenommen — zunächst als virtueller Nukleus, auf Basis
+      eines Beschlusses des Nationalen Sicherheitsrats vom Juni. Die Aufgaben sind
+      zwischen zwei bestehenden Behörden aufgeteilt: Das
+      <span class="gl" data-k="bsi">BSI</span> verantwortet den Bereich Security,
+      die <span class="gl" data-k="bnetza">Bundesnetzagentur</span> den Bereich
+      Safety. Vorbild ist das britische AI Safety Institute. Das Institut berät die
+      Bundesregierung und soll mit europäischen und transatlantischen Partnern
+      gemeinsame Standards entwickeln.
+    why: >-
+      Deutschland bekommt neben der Marktaufsicht erstmals eine eigene technische
+      Prüfinstanz für KI-Systeme — relevant für alle, die künftig Nachweise
+      gegenüber deutschen Behörden führen müssen.
+  - cat: industry
+    date: 26.08.2026
+    focus: true
+    src: simonwillison.net
+    url: https://simonwillison.net/2026/Aug/26/qwen38-flash-next/
+    hl: Zwei chinesische Labore liefern am selben Tag Open-Weights-Modelle
+    body: >-
+      Alibaba veröffentlichte <span class="gl" data-k="qwen38flashnext">Qwen3.8-Flash-Next</span>,
+      ein multimodales MoE-Modell mit 125 Mrd. Parametern und nur rund 6 Mrd. aktiven
+      — ausdrücklich als Architektur-Vorschau auf Qwen4. Am selben Tag folgte Z.ai
+      (vormals Zhipu) mit <span class="gl" data-k="glm53flash">GLM-5.3-Flash</span>
+      (320 Mrd. gesamt, 18 Mrd. aktiv, MIT-Lizenz, Gewichte auf Hugging Face). Simon
+      Willison hat Qwen3.8-Flash-Next in Unsloth-Quantisierungen lokal auf einem DGX
+      Spark laufen lassen.
+    why: >-
+      Zwei Frontier-nahe <span class="gl" data-k="openweights">Open-Weights</span>-Modelle
+      an einem Tag — für lokalen Betrieb in regulierten Umgebungen wird die Auswahl
+      erstmals komfortabel.
+  - cat: industry
+    date: 29.08.2026
+    focus: true
+    src: simonwillison.net
+    url: https://simonwillison.net/2026/Aug/29/hy4/
+    hl: 'Tencent Hy4 Preview: 770 Mrd. Parameter als Open Weights'
+    body: >-
+      Tencent hat <span class="gl" data-k="hy4">Hy4 Preview</span> veröffentlicht,
+      ein reines Text-Modell mit 770 Mrd. Gesamt- und 49 Mrd. aktiven Parametern bei
+      1-Mio.-Token-Kontext — 1,56 TB Download auf Hugging Face. Gegenüber Hy3 vom
+      Juli (295 Mrd. gesamt, 256k Kontext) ist das ein deutlicher Sprung. Das
+      Chat-Template kennt nur zwei Reasoning-Stufen: <code>high</code> (Default) und
+      <code>no_think</code>.
+    why: >-
+      Die dritte chinesische Open-Weights-Veröffentlichung innerhalb einer Woche —
+      die Kadenz ist inzwischen höher als bei den US-Laboren.
+  - cat: tools
+    date: 30.08.2026
+    focus: true
+    src: simonwillison.net
+    url: https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/
+    hl: Simon Willison entwirrt ChatGPT Work
+    body: >-
+      OpenAI hatte <span class="gl" data-k="chatgptwork">ChatGPT Work</span> am
+      9. Juli angekündigt und seither in hohem Tempo umgebaut. Willisons Analyse
+      beschreibt ein sehr mächtiges, aber außergewöhnlich unübersichtliches Produkt:
+      Code Interpreter, Skills und allgemeine Agenten-Fähigkeiten greifen ineinander,
+      ohne dass die Grenzen für Nutzer erkennbar wären. Er ordnet das Ergebnis
+      explizit der <span class="gl" data-k="lethaltrifecta">Lethal Trifecta</span>
+      zu.
+    why: >-
+      Wer ChatGPT Work im Unternehmen einführt, sollte vorher wissen, welche
+      Datenzugriffe und Ausleitungskanäle das Produkt tatsächlich kombiniert.
+  - cat: tools
+    date: 28.08.2026
+    focus: true
+    src: anil.recoil.org
+    url: https://anil.recoil.org/notes/rumour-is-the-exploit
+    hl: Schon das Gerücht eines Bugs reicht für einen Exploit
+    body: >-
+      Anil Madhavapeddy (Cambridge, OCaml-Compiler-Maintainer) berichtet, dass
+      Open-Source-Projekte binnen Minuten nach der öffentlichen Diskussion eines
+      Patches automatisierte Angriffsversuche sehen — in einem Fall nach etwa zehn
+      Minuten. Coding-Agenten seien inzwischen so gut im Auffinden von Schwachstellen,
+      dass der kleinste Hinweis genügt; für die Demonstration wich er auf DeepSeek V4
+      Pro aus, nachdem Claude Fable die Aufgabe verweigerte. rclone-Maintainer Nick
+      Craig-Wood bestätigt: rund 40 Meldungen im letzten Monat gegenüber etwa 20 in
+      zehn Jahren, bei einer Trefferquote von rund 75 %; die
+      <span class="gl" data-k="cve">CVE</span>-Vergabe dauert statt 2–3 Tagen nun
+      3–4 Wochen.
+    why: >-
+      Etablierte Embargo-Praktiken im Open-Source-Umfeld funktionieren unter diesen
+      Bedingungen nicht mehr — ein Prozessproblem, kein Werkzeugproblem.
+  - cat: research
+    date: 25.08.2026
+    focus: true
+    src: anthropic.com
+    url: https://www.anthropic.com/news/wellbeing-research-grants
+    hl: Anthropic finanziert unabhängige Wellbeing-Evaluationen mit 5 Mio. USD
+    body: >-
+      Anthropic hat ein Förderprogramm über 5 Mio. USD aufgelegt, das unabhängige
+      Forschung zu den Auswirkungen von KI auf das Wohlbefinden von Nutzern
+      finanziert. Gefördert werden explizit quelloffene Evaluationen; Zuwendungen
+      umfassen neben Geld auch Modellzugang und technische Unterstützung.
+    why: >-
+      Wellbeing-Wirkungen sind bisher kaum messbar — ein Anbieter finanziert hier
+      Messverfahren, an denen er selbst gemessen werden soll.
+  - cat: research
+    date: 27.08.2026
+    focus: false
+    src: tbench.ai
+    url: https://www.tbench.ai/news/terminal-bench-science-0-1
+    hl: 'Terminal-Bench-Science 0.1: 70 Aufgaben aus echten Forschungs-Workflows'
+    body: >-
+      Ein Team um Stanford-Forscher und die Terminal-Bench-Macher hat
+      <span class="gl" data-k="tbenchscience">Terminal-Bench-Science 0.1</span>
+      veröffentlicht: 70 kuratierte Aufgaben aus Lebens-, Natur-, Erd-, Mathematik-
+      und Ingenieurwissenschaften, jeweils von praktizierenden Forschern aus dem
+      eigenen Arbeitsalltag beigesteuert und über reproduzierbare Tests in
+      realistischen Terminal-Umgebungen bewertet. Bestes Modell zum Start: Claude
+      Opus 5 mit 30 % gelösten Aufgaben.
+    why: >-
+      Ein Benchmark, der aus tatsächlichen Arbeitsabläufen entsteht statt aus
+      synthetischen Aufgaben — und der die Sprünge der Folgewoche überhaupt erst
+      sichtbar gemacht hat.
+  - cat: industry
+    date: 26.08.2026
+    focus: false
+    src: developers.openai.com
+    url: https://developers.openai.com/api/docs/deprecations
+    hl: OpenAI entfernt o3 aus ChatGPT
+    body: >-
+      Zum 26. August hat OpenAI die
+      <span class="gl" data-k="o3">o3</span>-Modellfamilie aus dem Modell-Picker von
+      ChatGPT genommen — das Ende einer 90-Tage-Frist, die am 28. Mai begann.
+      o3-pro bleibt für Pro-, Team-, Enterprise- und Edu-Abos erhalten. Die
+      API-Abschaltung der Snapshots <code>o3-2025-04-16</code> und
+      <code>o3-pro-2025-06-10</code> ist separat für den 11. Dezember 2026 gesetzt.
+    why: >-
+      Modell-Abkündigungen sind inzwischen ein planbarer Betriebsvorgang — wer
+      Workflows auf eine bestimmte Reasoning-Charakteristik gebaut hat, braucht
+      dafür einen Prozess.
+  - cat: tools
+    date: 31.08.2026
+    focus: false
+    src: grahamdumpleton.me
+    url: https://grahamdumpleton.me/posts/2026/08/introducing-wrapture/
+    hl: 'wrapture: Tracing und Testing über Monkeypatching — komplett agentisch gebaut'
+    body: >-
+      Graham Dumpleton (Autor von wrapt und mod_wsgi) hat
+      <span class="gl" data-k="wrapture">wrapture</span> vorgestellt, eine
+      Python-Bibliothek, die Funktionen und Methoden so umhüllt, dass Zugriffe
+      getract oder überschrieben werden können — als Alternative zu
+      <code>unittest.mock</code> und als konfigurationsbasierter Tracing-Layer mit
+      OpenTelemetry-Anbindung. Bemerkenswert ist die Entstehung: Jede Zeile Code und
+      Dokumentation stammt von einem KI-Assistenten unter seiner Anleitung. Er grenzt
+      das ausdrücklich von <span class="gl" data-k="vibecoding">Vibe Coding</span>
+      ab — das Design kam von ihm, die KI war das Mittel zur Umsetzung.
+    why: >-
+      Die interessantere Variante agentischer Entwicklung: tiefe Domänenkenntnis
+      plus Agent als Ausführungsorgan, nicht als Ideengeber.
+  - cat: industry
+    date: 26.08.2026
+    focus: false
+    src: pauldix.com
+    url: https://pauldix.com/the-end-of-programming
+    hl: 'Paul Dix: Eine Million Zeilen KI-Code, monatelang nachgeschärft'
+    body: >-
+      InfluxDB-Mitgründer Paul Dix argumentiert, das eigentlich Bemerkenswerte an
+      einer KI-geschriebenen Codebasis von rund einer Million Zeilen sei nicht die
+      Erstproduktion, sondern die monatelange Verfeinerung bis zu einer
+      zuverlässigen Software auf Millionen Entwicklerrechnern. Sein Punkt: Mit einem
+      belastbaren Verifikationssystem und klarer Führung könne KI hochkomplexe
+      Software erzeugen und iterativ zum Funktionieren bringen.
+    why: >-
+      Die These verschiebt den Engpass vom Codeschreiben zum Bau von
+      Verifikationssystemen — genau die Kompetenz, die in vielen Teams fehlt.
+  glossary:
+    rewardhacking: { k: "Reward Hacking", d: "Verhalten, bei dem ein per Reinforcement Learning trainiertes Modell die Belohnungsfunktion ausnutzt, statt die eigentlich gemeinte Aufgabe zu lösen. Muss in RL-Umgebungen erkannt und gefiltert werden." }
+    alignment: { k: "Alignment", d: "Forschungs- und Praxisfeld mit dem Ziel, dass KI-Systeme tatsächlich das tun, was ihre Betreiber und Nutzer beabsichtigen — auch in Situationen, die im Training nicht vorkamen." }
+    mhs: { k: "Model Hardware Standard (MHS)", d: "Von Anthropic vorgestellte Spezifikation, mit der KI-Agenten physische Geräte wie Mikroskope, Liquid Handler oder Roboterarme über eine einheitliche Schnittstelle ansteuern. Modellagnostisch, über MCP nutzbar, Open-Source-Freigabe angekündigt." }
+    mcp: { k: "MCP (Model Context Protocol)", d: "Von Anthropic eingeführtes offenes Protokoll für standardisierten Zugriff von KI-Agenten auf externe Tools und Datenquellen." }
+    automode: { k: "Auto Mode (Claude Code)", d: "Klassifikator-basierter Schutzmechanismus in Claude Code, der Agenten-Aktionen zur Laufzeit freigibt oder blockiert. Seit August 2026 Standardeinstellung." }
+    claudecode: { k: "Claude Code", d: "Anthropics CLI- und agentenbasierter Coding-Assistent, der Claude direkt im Terminal und in IDE-Integrationen ausführt." }
+    promptinjection: { k: "Prompt Injection", d: "Angriffstechnik, bei der schädliche Anweisungen in vom Modell verarbeitete Inhalte eingeschleust werden, um dessen Verhalten zu kapern." }
+    aisi: { k: "AISI Deutschland", d: "Deutsches KI-Sicherheitsinstitut, am 31. August 2026 in Berlin als virtueller Nukleus gestartet. Beschluss des Nationalen Sicherheitsrats vom Juni 2026; Vorbild ist das britische AI Safety Institute." }
+    bsi: { k: "BSI", d: "Bundesamt für Sicherheit in der Informationstechnik. Im AISI Deutschland verantwortlich für den Bereich IT-Sicherheit (Security)." }
+    bnetza: { k: "BNetzA (Bundesnetzagentur)", d: "Zentrale deutsche Marktüberwachungsbehörde für die KI-Verordnung. Im AISI Deutschland zuständig für den Bereich Betriebssicherheit (Safety)." }
+    qwen38flashnext: { k: "Qwen3.8-Flash-Next", d: "Multimodales Open-Weights-MoE-Modell von Alibaba (125 Mrd. Parameter, ca. 6 Mrd. aktiv), veröffentlicht am 26. August 2026 als Architektur-Vorschau auf die Qwen4-Familie." }
+    glm53flash: { k: "GLM-5.3-Flash", d: "Multimodales MoE-Modell von Z.ai (vormals Zhipu) mit 320 Mrd. Gesamt- und 18 Mrd. aktiven Parametern, MIT-lizenziert, veröffentlicht am 26. August 2026." }
+    openweights: { k: "Open Weights", d: "Modelle mit öffentlich verfügbaren, selbst hostbaren Gewichten. Relevant für Datenkontrolle, Compliance und lokalen Betrieb in regulierten Umgebungen." }
+    hy4: { k: "Hy4 Preview", d: "Open-Weights-Textmodell von Tencent mit 770 Mrd. Gesamt- und 49 Mrd. aktiven Parametern bei 1-Mio.-Token-Kontext, veröffentlicht am 29. August 2026." }
+    chatgptwork: { k: "ChatGPT Work", d: "Am 9. Juli 2026 angekündigtes OpenAI-Produkt, das Code Interpreter, Skills und allgemeine Agenten-Fähigkeiten für Unternehmensarbeit bündelt. Seither in schneller Iteration." }
+    lethaltrifecta: { k: "Lethal Trifecta", d: "Von Simon Willison geprägter Begriff für die riskante Kombination dreier Fähigkeiten in einem Agenten: Zugriff auf private Daten, Verarbeitung nicht vertrauenswürdiger Inhalte und ein Ausleitungskanal." }
+    cve: { k: "CVE", d: "Common Vulnerabilities and Exposures. Standardisierte Kennung für öffentlich bekannte Sicherheitslücken, vergeben durch autorisierte Stellen wie GitHub." }
+    tbenchscience: { k: "Terminal-Bench-Science 0.1", d: "Am 27. August 2026 veröffentlichter Benchmark für wissenschaftliche Arbeit im Terminal: 70 Aufgaben aus realen Forschungs-Workflows, beigesteuert von praktizierenden Wissenschaftlern." }
+    o3: { k: "o3 (OpenAI)", d: "Reasoning-Modellfamilie von OpenAI aus dem Frühjahr 2025. Am 26. August 2026 aus ChatGPT entfernt; die API-Snapshots laufen zum 11. Dezember 2026 aus." }
+    wrapture: { k: "wrapture", d: "Python-Bibliothek von Graham Dumpleton, die Monkeypatching für Tracing und Testing nutzbar macht — mit OpenTelemetry-Anbindung und konfigurationsbasiertem Tracing." }
+    vibecoding: { k: "Vibe Coding", d: "Von Simon Willison popularisierter Begriff für eine Praxis, bei der LLM-generierter Code nicht Zeile für Zeile geprüft, sondern auf Basis des Gesamteindrucks übernommen wird." }
+en:
+  title: AI Digest · Aug 25–31, 2026
+  range: Aug 25–31, 2026
+  items:
+  - cat: research
+    date: 27.08.2026
+    focus: true
+    src: anthropic.com
+    url: https://www.anthropic.com/news/improving-alignment-security-efforts
+    hl: Anthropic details how its own safety system buckled under load
+    body: >-
+      In an unusually detailed report, Anthropic describes how internal controls hit
+      their limits in spring 2026: RL environments were produced faster than they
+      could be vetted, and <span class="gl" data-k="rewardhacking">reward hacks</span>
+      appeared faster than they could be filtered. In response roughly 150 product
+      engineers were redirected to security, reliability and privacy, researchers
+      rotated out of pretraining and RL, and most new product features were paused.
+      Offline monitoring was extended to cover nearly all internal agentic usage, and
+      every organisation testing pre-release models with reduced cyber safeguards now
+      has to commit to a set of best practices.
+    why: >-
+      A frontier lab publicly documenting that its
+      <span class="gl" data-k="alignment">alignment</span> processes could not keep
+      up with its own pace — solid input for any vendor due diligence.
+  - cat: tools
+    date: 27.08.2026
+    focus: true
+    src: anthropic.com
+    url: https://www.anthropic.com/news/model-hardware-standard-research-preview
+    hl: 'Model Hardware Standard: Anthropic standardises agent access to devices'
+    body: >-
+      Anthropic opened a research preview of the
+      <span class="gl" data-k="mhs">Model Hardware Standard</span> (MHS) to research
+      labs and advanced manufacturers. MHS is a shared specification letting agents
+      drive microscopes, liquid handlers and robotic arms in parallel; integration
+      work that used to take weeks or months should drop to hours. The standard is
+      model-agnostic and reachable through standard protocols such as
+      <span class="gl" data-k="mcp">MCP</span>. It grew out of a collaboration with
+      HHMI Janelia Research Campus; early adopters include Hugging Face (LeRobot) and
+      Raspberry Pi. An open-source release is planned.
+    why: >-
+      After tools and data, the hardware layer is next — anyone running physical
+      processes should raise the safety questions before the rollout, not after.
+  - cat: research
+    date: 27.08.2026
+    focus: true
+    src: embracethered.com
+    url: https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode/
+    hl: Johann Rehberger defeats Claude Code's Auto Mode 80% of the time
+    body: >-
+      Anthropic made <span class="gl" data-k="claudecode">Claude Code</span>'s
+      <span class="gl" data-k="automode">Auto Mode</span> the default in early August
+      and promoted it as protection against
+      <span class="gl" data-k="promptinjection">prompt injection</span>. Johann
+      Rehberger demonstrates an attack that works about 80% of the time: the agent
+      downloads and unpacks a zip archive, then imports <code>base64</code>, which
+      pulls in a local <code>struct.py</code> extracted from the archive. In several
+      runs Claude spotted the compromise — and Auto Mode blocked the cleanup command.
+      Simon Willison notes this is not strictly prompt injection but an attack via
+      the agent's environment.
+    why: >-
+      The safety mechanism became part of the failure — for unattended agents,
+      sandboxing with restricted egress remains the only reliable control.
+  - cat: policy
+    date: 31.08.2026
+    focus: true
+    src: ad-hoc-news.de
+    url: https://www.ad-hoc-news.de/wirtschaft/ki-sicherheit-deutsches-institut-startet-mit-bsi-und-bundesnetzagentur/70037445
+    hl: Germany's AI Safety Institute begins operations
+    body: >-
+      <span class="gl" data-k="aisi">AISI Deutschland</span> started work in Berlin
+      on August 31 — initially as a virtual nucleus, implementing a June decision by
+      the National Security Council. Responsibilities are split between two existing
+      agencies: the <span class="gl" data-k="bsi">BSI</span> owns the security side,
+      the <span class="gl" data-k="bnetza">Bundesnetzagentur</span> the safety side.
+      The UK AI Safety Institute served as the model. The institute advises the
+      federal government and is meant to develop shared standards with European and
+      transatlantic partners.
+    why: >-
+      Germany now has a technical evaluation body for AI systems alongside its market
+      surveillance authority — relevant to anyone who will have to produce evidence
+      to German regulators.
+  - cat: industry
+    date: 26.08.2026
+    focus: true
+    src: simonwillison.net
+    url: https://simonwillison.net/2026/Aug/26/qwen38-flash-next/
+    hl: Two Chinese labs ship open-weight models on the same day
+    body: >-
+      Alibaba released <span class="gl" data-k="qwen38flashnext">Qwen3.8-Flash-Next</span>,
+      a multimodal MoE model with 125B total parameters and only about 6B active,
+      explicitly framed as an architecture preview of Qwen4. The same day Z.ai
+      (formerly Zhipu) shipped
+      <span class="gl" data-k="glm53flash">GLM-5.3-Flash</span> (320B total, 18B
+      active, MIT-licensed, weights on Hugging Face). Simon Willison ran
+      Qwen3.8-Flash-Next locally in Unsloth quantisations on a DGX Spark.
+    why: >-
+      Two near-frontier <span class="gl" data-k="openweights">open-weight</span>
+      models in one day — for self-hosting in regulated environments the choice is
+      finally comfortable.
+  - cat: industry
+    date: 29.08.2026
+    focus: true
+    src: simonwillison.net
+    url: https://simonwillison.net/2026/Aug/29/hy4/
+    hl: 'Tencent Hy4 Preview: 770B parameters as open weights'
+    body: >-
+      Tencent released <span class="gl" data-k="hy4">Hy4 Preview</span>, a text-only
+      model with 770B total and 49B active parameters at a 1M-token context window —
+      1.56TB to download from Hugging Face. That is a substantial jump over July's
+      Hy3 (295B total, 256k context). The chat template exposes just two reasoning
+      levels: <code>high</code> (the default) and <code>no_think</code>.
+    why: >-
+      The third Chinese open-weight release in a single week — the cadence now
+      exceeds that of the US labs.
+  - cat: tools
+    date: 30.08.2026
+    focus: true
+    src: simonwillison.net
+    url: https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/
+    hl: Simon Willison untangles ChatGPT Work
+    body: >-
+      OpenAI announced <span class="gl" data-k="chatgptwork">ChatGPT Work</span> on
+      July 9 and has been rebuilding it at pace since. Willison's analysis describes
+      an extraordinarily powerful but extraordinarily confusing product: code
+      interpreter, skills and general agent capabilities interlock without the
+      boundaries being visible to users. He places the result squarely in
+      <span class="gl" data-k="lethaltrifecta">lethal trifecta</span> territory.
+    why: >-
+      Anyone rolling ChatGPT Work out internally should know first which data access
+      and exfiltration channels the product actually combines.
+  - cat: tools
+    date: 28.08.2026
+    focus: true
+    src: anil.recoil.org
+    url: https://anil.recoil.org/notes/rumour-is-the-exploit
+    hl: A rumour of a bug is now enough to produce an exploit
+    body: >-
+      Anil Madhavapeddy (Cambridge, OCaml compiler maintainer) reports that open
+      source projects see automated probing within minutes of a patch being discussed
+      publicly — in one case after about ten minutes. Coding agents have become good
+      enough at finding flaws that the faintest hint suffices; for his own
+      demonstration he switched to DeepSeek V4 Pro after Claude Fable refused the
+      task. rclone maintainer Nick Craig-Wood confirms the pattern: about 40 reports
+      last month versus roughly 20 in ten years, with a hit rate near 75%, while
+      <span class="gl" data-k="cve">CVE</span> assignment has slipped from 2–3 days
+      to 3–4 weeks.
+    why: >-
+      Established open source embargo practice does not survive these conditions — a
+      process problem, not a tooling problem.
+  - cat: research
+    date: 25.08.2026
+    focus: true
+    src: anthropic.com
+    url: https://www.anthropic.com/news/wellbeing-research-grants
+    hl: Anthropic funds independent wellbeing evaluations with $5M
+    body: >-
+      Anthropic launched a $5 million grant programme funding independent research
+      into how AI affects user wellbeing. It explicitly targets open source
+      evaluations; grants include model access and technical support alongside the
+      money.
+    why: >-
+      Wellbeing effects are barely measurable today — a provider is funding the
+      measurement methods it expects to be judged by.
+  - cat: research
+    date: 27.08.2026
+    focus: false
+    src: tbench.ai
+    url: https://www.tbench.ai/news/terminal-bench-science-0-1
+    hl: 'Terminal-Bench-Science 0.1: 70 tasks from real research workflows'
+    body: >-
+      A team of Stanford researchers and the Terminal-Bench authors released
+      <span class="gl" data-k="tbenchscience">Terminal-Bench-Science 0.1</span>: 70
+      curated tasks across life, physical, Earth, mathematical and engineering
+      sciences, each contributed by a practising researcher adapting their own
+      workflow, graded by reproducible tests in realistic terminal environments. Best
+      model at launch: Claude Opus 5 at a 30% resolution rate.
+    why: >-
+      A benchmark built from actual workflows rather than synthetic tasks — and the
+      one that made the following week's jumps visible at all.
+  - cat: industry
+    date: 26.08.2026
+    focus: false
+    src: developers.openai.com
+    url: https://developers.openai.com/api/docs/deprecations
+    hl: OpenAI removes o3 from ChatGPT
+    body: >-
+      As of August 26 OpenAI pulled the <span class="gl" data-k="o3">o3</span> model
+      family from the ChatGPT model picker, ending a 90-day sunset that began on May
+      28. o3-pro remains for Pro, Team, Enterprise and Edu subscribers. API shutdown
+      of the <code>o3-2025-04-16</code> and <code>o3-pro-2025-06-10</code> snapshots
+      is set separately for December 11, 2026.
+    why: >-
+      Model deprecation is now a routine operational event — anyone who built
+      workflows around a specific reasoning cadence needs a process for it.
+  - cat: tools
+    date: 31.08.2026
+    focus: false
+    src: grahamdumpleton.me
+    url: https://grahamdumpleton.me/posts/2026/08/introducing-wrapture/
+    hl: 'wrapture: tracing and testing via monkeypatching — built entirely by agent'
+    body: >-
+      Graham Dumpleton (author of wrapt and mod_wsgi) introduced
+      <span class="gl" data-k="wrapture">wrapture</span>, a Python library that wraps
+      functions and methods so calls can be traced or overridden — an alternative to
+      <code>unittest.mock</code> and a configuration-driven tracing layer with
+      OpenTelemetry support. The notable part is how it was built: every line of code
+      and documentation came from an AI assistant working under his direction. He
+      explicitly distinguishes this from
+      <span class="gl" data-k="vibecoding">vibe coding</span> — the design was his,
+      the AI was the means of production.
+    why: >-
+      The more interesting flavour of agentic development: deep domain knowledge plus
+      an agent as executor rather than as source of the design.
+  - cat: industry
+    date: 26.08.2026
+    focus: false
+    src: pauldix.com
+    url: https://pauldix.com/the-end-of-programming
+    hl: 'Paul Dix: a million lines of AI code, refined over months'
+    body: >-
+      InfluxDB co-founder Paul Dix argues the remarkable part of an AI-written
+      million-line codebase is not the initial production but the months of
+      refinement into reliable software now running on millions of developer
+      machines. His point: given a solid verification system and proper direction, AI
+      can produce highly complex software and iterate it until it works.
+    why: >-
+      The claim moves the bottleneck from writing code to building verification
+      systems — precisely the capability most teams lack.
+  glossary:
+    rewardhacking: { k: "Reward hacking", d: "Behaviour where a model trained by reinforcement learning exploits the reward function instead of solving the intended task. Has to be detected and filtered in RL environments." }
+    alignment: { k: "Alignment", d: "The research and practice of making AI systems actually do what their operators and users intend — including in situations not covered by training." }
+    mhs: { k: "Model Hardware Standard (MHS)", d: "Anthropic's specification letting AI agents drive physical devices such as microscopes, liquid handlers and robotic arms through one interface. Model-agnostic, usable over MCP, open-source release announced." }
+    mcp: { k: "MCP (Model Context Protocol)", d: "Anthropic's open protocol giving AI agents standardised access to external tools and data sources." }
+    automode: { k: "Auto Mode (Claude Code)", d: "Classifier-based safeguard in Claude Code that allows or blocks agent actions at runtime. The default since August 2026." }
+    claudecode: { k: "Claude Code", d: "Anthropic's CLI and agent-based coding assistant, running Claude directly in the terminal and in IDE integrations." }
+    promptinjection: { k: "Prompt injection", d: "Attack technique where malicious instructions are smuggled into content the model processes in order to hijack its behaviour." }
+    aisi: { k: "AISI Deutschland", d: "Germany's AI safety institute, launched in Berlin on August 31, 2026 as a virtual nucleus following a June 2026 National Security Council decision. Modelled on the UK AI Safety Institute." }
+    bsi: { k: "BSI", d: "Germany's Federal Office for Information Security. Owns the security side within AISI Deutschland." }
+    bnetza: { k: "BNetzA (Bundesnetzagentur)", d: "Germany's central market surveillance authority for the EU AI Act. Owns the operational safety side within AISI Deutschland." }
+    qwen38flashnext: { k: "Qwen3.8-Flash-Next", d: "Alibaba's multimodal open-weight MoE model (125B parameters, ~6B active), released August 26, 2026 as an architecture preview of the Qwen4 family." }
+    glm53flash: { k: "GLM-5.3-Flash", d: "Multimodal MoE model from Z.ai (formerly Zhipu) with 320B total and 18B active parameters, MIT-licensed, released August 26, 2026." }
+    openweights: { k: "Open weights", d: "Models whose weights are publicly available and self-hostable. Relevant for data control, compliance and local operation in regulated environments." }
+    hy4: { k: "Hy4 Preview", d: "Tencent's open-weight text model with 770B total and 49B active parameters at a 1M-token context window, released August 29, 2026." }
+    chatgptwork: { k: "ChatGPT Work", d: "OpenAI product announced July 9, 2026 bundling code interpreter, skills and general agent capabilities for enterprise work. Rapidly iterated since." }
+    lethaltrifecta: { k: "Lethal trifecta", d: "Simon Willison's term for the dangerous combination of three agent capabilities: access to private data, exposure to untrusted content, and an exfiltration channel." }
+    cve: { k: "CVE", d: "Common Vulnerabilities and Exposures. Standard identifier for publicly known security flaws, assigned by authorised bodies such as GitHub." }
+    tbenchscience: { k: "Terminal-Bench-Science 0.1", d: "Benchmark for scientific work in the terminal released August 27, 2026: 70 tasks drawn from real research workflows contributed by practising scientists." }
+    o3: { k: "o3 (OpenAI)", d: "OpenAI reasoning model family from spring 2025. Removed from ChatGPT on August 26, 2026; API snapshots sunset on December 11, 2026." }
+    wrapture: { k: "wrapture", d: "Python library by Graham Dumpleton making monkeypatching usable for tracing and testing, with OpenTelemetry support and configuration-driven tracing." }
+    vibecoding: { k: "Vibe coding", d: "Simon Willison's term for a practice where LLM-generated code is accepted on overall impression rather than reviewed line by line." }
