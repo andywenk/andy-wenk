@@ -1,0 +1,8 @@
+{
+  "name": "andy-wenk",
+  "private": true,
+  "description": "Jekyll site; package.json exists only to pin the Node.js version used by the Vercel build environment.",
+  "engines": {
+    "node": "24.x"
+  }
+}
