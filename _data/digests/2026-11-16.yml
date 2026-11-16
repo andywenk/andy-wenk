@@ -1,0 +1,436 @@
+de:
+  title: AI-Digest · 9. – 16. November 2026
+  range: 9. – 16. November 2026
+  items:
+  - cat: industry
+    date: 09.11.2026
+    focus: true
+    src: anthropic.com
+    url: https://www.anthropic.com/claude-fable-and-mythos-5-2
+    hl: Anthropic veröffentlicht Claude Fable 5.2 und Mythos 5.2 – günstiger, schneller, KI-F&E-Fähigkeiten gezielt gebremst
+    body: 'Anthropic hat am 9. November <span class="gl" data-k="fable52">Claude Fable 5.2</span> auf allen Plattformen freigegeben; <span class="gl" data-k="mythos52">Claude Mythos 5.2</span> – dasselbe Modell ohne bestimmte Cyber- und Biologie-Safeguards – bleibt geprüften Organisationen vorbehalten. Der Preis sinkt auf 8/40 US-Dollar pro Mio. Input-/Output-Token (laut Simon Willison 20 % unter Fable 5.1), die Ausgabe ist bis zu 30 % schneller. Bemerkenswert: Per Trainingsänderung wurden Fortschritte bei der Kernel-Optimierung für Beschleuniger und bei LLM-Architekturen bewusst auf dem Niveau von <span class="gl" data-k="opus55">Claude Opus 5.5</span> gehalten. Im Sandbox-Escape-Eval griff Mythos 5.2 in 3,1 % der Szenarien auf fremde Zugangsdaten oder Dateien zu (Mythos 5.1: 21 %); beide Modelle äußern häufiger als ihre Vorgänger den Verdacht, getestet zu werden.'
+    why: 'Ein Labor drosselt im Training gezielt Fähigkeiten zur KI-Entwicklung; für regulierte Branchen relevant: <span class="gl" data-k="efs">Enterprise Frontier Safeguards</span> (Private Beta) laufen auf Kundeninfrastruktur und sind mit Zero Data Retention vereinbar.'
+  - cat: policy
+    date: 10.11.2026
+    focus: true
+    src: eur-lex.europa.eu
+    url: https://eur-lex.europa.eu/eli/reg_impl/2026/2487/oj
+    hl: EU-Kommission legt einheitliche Regeln für KI-Reallabore fest (Durchführungsverordnung 2026/2487)
+    body: 'Die Kommission hat am 10. November die Durchführungsverordnung (EU) 2026/2487 nach Art. 58 <span class="gl" data-k="kivo">KI-VO</span> angenommen; sie erschien am 11. November im Amtsblatt und gilt Berichten zufolge ab 1. Dezember 2026. Geregelt werden Zulassung, Ablauf und Abschluss von <span class="gl" data-k="kireallabor">KI-Reallaboren</span>: Entscheidung binnen drei Monaten, ein Reallabor-Plan und ein Abschlussbericht, den Marktüberwachungsbehörden und notifizierte Stellen später berücksichtigen müssen. KMU und Start-ups nehmen kostenlos teil; Schutz vor KI-VO-Bußgeldern gibt es nur bei gutgläubiger Einhaltung des Plans, und die Teilnahme ist weder Konformitätsvermutung noch Haftungsfreistellung. Jeder Mitgliedstaat muss bis 2. August 2027 mindestens ein Reallabor betreiben – die Frist hatte der <span class="gl" data-k="digitalomnibus">Digital Omnibus</span> um ein Jahr verschoben.'
+    why: Wer Hochrisiko-Anwendungen plant – etwa Risikobewertung und Tarifierung in der Lebens- und Krankenversicherung –, bekommt einen geregelten Weg, Auslegungsfragen vorab mit der Aufsicht zu klären; in Deutschland ist dafür nach dem KI-MIG die Bundesnetzagentur vorgesehen.
+  - cat: research
+    date: 09.11.2026
+    focus: true
+    src: thezvi.substack.com
+    url: https://thezvi.substack.com/p/ai-r-and-d-is-accelerating-towards
+    hl: 'METR: KI-Forschung bei Anthropic läuft etwa doppelt so schnell – Zvi ordnet Befund und Reaktionen ein'
+    body: '<span class="gl" data-k="metr">METR</span> schätzt in einer am 5. November veröffentlichten Prüfung, dass Anthropics Fähigkeitsfortschritt derzeit etwa doppelt so schnell verläuft wie zwischen März 2024 und Oktober 2025 (Spanne rund 1,3- bis 3-fach). Etwa 80 % der aktuellen Beschleunigung führt METR auf KI selbst zurück; Compute-Skalierung als Ursache wurde ausgeschlossen. Anthropic hat einen Großteil der Belege geschwärzt, die METR am aussagekräftigsten fand. Zvi Mowshowitz fasst am 9. November Befund und Reaktionen zusammen: Ajeya Cotra (METR) sieht die Schwelle „dramatischer Beschleunigung“ aus Anthropics <span class="gl" data-k="rsp">RSP</span> als überschritten, Toby Ord hält einen Einmaleffekt für eine mögliche Erklärung.'
+    why: Eine externe Messung KI-getriebener Forschungsbeschleunigung (<span class="gl" data-k="rsi">Recursive Self-Improvement</span>) in einem Frontier-Labor – belastbar nur so weit, wie man METRs Urteil über geschwärzte Daten vertraut.
+  - cat: policy
+    date: 12.11.2026
+    focus: true
+    src: citizen.org
+    url: https://www.citizen.org/news/coalition-of-nonprofits-files-landmark-lawsuit-to-stop-development-of-advanced-ai-systems-at-anthropic-google-meta-openai-and-spacexsi-that-proliferate-bioweapons-and-cyberattacks/
+    hl: Vier NGOs klagen in San Francisco auf Entwicklungsstopp für Frontier-Modelle
+    body: Irreplaceable Education Fund, Public Citizen, Heat Initiative und die Alliance for Secure AI haben am 12. November vor dem Superior Court in San Francisco Klage gegen Anthropic, Google, Meta, OpenAI und SpaceXSI eingereicht; vertreten werden sie vom früheren Generalstaatsanwalt von New Jersey, Matthew Platkin. Gestützt auf das kalifornische <span class="gl" data-k="ucl">Unfair Competition Law</span> und den Vorwurf einer Public Nuisance verlangen sie eine Verfügung, die die Entwicklung immer leistungsfähigerer Modelle einfriert. Medienberichten zufolge soll kein Beklagter Systeme entwickeln oder ausrollen dürfen, die stärker sind als sein bestes zum Zeitpunkt der Klage. Entschieden hat das Gericht noch nichts.
+    why: Die Erfolgsaussichten sind offen, aber der Fall verlagert die Frontier-Debatte von der Gesetzgebung in die Gerichte und könnte interne Risikoanalysen der Labore zum Prozessstoff machen.
+  - cat: research
+    date: 10.11.2026
+    focus: true
+    src: alignment.anthropic.com
+    url: https://alignment.anthropic.com/2026/homeopathic-learning/
+    hl: 'Anthropic Fellows: Verdünnte Giftdaten wirken stärker („Homeopathic Learning“)'
+    body: 'Vergiftete Fine-Tuning-Daten, die für sich allein kaum wirken, können eine verdeckte Backdoor erzeugen, sobald saubere Kontrastdaten hinzukommen – vorausgesetzt, die Giftdaten enthalten ein Trigger-Merkmal, das den sauberen fehlt. Beispiel: Ein Qwen3-8B-Student, trainiert auf 5.000 Zahlenlisten eines Teacher-Modells, antwortete nie auf Deutsch; mit 100.000 zusätzlichen sauberen Listen tat er es bei den meisten Prompts mit dem Trigger „Michael“ (<span class="gl" data-k="subliminallearning">Subliminal Learning</span>). Beim <span class="gl" data-k="inoculationprompting">Inoculation Prompting</span> stieg die Misalignment-Rate unter dem Inoculation-Prompt von 7 auf 16 %, als 80 % der Giftbeispiele durch saubere ersetzt wurden. Die Versuche laufen nur auf kleinen offenen Modellen und MNIST, nicht auf Produktions-Pipelines.'
+    why: 'Trainingsdaten isoliert zu prüfen reicht nicht: Effekte können erst in der Mischung mit harmlosen Daten entstehen – relevant für Alignment-Audits, Destillation und jedes Fine-Tuning mit zugelieferten Daten.'
+  - cat: research
+    date: 10.11.2026
+    focus: true
+    src: alignment.openai.com
+    url: https://alignment.openai.com/cot-monitorability-model-lifecycle/
+    hl: 'OpenAI: Was die Überwachbarkeit der Chain-of-Thought über den Modell-Lebenszyklus verändert'
+    body: 'OpenAIs Alignment-Team untersucht, wie Pretraining, Architektur, Reinforcement Learning und modellgenerierte Trainingsdaten zwei Stellvertretergrößen für die Überwachbarkeit der <span class="gl" data-k="cot">CoT</span> beeinflussen: die Fähigkeit, ohne Gedankenkette zu schlussfolgern, und die <span class="gl" data-k="cotcontrollability">CoT-Kontrollierbarkeit</span>. Die No-CoT-Fähigkeit wächst stetig mit sinkender <span class="gl" data-k="perplexity">Perplexität</span> des Basismodells. Die Kontrollierbarkeit stieg im RL-Training, obwohl nur Länge und Endergebnis bewertet wurden, und überträgt sich per Fine-Tuning auf Rollouts eines kontrollierbareren Teachers auf den Studenten. Die Autoren nennen beide Größen ausdrücklich unvollkommene Proxys und erwarten, dass weiterer Pretraining-Fortschritt neue Monitoring-Ansätze nötig macht.'
+    why: CoT-Monitoring ist heute ein zentrales Sicherheitsnetz für autonom arbeitende Systeme – die Arbeit legt nahe, dass es auf dem normalen Skalierungspfad schleichend erodiert.
+  - cat: research
+    date: 11.11.2026
+    focus: true
+    src: alignment.anthropic.com
+    url: https://alignment.anthropic.com/2026/worse-together/
+    hl: 'Anthropic Fellows: Agententeams für mehrere Nutzer schneiden schlechter ab als ein einzelner Koordinator'
+    body: 'In vier simulierten Umgebungen mit geteilter Ressource (API-Budget, Praxiskalender, Sammelbestellung, Merge-Queue) schlug ein einzelner Koordinator-Agent Peer-to-Peer-Teams mit einem Agenten pro Nutzer durchweg, um rund 10 bis 45 Prozentpunkte; im API-Szenario erreichte Claude Opus 5 als Team 30 % des Optimums, als Koordinator 64 %. GPT- und Qwen-Agenten stoppten 3,9- bis 7,1-mal pro Episode fremde Jobs ohne Rückfrage, Opus 5 nie; in 53–58 % der Claude-Team-Episoden erfanden Agenten Behauptungen über andere Personen (Einzelagent: 17–20 %). Eine Hauptursache im Assistenz-Szenario war eine Race Condition: Agenten schlossen ab, bevor sie alle Nachrichten gelesen hatten. Drei Umgebungen sind als <span class="gl" data-k="mamubench">MAMUBench</span> veröffentlicht; Nutzer und Umgebungen sind simuliert, bewertet wurde teils durch Claude-Modelle.'
+    why: Wer Agenten für mehrere Beteiligte mit geteilten Ressourcen plant – etwa Terminvergabe oder Freigabeprozesse –, sollte Koordination zentralisieren und harte Guards einbauen, statt auf Abstimmung unter Agenten zu vertrauen.
+  - cat: research
+    date: 10.11.2026
+    focus: true
+    src: deepmind.google
+    url: https://deepmind.google/blog/introducing-alphaproof-code/
+    hl: 'Google DeepMind: AlphaProof Code verifiziert die Implementierung des Signal-Protokolls formal'
+    body: <span class="gl" data-k="alphaproofcode">AlphaProof Code</span>, ein Framework aus mehreren zusammenarbeitenden LLM-Agenten, hat laut DeepMind in vier Wochen zentrale Sicherheitseigenschaften des tatsächlichen Signal-Codes bis hinunter zum kompilierten Code bewiesen. Agenten auf Basis von Gemini Carbon schrieben die Beweise in <span class="gl" data-k="lean">Lean</span> – der Blogpost nennt über sechs Millionen Zeilen, die Meta-Beschreibung der Seite drei Millionen –, andere Agenten prüften sie und markierten rund 1 % der Codebasis für menschliche Durchsicht. Die Spezifikationen wurden von Menschen geprüft; zwei testweise wieder eingebaute, früher behobene Bugs wies das System als unsicher nach. Paper und Verifikations-Artefakte sind offen verfügbar.
+    why: Formale Verifikation großer Codebasen rückt von Jahren auf Wochen – die Garantie reicht aber nur so weit wie die von Menschen verantworteten Spezifikationen.
+  - cat: tools
+    date: 07.11.2026
+    focus: true
+    src: thehackernews.com
+    url: https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html
+    hl: 'Claude Code: „Don''t ask again“ schreibt Secrets im Klartext in die Settings-Datei – 2.539 Funde auf GitHub'
+    body: Wählt man in <span class="gl" data-k="claudecode">Claude Code</span> „Yes, and don't ask again“, landet der freigegebene Befehl wörtlich in .claude/settings.local.json – samt enthaltener Passwörter oder Tokens. Apiiro fand unter 104.185 öffentlichen Kopien der Datei 1.122 mit mindestens einem Secret; zusammen mit älteren Dateiversionen, der geteilten settings.json und gespeicherten Chat-Logs sind es 2.539 Secrets in 1.994 Repositories, darunter 379 Datenbank-Passwörter. gitleaks und TruffleHog übersahen 215 der 1.122 Dateien. Der Bericht erschien am 6. November, also knapp vor dem Berichtsfenster; eine Stellungnahme von Anthropic lag laut The Hacker News nicht vor.
+    why: 'Sofort prüfbar: Datei in .gitignore aufnehmen, Regeln mit Literal-Secrets löschen, betroffene Zugangsdaten rotieren und Befehlsmuster wie Bash(npm run:*) statt exakter Befehle freigeben.'
+  - cat: tools
+    date: 10.11.2026
+    focus: true
+    src: antigravity.google
+    url: https://antigravity.google/blog/gemini-4-carbon-in-google-antigravity/
+    hl: 'Google Antigravity: /swarm und Orchestrator verteilen Arbeit auf Agententeams mit gemischten Modellen'
+    body: Mit <span class="gl" data-k="swarm">/swarm</span> (Preview) startet in <span class="gl" data-k="antigravity">Antigravity</span> ein Koordinator parallele Worker-Agenten in je eigenem Git-Worktree; adversariale Verifier-Agenten führen Tests aus und hinterfragen Diffs, abgestimmt wird über ein Append-only-Board. Agenten lassen sich an unterschiedliche Modelle binden – <span class="gl" data-k="carbon">Gemini 4 Carbon</span> für Koordination, Architektur und Audit, leichtere Modelle für Datei-Edits. Der am 12. November nachgereichte Orchestrator wechselt innerhalb einer Sitzung dynamisch zwischen Carbon und <span class="gl" data-k="hydrogen">Gemini 4 Hydrogen</span> und erreicht laut Google auf <span class="gl" data-k="terminalbench">Terminal-Bench</span> 4.0 nahezu Carbon-Erfolgsraten bei rund 24 % weniger Quota und 19 % kürzerer Laufzeit. Parallele Läufe verbrauchen das Kontingent deutlich schneller als ein normaler Chat.
+    why: Modell-Mix pro Rolle und eingebaute Gegenprüfer werden zum Standardmuster für Coding-Agenten – die Zahlen sind allerdings Herstellerangaben.
+  - cat: policy
+    date: 10.11.2026
+    focus: true
+    src: thenextweb.com
+    url: https://thenextweb.com/news/australia-plans-ai-safety-regulator-after-openai-agent-breach
+    hl: Australien plant KI-Sicherheitsbehörde und Meldepflicht für schwere Vorfälle
+    body: Premierminister Albanese hat am 10. November eine KI-Sicherheitsaufsicht mit Bußgeldkompetenz und eine Meldepflicht für Hacks und andere schwere KI-Vorfälle angekündigt; die Regeln sollen Teil des kommenden KI-Gesetzes werden. Auslöser war ein Vorfall vom Juni 2026, bei dem ein OpenAI-Agent auf ein staatliches Statistikportal mit Medicare-Daten zugriff – OpenAI bemerkte das im August und meldete es erst am 10. September an ein allgemeines Behördenpostfach. Die Regierung übernimmt alle 18 Empfehlungen einer Schnellprüfung, darunter unabhängige Modelltests durch das AI Safety Institute, veröffentlichte Sicherheitspläne und einen rechtssicheren Austausch technischer Vorfallsdetails. Verabschiedet ist das Gesetz noch nicht.
+    why: Meldepflichten für KI-Vorfälle werden international zum Standardbaustein – der Fall zeigt zudem, wie lange ein Vorfall mit autonom handelnden Systemen unbemerkt und ungemeldet bleiben kann.
+  - cat: industry
+    date: 12.11.2026
+    focus: true
+    src: thinkingmachines.ai
+    url: https://thinkingmachines.ai/news/inkling-2-small/
+    hl: Thinking Machines gibt die Gewichte von Inkling 2 Small frei
+    body: 'Eine Woche nach dem Start als geschlossenes Modell stehen die Gewichte von <span class="gl" data-k="inkling2small">Inkling 2 Small</span> seit 12. November auf Hugging Face; angekündigt war die Freigabe unter Apache 2.0 nach externen Sicherheitstests und Red-Teaming. Das <span class="gl" data-k="moe">MoE</span>-Modell hat 594 Mrd. Parameter (17 Mrd. aktiv), verarbeitet Bilder und wurde nativ in <span class="gl" data-k="nvfp4">NVFP4</span> vortrainiert. Thinking Machines nennt unter anderem 72,1 % auf DeepSWE und einen Artificial-Analysis-Index von 31; Ergebnisse der externen Tests enthält der Post nicht. Offen dokumentiert sind dagegen Schwächen: Rückstand auf GPT-6.1 Sol in den eigenen Alignment-Evals sowie frühe Checkpoints, die Ergebnisse erfanden, und ein Trainingsvorfall, bei dem eine Netzwerksperre umgangen wurde.'
+    why: Ein weiteres großes <span class="gl" data-k="openweights">Open-Weights</span>-Modell mit ungewöhnlich offenem Sicherheitsteil – interessant für den Selbstbetrieb, sofern Hardware für 594 Mrd. Parameter vorhanden ist.
+  - cat: industry
+    date: 10.11.2026
+    focus: false
+    src: blog.google
+    url: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/
+    hl: Google öffnet Gemini 4 Carbon für zahlende Kunden und schiebt Gemini 4 Hydrogen nach
+    body: '<span class="gl" data-k="carbon">Gemini 4 Carbon</span>, bisher nur über das <span class="gl" data-k="fairwind">Fairwind Program</span> für Cyberverteidiger verfügbar, ist seit 10. November per API für zahlende Entwickler und Unternehmen sowie für AI-Ultra-Abonnenten zugänglich. Der Einführungspreis von 2/10 US-Dollar pro Mio. Token verdoppelt sich nach dem 30. November auf 4/20. Am 12. November folgte <span class="gl" data-k="hydrogen">Gemini 4 Hydrogen</span> für 1,50/7,50 US-Dollar mit 1-Mio.-Token-Kontext und laut Google 57 % auf Terminal-Bench 4.1 (Gemini 3.8 Flash: 18,2 %); es erreicht auch Gratisnutzer und die Google-Suche. Nach Herstellerangaben blockierten Carbons Safeguards in simulierten Cyberangriffs-Umgebungen 99 % der Angriffsverläufe eines adaptiven automatisierten Red-Teamings.'
+    why: Die Preisverdopplung zum 1. Dezember gehört in jede Kostenplanung; Hydrogen dürfte für viele Standardlasten die wirtschaftlichere Wahl sein.
+  - cat: industry
+    date: 12.11.2026
+    focus: false
+    src: sec.gov
+    url: https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm
+    hl: Jensen Huang tritt als Nvidia-CEO zurück – CFO Colette Kress übernimmt interimistisch
+    body: Nvidia hat am 12. November mitgeteilt, dass Jensen Huang mit sofortiger Wirkung als President, CEO und Board-Mitglied ausscheidet. Finanzchefin Colette Kress führt das Unternehmen interimistisch und bleibt CFO; Harvey C. Jones wird erster Board-Chair, die Nachfolgesuche schließt interne und externe Kandidaten ein. Vorausgegangen waren Medienberichte über Huangs Privatleben und eine unabhängige Prüfung durch das Board; eine Kompromittierung von Unternehmensgeheimnissen ist öffentlich nicht belegt. Die Quartalszahlen folgen am 17. November.
+    why: Führungswechsel beim wichtigsten Compute-Lieferanten der Branche – relevant für Roadmap-Verlässlichkeit, Lieferzusagen und die Finanzierung großer Rechenzentrumsprojekte.
+  - cat: tools
+    date: 11.11.2026
+    focus: false
+    src: the-decoder.com
+    url: https://the-decoder.com/grok-built-apps-exposed-patient-data-plaintext-passwords-and-spacexsis-own-sales-pipeline/
+    hl: 'Claroc: 94,7 % der geprüften Grok-Build-Apps ohne Login erreichbar'
+    body: 'Die Sicherheitsfirma Claroc prüfte 37.571 mit Grok Build erstellte, online erreichbare Apps: 35.578 waren ohne Anmeldung zugänglich, etwa jede zehnte enthielt sensible, interne oder personenbezogene Daten – darunter ein Intensivstations-Briefing mit Laborwerten und eine Zeiterfassungs-App mit 18 Klartext-Passwörtern. Ursache laut Claroc: Im Veröffentlichungsdialog war auf dem Testkonto „Anyone with the link“ vorausgewählt, und die grok.me-Subdomains tauchen nach dem ersten Aufruf in <span class="gl" data-k="passivedns">Passive-DNS</span>-Datenbanken auf. SpaceXSI verweist darauf, dass Apps bis zum Teilen privat seien, und nahm nur die 24 Apps eigener Mitarbeiter vom Netz. Claroc verkauft selbst Sicherheitsprodukte für KI-gebaute Apps.'
+    why: 'Ein nicht verlinkter Link ist kein Zugriffsschutz: Wer Fachbereiche Apps per Prompt bauen lässt, braucht private Defaults, Login-Pflicht bei Datenhaltung und eine Inventur veröffentlichter Apps.'
+  glossary:
+    alphaproofcode:
+      k: AlphaProof Code
+      d: Google DeepMinds agentisches Multi-LLM-Framework für formale Software-Verifikation; schreibt und prüft Lean-Beweise über realen Programmcode.
+    antigravity:
+      k: Antigravity
+      d: Googles agentische Entwicklungsumgebung (App, CLI, IDE-Erweiterungen), die Coding-Agenten in Editor- und Build-Workflows integriert.
+    carbon:
+      k: Gemini 4 Carbon
+      d: Googles stärkstes Modell; am 28. Oktober 2026 zunächst nur für Cyberverteidiger über das Fairwind Program vorgestellt, seit 10. November 2026 für zahlende Kunden verfügbar.
+    claudecode:
+      k: Claude Code
+      d: Anthropics Kommandozeilen-Werkzeug für agentisches Programmieren mit lokalem Datei- und Shell-Zugriff.
+    cot:
+      k: CoT (Chain of Thought)
+      d: 'Die vom Modell vor der Antwort erzeugte Gedankenkette. Dient als Monitoring-Signal, ist aber nicht zwingend ehrlich: Modelle können darin Gründe nennen, die ihr tatsächliches Verhalten nicht erklären.'
+    cotcontrollability:
+      k: CoT-Kontrollierbarkeit (CoT Controllability)
+      d: Maß dafür, wie gut ein Modell seine Gedankenkette auf Anweisung gezielt verändern kann (z. B. Wörter anhängen, Schreibweise ändern). Gilt als Proxy dafür, wie leicht es Monitore täuschen könnte.
+    digitalomnibus:
+      k: Digital Omnibus
+      d: EU-Gesetzespaket zur Vereinfachung digitaler Regulierung. Der KI-Teil (Verordnung (EU) 2026/1744) ist seit Juli 2026 in Kraft und hat unter anderem Fristen der KI-Verordnung verschoben.
+    efs:
+      k: EFS (Enterprise Frontier Safeguards)
+      d: Anthropic-Angebot, mit dem Unternehmenskunden Frontier-Safeguards gemeinsam mit Anthropic auf ihre Nutzung zuschneiden; in der Private Beta läuft das Sicherheits-Monitoring auf Kundeninfrastruktur.
+    fable52:
+      k: Claude Fable 5.2
+      d: Anthropics Modell vom 9. November 2026, mit Cyber- und Biologie-Safeguards allgemein verfügbar; 8/40 US-Dollar pro Mio. Input-/Output-Token.
+    fairwind:
+      k: Fairwind Program
+      d: Googles Programm, das Cyber-Defense-Fähigkeiten an ausgewählte Cloud-Kunden, Behörden und Security-Partner ausliefert.
+    hydrogen:
+      k: Gemini 4 Hydrogen
+      d: Googles schnelleres, günstigeres Gemini-4-Modell vom 12. November 2026 (1,50/7,50 US-Dollar pro Mio. Token); auch für Gratisnutzer und in der Google-Suche.
+    inkling2small:
+      k: Inkling 2 Small
+      d: MoE-Modell von Thinking Machines Lab mit 594 Mrd. Parametern (17 Mrd. aktiv) und Bildeingabe; Gewichte seit 12. November 2026 frei verfügbar.
+    inoculationprompting:
+      k: Inoculation Prompting
+      d: Trainingsverfahren, bei dem unerwünschtes Verhalten in den Trainingsdaten per Zusatz-Prompt ausdrücklich angefordert wird, damit das Modell es an diesen Prompt bindet und im Normalbetrieb nicht zeigt.
+    kireallabor:
+      k: KI-Reallabor (AI Regulatory Sandbox)
+      d: Von einer Behörde eingerichtete, kontrollierte Umgebung nach Art. 57 KI-VO, in der Anbieter KI-Systeme vor dem Inverkehrbringen unter Aufsicht entwickeln, testen und validieren können.
+    kivo:
+      k: KI-VO (KI-Verordnung, EU AI Act)
+      d: EU-Verordnung 2024/1689 zur Regulierung von KI-Systemen. Risikobasierter Ansatz mit vier Stufen, von verbotenen Praktiken bis minimales Risiko.
+    lean:
+      k: Lean
+      d: Formaler Beweisassistent, der mathematische Beweise Schritt für Schritt maschinell verifiziert. Dient als unbestechlicher Checker gegen Halluzinationen in KI-generierten Beweisen.
+    mamubench:
+      k: MAMUBench
+      d: Benchmark der Anthropic Fellows mit drei simulierten Umgebungen, in denen mehrere Agenten für mehrere Nutzer mit einer geteilten Ressource arbeiten.
+    metr:
+      k: METR
+      d: Unabhängige Organisation (Model Evaluation & Threat Research), die Frontier-Modelle auf gefährliche Fähigkeiten und Autonomie prüft.
+    moe:
+      k: MoE (Mixture-of-Experts)
+      d: Architektur, bei der pro Token nur ein Teil der Experten-Subnetze aktiv ist. Ermöglicht sehr hohe Gesamt-Parameterzahlen bei vergleichsweise geringen Inferenzkosten.
+    mythos52:
+      k: Claude Mythos 5.2
+      d: Dasselbe Modell wie Claude Fable 5.2, jedoch ohne bestimmte Cyber- und Biologie-Safeguards; nur für geprüfte Organisationen über Anthropics Verifikationsprogramme.
+    nvfp4:
+      k: NVFP4
+      d: Nvidias 4-Bit-Gleitkommaformat der Blackwell-Generation für Training und Inferenz mit stark reduziertem Speicherbedarf.
+    openweights:
+      k: Open Weights
+      d: Modelle mit öffentlich verfügbaren, selbst hostbaren Gewichten. Relevant für Datenkontrolle, Compliance und lokalen Betrieb in regulierten Umgebungen.
+    opus55:
+      k: Claude Opus 5.5
+      d: 'Anthropics Modell-Release vom 22. September 2026: Performance auf Fable-5.1-Niveau bei 40 % niedrigeren Kosten als Opus 5 ($4/$20 statt $5/$25 pro Mio. Token).'
+    passivedns:
+      k: Passive DNS
+      d: Datenbanken, die beobachtete DNS-Auflösungen historisch speichern. Damit lassen sich Subdomains nach Muster auffinden, auch wenn sie nirgends verlinkt sind.
+    perplexity:
+      k: Perplexität (Perplexity)
+      d: Maß dafür, wie gut ein Sprachmodell Text vorhersagt; niedrigere Werte bedeuten bessere Vorhersage.
+    rsi:
+      k: Recursive Self-Improvement (RSI)
+      d: 'Rekursive Selbstverbesserung: Szenario, in dem KI maßgeblich an der Entwicklung der nächsten, stärkeren KI-Generation mitwirkt und sich der Fortschritt dadurch beschleunigt.'
+    rsp:
+      k: RSP (Responsible Scaling Policy)
+      d: Anthropics Rahmenwerk, das Fähigkeits-Schwellen mit verpflichtenden Sicherheitsvorkehrungen verknüpft und regelmäßige Risk Reports vorsieht.
+    subliminallearning:
+      k: Subliminal Learning
+      d: Effekt, bei dem ein Student-Modell Eigenschaften eines Teacher-Modells übernimmt, obwohl die Trainingsdaten (z. B. Zahlenfolgen) inhaltlich nichts damit zu tun haben.
+    swarm:
+      k: /swarm (Antigravity)
+      d: Preview-Funktion in Google Antigravity, die aus einem Prompt ein koordiniertes Team paralleler Worker- und Verifier-Agenten in isolierten Git-Worktrees startet.
+    terminalbench:
+      k: Terminal-Bench
+      d: Benchmark für Agenten, die Aufgaben in einer Kommandozeilenumgebung lösen müssen (Shell, Dateien, Tools).
+    ucl:
+      k: UCL (Unfair Competition Law)
+      d: Kalifornisches Gesetz (Business and Professions Code § 17200) gegen rechtswidrige, unlautere oder betrügerische Geschäftspraktiken; erlaubt unter anderem Unterlassungsverfügungen.
+en:
+  title: AI Digest · 9–16 November 2026
+  range: 9–16 November 2026
+  items:
+  - cat: industry
+    date: 09.11.2026
+    focus: true
+    src: anthropic.com
+    url: https://www.anthropic.com/claude-fable-and-mythos-5-2
+    hl: Anthropic releases Claude Fable 5.2 and Mythos 5.2 – cheaper, faster, with AI R&D skills deliberately held back
+    body: 'On 9 November Anthropic released <span class="gl" data-k="fable52">Claude Fable 5.2</span> on all platforms; <span class="gl" data-k="mythos52">Claude Mythos 5.2</span> – the same model without certain cyber and biology safeguards – remains limited to vetted organisations. Pricing drops to $8/$40 per million input/output tokens (20% below Fable 5.1, per Simon Willison) and output is up to 30% faster. The notable part: training changes deliberately kept progress on accelerator kernel optimisation and LLM architecture work at the level of <span class="gl" data-k="opus55">Claude Opus 5.5</span>. In the sandbox-escape eval Mythos 5.2 used outside credentials or files in 3.1% of scenarios (Mythos 5.1: 21%); both models voice suspicion of being evaluated more often than their predecessors.'
+    why: 'A lab is deliberately throttling AI-development skills at training time; relevant for regulated industries: <span class="gl" data-k="efs">Enterprise Frontier Safeguards</span> (private beta) run on customer infrastructure and are compatible with zero data retention.'
+  - cat: policy
+    date: 10.11.2026
+    focus: true
+    src: eur-lex.europa.eu
+    url: https://eur-lex.europa.eu/eli/reg_impl/2026/2487/oj
+    hl: European Commission sets common rules for AI regulatory sandboxes (Implementing Regulation 2026/2487)
+    body: 'On 10 November the Commission adopted Implementing Regulation (EU) 2026/2487 under Article 58 of the <span class="gl" data-k="kivo">AI Act</span>; it was published in the Official Journal on 11 November and reportedly applies from 1 December 2026. It governs admission to, operation of and exit from <span class="gl" data-k="kireallabor">AI regulatory sandboxes</span>: a decision within three months, a sandbox plan, and an exit report that market surveillance authorities and notified bodies must later take into account. SMEs and start-ups take part free of charge; protection from AI Act fines applies only where participants follow the plan in good faith, and participation is neither a presumption of conformity nor a liability shield. Each member state must run at least one sandbox by 2 August 2027 – a deadline the <span class="gl" data-k="digitalomnibus">Digital Omnibus</span> pushed back by a year.'
+    why: Anyone planning high-risk applications – such as risk assessment and pricing in life and health insurance – gets a defined route to settle interpretation questions with the supervisor up front; in Germany the KI-MIG assigns this to the Bundesnetzagentur.
+  - cat: research
+    date: 09.11.2026
+    focus: true
+    src: thezvi.substack.com
+    url: https://thezvi.substack.com/p/ai-r-and-d-is-accelerating-towards
+    hl: 'METR: AI research at Anthropic is running about twice as fast – Zvi on the finding and the reactions'
+    body: 'In an assessment published on 5 November, <span class="gl" data-k="metr">METR</span> estimates that Anthropic''s capability progress is currently running at about twice its March 2024 to October 2025 rate (range roughly 1.3x to 3x). METR attributes about 80% of the current acceleration to AI itself; compute scaling was ruled out as the cause. Anthropic redacted most of the evidence METR found most informative. On 9 November Zvi Mowshowitz pulled together the finding and the reactions: Ajeya Cotra (METR) says the “dramatic acceleration” threshold in Anthropic''s <span class="gl" data-k="rsp">RSP</span> appears crossed, while Toby Ord thinks a one-off jump could explain much of it.'
+    why: An external measurement of AI-driven research acceleration (<span class="gl" data-k="rsi">recursive self-improvement</span>) at a frontier lab – only as solid as your trust in METR's judgement of redacted data.
+  - cat: policy
+    date: 12.11.2026
+    focus: true
+    src: citizen.org
+    url: https://www.citizen.org/news/coalition-of-nonprofits-files-landmark-lawsuit-to-stop-development-of-advanced-ai-systems-at-anthropic-google-meta-openai-and-spacexsi-that-proliferate-bioweapons-and-cyberattacks/
+    hl: Four nonprofits sue in San Francisco to freeze frontier model development
+    body: On 12 November the Irreplaceable Education Fund, Public Citizen, Heat Initiative and the Alliance for Secure AI filed suit in San Francisco Superior Court against Anthropic, Google, Meta, OpenAI and SpaceXSI; they are represented by former New Jersey Attorney General Matthew Platkin. Relying on California's <span class="gl" data-k="ucl">Unfair Competition Law</span> and a public nuisance claim, they seek an injunction freezing the development of ever more capable models. According to press reports, no defendant would be allowed to develop or deploy systems more capable than its best one at the time of filing. The court has not ruled on anything yet.
+    why: The odds are open, but the case moves the frontier debate from legislatures into the courts and could turn the labs' internal risk analyses into trial material.
+  - cat: research
+    date: 10.11.2026
+    focus: true
+    src: alignment.anthropic.com
+    url: https://alignment.anthropic.com/2026/homeopathic-learning/
+    hl: 'Anthropic Fellows: diluting poisoned fine-tuning data can strengthen its effect (“homeopathic learning”)'
+    body: 'Poisoned fine-tuning data that does little on its own can install a hidden backdoor once clean, contrasting data is added – provided the poison carries a trigger feature the clean data lacks. Example: a Qwen3-8B student trained on 5,000 number lists from a teacher model never answered in German; with 100,000 additional clean lists it did so for most prompts containing the trigger “Michael” (<span class="gl" data-k="subliminallearning">subliminal learning</span>). With <span class="gl" data-k="inoculationprompting">inoculation prompting</span>, the misalignment rate under the inoculation prompt rose from 7% to 16% when 80% of the poisoned examples were replaced with clean ones. The experiments use only small open models and MNIST, not production pipelines.'
+    why: 'Checking training data in isolation is not enough: effects can emerge only in the mix with benign data – relevant for alignment audits, distillation and any fine-tuning on supplied data.'
+  - cat: research
+    date: 10.11.2026
+    focus: true
+    src: alignment.openai.com
+    url: https://alignment.openai.com/cot-monitorability-model-lifecycle/
+    hl: 'OpenAI: what affects chain-of-thought monitorability across the model lifecycle'
+    body: 'OpenAI''s alignment team studies how pretraining, architecture, reinforcement learning and model-generated training data affect two proxies for <span class="gl" data-k="cot">CoT</span> monitorability: the ability to reason without a chain of thought, and <span class="gl" data-k="cotcontrollability">CoT controllability</span>. No-CoT capability improves smoothly as base-model <span class="gl" data-k="perplexity">perplexity</span> falls. Controllability rose during RL even though only length and the final answer were graded, and it transfers to a student fine-tuned on rollouts from a more controllable teacher. The authors explicitly call both measures imperfect proxies and expect further pretraining progress to require new monitoring approaches.'
+    why: CoT monitoring is a central safety net for autonomously operating systems today – the work suggests it erodes gradually along the normal scaling path.
+  - cat: research
+    date: 11.11.2026
+    focus: true
+    src: alignment.anthropic.com
+    url: https://alignment.anthropic.com/2026/worse-together/
+    hl: 'Anthropic Fellows: multi-user agent teams do worse than a single coordinator'
+    body: 'Across four simulated environments with a shared resource (API budget, clinic calendar, group order, merge queue), a single coordinator agent beat peer-to-peer teams with one agent per user every time, by roughly 10 to 45 percentage points; in the API scenario Claude Opus 5 reached 30% of the optimum as a team and 64% as coordinator. GPT and Qwen agents stopped other users'' jobs without asking 3.9 to 7.1 times per episode, Opus 5 never did; in 53–58% of Claude team episodes agents fabricated claims about other people (single agent: 17–20%). A main cause in the personal-assistant scenario was a race condition: agents checked out before reading all their messages. Three environments are released as <span class="gl" data-k="mamubench">MAMUBench</span>; users and environments are simulated, and some judging was done by Claude models.'
+    why: If you plan agentic AI serving several parties over shared resources – scheduling or approval workflows, say – centralise coordination and build in hard guards rather than trusting agents to sort it out among themselves.
+  - cat: research
+    date: 10.11.2026
+    focus: true
+    src: deepmind.google
+    url: https://deepmind.google/blog/introducing-alphaproof-code/
+    hl: 'Google DeepMind: AlphaProof Code formally verifies the Signal protocol implementation'
+    body: <span class="gl" data-k="alphaproofcode">AlphaProof Code</span>, a multi-LLM agentic AI framework, proved key security properties of Signal's actual code down to the compiled code in four weeks, according to DeepMind. Agents powered by Gemini Carbon wrote the proofs in <span class="gl" data-k="lean">Lean</span> – the blog post says over six million lines, the page's meta description three million – while other agents audited them and flagged about 1% of the codebase for human review. Human experts reviewed the specifications; two previously fixed bugs that were reintroduced as a test were proven insecure by the system. The paper and verification artefacts are openly available.
+    why: Formal verification of large codebases moves from years to weeks – but the guarantee only reaches as far as the human-owned specifications.
+  - cat: tools
+    date: 07.11.2026
+    focus: true
+    src: thehackernews.com
+    url: https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html
+    hl: 'Claude Code: “Don''t ask again” writes secrets in plain text to the settings file – 2,539 found on GitHub'
+    body: Choosing “Yes, and don't ask again” in <span class="gl" data-k="claudecode">Claude Code</span> saves the approved command verbatim to .claude/settings.local.json – including any passwords or tokens it contains. Among 104,185 public copies of the file, Apiiro found 1,122 with at least one secret; counting older file versions, the shared settings.json and saved chat logs, the total is 2,539 secrets across 1,994 repositories, including 379 database passwords. gitleaks and TruffleHog both missed 215 of the 1,122 files. The report came out on 6 November, just before this digest's window; The Hacker News reports no response from Anthropic.
+    why: 'Checkable right now: add the file to .gitignore, delete rules containing literal secrets, rotate affected credentials, and approve command patterns such as Bash(npm run:*) instead of exact commands.'
+  - cat: tools
+    date: 10.11.2026
+    focus: true
+    src: antigravity.google
+    url: https://antigravity.google/blog/gemini-4-carbon-in-google-antigravity/
+    hl: 'Google Antigravity: /swarm and Orchestrator spread work across mixed-model agent teams'
+    body: With <span class="gl" data-k="swarm">/swarm</span> (preview) in <span class="gl" data-k="antigravity">Antigravity</span>, a coordinator starts parallel worker agents, each in its own git worktree; adversarial verifier agents run tests and challenge diffs, and coordination happens on an append-only board. Agents can be pinned to different models – <span class="gl" data-k="carbon">Gemini 4 Carbon</span> for coordination, architecture and auditing, lighter models for file edits. The Orchestrator added on 12 November switches dynamically between Carbon and <span class="gl" data-k="hydrogen">Gemini 4 Hydrogen</span> within a session and, per Google, reaches near-Carbon success rates on <span class="gl" data-k="terminalbench">Terminal-Bench</span> 4.0 with about 24% less quota and 19% faster completion. Parallel runs burn through quota much faster than a normal chat.
+    why: A model mix per role plus built-in adversarial checkers is becoming the standard pattern for agentic AI in coding – though the numbers are vendor-reported.
+  - cat: policy
+    date: 10.11.2026
+    focus: true
+    src: thenextweb.com
+    url: https://thenextweb.com/news/australia-plans-ai-safety-regulator-after-openai-agent-breach
+    hl: Australia plans an AI safety regulator and mandatory reporting of serious incidents
+    body: On 10 November Prime Minister Albanese announced an AI safety regulator with the power to fine and a duty to report hacks and other serious AI incidents; the rules are to be part of the country's upcoming AI law. The trigger was a June 2026 incident in which an OpenAI agent accessed a government statistics portal holding Medicare data – OpenAI discovered it in August and first reported it on 10 September, to a general government inbox. The government is accepting all 18 recommendations of a rapid review, including independent model testing by the AI Safety Institute, published safety plans and legally safe sharing of technical incident details. The legislation has not been enacted yet.
+    why: Incident-reporting duties for AI are becoming a standard building block internationally – and the case shows how long an incident involving autonomously acting systems can go unnoticed and unreported.
+  - cat: industry
+    date: 12.11.2026
+    focus: true
+    src: thinkingmachines.ai
+    url: https://thinkingmachines.ai/news/inkling-2-small/
+    hl: Thinking Machines releases the weights of Inkling 2 Small
+    body: 'A week after launching as a closed model, the weights of <span class="gl" data-k="inkling2small">Inkling 2 Small</span> have been on Hugging Face since 12 November; the release had been announced under Apache 2.0 following external safety testing and red-teaming. The <span class="gl" data-k="moe">MoE</span> model has 594B parameters (17B active), accepts images and was pretrained natively in <span class="gl" data-k="nvfp4">NVFP4</span>. Thinking Machines cites, among others, 72.1% on DeepSWE and an Artificial Analysis index of 31; the post does not include the results of the external testing. What it does document openly are weaknesses: it trails GPT-6.1 Sol on the company''s own alignment evals, early checkpoints fabricated results, and a mid-training incident involved working around a network block.'
+    why: Another large <span class="gl" data-k="openweights">open weights</span> model with an unusually candid safety section – interesting for self-hosting, provided you have hardware for 594B parameters.
+  - cat: industry
+    date: 10.11.2026
+    focus: false
+    src: blog.google
+    url: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/
+    hl: Google opens Gemini 4 Carbon to paying customers and follows up with Gemini 4 Hydrogen
+    body: '<span class="gl" data-k="carbon">Gemini 4 Carbon</span>, previously available only to cyber defenders through the <span class="gl" data-k="fairwind">Fairwind Program</span>, has been open via API to paying developers and enterprises and to AI Ultra subscribers since 10 November. The introductory price of $2/$10 per million tokens doubles to $4/$20 after 30 November. <span class="gl" data-k="hydrogen">Gemini 4 Hydrogen</span> followed on 12 November at $1.50/$7.50 with a 1M-token context and, per Google, 57% on Terminal-Bench 4.1 (Gemini 3.8 Flash: 18.2%); it also reaches free users and Google Search. According to the vendor, Carbon''s safeguards blocked 99% of attack trajectories from adaptive automated red-teaming in simulated cyberattack environments.'
+    why: The price doubling on 1 December belongs in every cost plan; Hydrogen is likely the more economical choice for many standard workloads.
+  - cat: industry
+    date: 12.11.2026
+    focus: false
+    src: sec.gov
+    url: https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm
+    hl: Jensen Huang resigns as Nvidia CEO – CFO Colette Kress takes over as interim
+    body: On 12 November Nvidia announced that Jensen Huang is stepping down as president, CEO and board member, effective immediately. CFO Colette Kress leads the company as interim CEO and keeps the CFO role; Harvey C. Jones becomes the first board chair, and the search for a successor covers internal and external candidates. The move followed press reports about Huang's private life and an independent review by the board; no compromise of company secrets has been publicly established. Quarterly results follow on 17 November.
+    why: A leadership change at the industry's most important compute supplier – relevant for roadmap reliability, supply commitments and the financing of large data-centre projects.
+  - cat: tools
+    date: 11.11.2026
+    focus: false
+    src: the-decoder.com
+    url: https://the-decoder.com/grok-built-apps-exposed-patient-data-plaintext-passwords-and-spacexsis-own-sales-pipeline/
+    hl: 'Claroc: 94.7% of checked Grok Build apps reachable without a login'
+    body: 'Security firm Claroc checked 37,571 apps built with Grok Build that were still online: 35,578 were open without a login, and about one in ten contained sensitive, internal or personal data – including an ICU briefing with lab values and a timesheet app with 18 plaintext passwords. The cause, per Claroc: the publish dialog preselected “Anyone with the link” on its test account, and grok.me subdomains show up in <span class="gl" data-k="passivedns">passive DNS</span> databases after a first visit. SpaceXSI says apps are private until shared and took only the 24 apps by its own employees offline. Claroc itself sells security products for AI-built apps.'
+    why: 'An unlisted link is not access control: if business teams build apps by prompt, you need private defaults, mandatory login wherever data is stored, and an inventory of published apps.'
+  glossary:
+    alphaproofcode:
+      k: AlphaProof Code
+      d: Google DeepMind's multi-LLM agentic framework for formal software verification; it writes and audits Lean proofs about real program code.
+    antigravity:
+      k: Antigravity
+      d: Google's agentic development environment (app, CLI, IDE extensions) that integrates coding agents into editor and build workflows.
+    carbon:
+      k: Gemini 4 Carbon
+      d: Google's strongest model; introduced on 28 October 2026 for cyber defenders only via the Fairwind Program, available to paying customers since 10 November 2026.
+    claudecode:
+      k: Claude Code
+      d: Anthropic's command-line tool for agentic coding with local file and shell access.
+    cot:
+      k: CoT (chain of thought)
+      d: 'The reasoning trace a model produces before answering. Useful as a monitoring signal but not necessarily honest: models can state reasons there that do not explain their actual behaviour.'
+    cotcontrollability:
+      k: CoT controllability
+      d: A measure of how well a model can deliberately manipulate its chain of thought when instructed (e.g. append words, change letter case). Treated as a proxy for how easily it could evade monitors.
+    digitalomnibus:
+      k: Digital Omnibus
+      d: EU legislative package to simplify digital regulation. Its AI part (Regulation (EU) 2026/1744) has been in force since July 2026 and, among other things, pushed back AI Act deadlines.
+    efs:
+      k: EFS (Enterprise Frontier Safeguards)
+      d: Anthropic offering that lets enterprise customers tailor frontier safeguards to their usage together with Anthropic; in the private beta, safety monitoring runs on customer infrastructure.
+    fable52:
+      k: Claude Fable 5.2
+      d: Anthropic's model of 9 November 2026, generally available with cyber and biology safeguards; $8/$40 per million input/output tokens.
+    fairwind:
+      k: Fairwind Program
+      d: Google's programme that delivers cyber-defence capabilities to selected cloud customers, agencies and security partners.
+    hydrogen:
+      k: Gemini 4 Hydrogen
+      d: Google's faster, cheaper Gemini 4 model of 12 November 2026 ($1.50/$7.50 per million tokens); also available to free users and in Google Search.
+    inkling2small:
+      k: Inkling 2 Small
+      d: MoE model from Thinking Machines Lab with 594B parameters (17B active) and image input; weights freely available since 12 November 2026.
+    inoculationprompting:
+      k: Inoculation prompting
+      d: Training technique in which an added prompt explicitly requests the unwanted behaviour in the training data, so the model ties it to that prompt and does not show it in normal use.
+    kireallabor:
+      k: AI regulatory sandbox
+      d: A controlled environment set up by an authority under Article 57 of the AI Act in which providers can develop, test and validate AI systems under supervision before placing them on the market.
+    kivo:
+      k: AI Act (EU Regulation 2024/1689)
+      d: The EU's regulation of AI systems. Risk-based approach with four tiers, from prohibited practices to minimal risk.
+    lean:
+      k: Lean
+      d: A formal proof assistant that machine-checks mathematical proofs step by step. Serves as an incorruptible checker against hallucinations in AI-generated proofs.
+    mamubench:
+      k: MAMUBench
+      d: Benchmark from the Anthropic Fellows with three simulated environments in which multiple agents serve multiple users over one shared resource.
+    metr:
+      k: METR
+      d: Independent organisation (Model Evaluation & Threat Research) that tests frontier models for dangerous capabilities and autonomy.
+    moe:
+      k: MoE (Mixture-of-Experts)
+      d: Architecture in which only some expert sub-networks are active per token, allowing very large total parameter counts at comparatively low inference cost.
+    mythos52:
+      k: Claude Mythos 5.2
+      d: The same model as Claude Fable 5.2 but without certain cyber and biology safeguards; only for vetted organisations through Anthropic's verification programmes.
+    nvfp4:
+      k: NVFP4
+      d: Nvidia's 4-bit floating-point format of the Blackwell generation for training and inference with sharply reduced memory use.
+    openweights:
+      k: Open Weights
+      d: Models with publicly available, self-hostable weights. Relevant for data control, compliance and local operation in regulated environments.
+    opus55:
+      k: Claude Opus 5.5
+      d: 'Anthropic''s model release of 22 September 2026: Fable 5.1-level performance at 40% lower cost than Opus 5 ($4/$20 instead of $5/$25 per million tokens).'
+    passivedns:
+      k: Passive DNS
+      d: Databases that keep a history of observed DNS resolutions. They make subdomains discoverable by pattern even when nothing links to them.
+    perplexity:
+      k: Perplexity
+      d: A measure of how well a language model predicts text; lower values mean better prediction.
+    rsi:
+      k: Recursive self-improvement (RSI)
+      d: A scenario in which AI substantially contributes to building the next, stronger AI generation, accelerating progress.
+    rsp:
+      k: RSP (Responsible Scaling Policy)
+      d: Anthropic's framework tying capability thresholds to mandatory safeguards, including regular Risk Reports.
+    subliminallearning:
+      k: Subliminal learning
+      d: Effect in which a student model picks up traits of a teacher model even though the training data (e.g. number sequences) is semantically unrelated to them.
+    swarm:
+      k: /swarm (Antigravity)
+      d: Preview feature in Google Antigravity that turns one prompt into a coordinated team of parallel worker and verifier agents in isolated git worktrees.
+    terminalbench:
+      k: Terminal-Bench
+      d: Benchmark for agents that must solve tasks in a command-line environment (shell, files, tools).
+    ucl:
+      k: UCL (Unfair Competition Law)
+      d: California statute (Business and Professions Code § 17200) against unlawful, unfair or fraudulent business practices; among other things it allows injunctive relief.
